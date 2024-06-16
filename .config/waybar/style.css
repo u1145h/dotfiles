@@ -1,0 +1,206 @@
+@define-color background #1d2021;
+@define-color foreground #d4be98;
+@define-color orange #dfac4e;
+@define-color green #a9b665;
+
+* {
+	background: @background;
+	border: none;
+	border-radius: 0;
+	font-family: "NotoSansMono-Regular";
+	font-size: 97%;
+}
+
+window#waybar {
+	background: @background;
+	color: @foreground;
+	transition-property: background-color;
+	transition-duration: 0.5s;
+	padding: 5px;
+	margin-bottom: 5px; 
+}
+
+#taskbar button,
+#workspaces button {
+	color: @foreground;
+	padding: 0 10px;
+}
+
+#taskbar button.active,
+#workspaces button.active {
+	border-bottom: 1px solid @green;
+}
+
+#taskbar button.urgent,
+#workspaces button.urgent {
+	border-bottom: 1px solid @orange;
+}
+
+#submap {
+	border-bottom: 1px solid @orange;
+}
+
+#backlight,
+#backlight-slider,
+#battery,
+#bluetooth,
+#clock,
+#cpu,
+#disk,
+#idle_inhibitor,
+#keyboard-state,
+#memory,
+#mode,
+#mpris,
+#network,
+#power-profiles-daemon,
+#pulseaudio,
+#pulseaudio-slider,
+#taskbar button,
+#taskbar,
+#temperature,
+#tray,
+#window,
+#wireplumber,
+#custom-backlight,
+#custom-cycle_wall,
+#custom-hint,
+#custom-keyboard,
+#custom-light_dark,
+#custom-lock,
+#custom-menu,
+#custom-power_vertical,
+#custom-swaync,
+#custom-updater,
+#custom-weather,
+#custom-weather.clearNight,
+#custom-weather.cloudyFoggyDay,
+#custom-weather.cloudyFoggyNight,
+#custom-weather.default,
+#custom-weather.rainyDay,
+#custom-weather.rainyNight,
+#custom-weather.severe,
+#custom-weather.showyIcyDay,
+#custom-weather.snowyIcyNight,
+#custom-weather.sunnyDay {
+	color: @foreground;
+	padding: 6px 6px 6px 6px;
+}
+
+#custom-power {
+	color: @foreground;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	padding-left: 6px;
+	padding-right: 15px;
+}
+
+#tray {
+	color: @foreground;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	padding-left: 6px;
+	padding-right: 15px;
+}
+
+#window,
+#workspaces {
+    padding: 0px 15px;
+}
+
+#battery.warning,
+#disk.warning,
+#memory.warning,
+#cpu.warning {
+	border-top: 3px solid @background;
+	border-bottom: 1px solid @orange;
+}
+
+#battery.critical,
+#disk.critical,
+#memory.critical,
+#cpu.critical {
+	border-top: 3px solid @background;
+	border-bottom: 1px solid @orange;
+}
+
+#battery.charging {
+	border-top: 3px solid @background;
+	border-bottom: 1px solid @green;
+}
+
+#pulseaudio-slider slider {
+	min-width: 0px;
+	min-height: 0px;
+	opacity: 0;
+	background-image: none;
+	border: none;
+	box-shadow: none;
+}
+
+#pulseaudio-slider trough {
+	min-width: 80px;
+	min-height: 5px;
+	border-radius: 5px;
+	background-color: @background;
+}
+
+#pulseaudio-slider highlight {
+	min-height: 10px;
+	border-radius: 5px;
+	background-color: @green;
+}
+
+#backlight-slider slider {
+	min-width: 0px;
+	min-height: 0px;
+	opacity: 0;
+	background-image: none;
+	border: none;
+	box-shadow: none;
+}
+
+#backlight-slider trough {
+	min-width: 80px;
+	min-height: 10px;
+	border-radius: 5px;
+	background-color: @background;
+}
+
+#backlight-slider highlight {
+	min-width: 10px;
+	border-radius: 5px;
+	background-color: @green;
+}
+
+
+/* If workspaces is the leftmost module, reduce left margin */
+.modules-left > widget:first-child > #workspaces {
+    margin-left: 2px;
+}
+#workspaces button:hover {
+    color: @green;
+    box-shadow: inherit;
+    text-shadow: inherit;
+    background: @background;
+    border: @background;
+}
+
+#workspaces button {
+    padding: 0 5px;
+    color: @foreground;
+    margin: 4px 0 4px 6px;
+    transition: color 200ms ease-in-out;
+}
+
+#workspaces button.selected {
+    color: @green;
+}
+
+#workspaces button.active {
+    color: @green;
+}
+
+#workspaces button.urgent {
+    color: @orange;
+}

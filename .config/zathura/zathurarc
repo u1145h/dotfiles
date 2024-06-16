@@ -1,0 +1,43 @@
+# Use custom keybindings
+map <C-j> scroll full_down
+map <C-k> scroll full_up
+map <C-h> scroll half_down
+map <C-l> scroll half_up
+map <C-u> scroll left
+map <C-o> scroll right
+
+# Adjust zoom levels
+set zoom-min 50
+set zoom-max 400
+set zoom-step 10
+
+# Set default zoom level and fit width
+set zoom 100
+set adjust-width true
+
+# Customize appearance
+set auto-reload yes
+set scroll-step 30
+set smooth-scroll false
+
+# Set default page layout
+set pages-per-row 1
+set pages-per-column 1
+
+# Use dark background colors
+set recolor-lightcolor "#ffffff"
+set recolor-darkcolor "#1d2021"
+
+# Bindings for switching between dark and light mode
+map <C-w> recolor
+map <C-e> recolor
+
+# Define default colors for different content types
+recolor "application/pdf" "#ffffff" "#1d2021"
+recolor "application/epub+zip" "#ffffff" "#1d2021"
+
+# Define custom styles for certain file types
+# Example for PDF files
+set girara-statusbar false
+set girara-cursor false
+set girara-scrollbars never

@@ -44,8 +44,8 @@
 
 **Terminal Tools** - [cava](https://github.com/karlstav/cava), [tty-clock](https://github.com/xorg62/tty-clock), [bottom](https://github.com/ClementTsang/bottom), [htop](https://github.com/htop-dev/htop), [neofetch](https://github.com/dylanaraps/neofetch), [ranger](https://github.com/ranger/ranger)
 
-**Extra** - Spotify, Webcord, ZapZap, Obsidian, Gnome-Box, KDE Connect, Timeshift, Flatseal, Syncthing, BleachBit
+**Extra** - Spotify, Webcord, ZapZap, Obsidian, Gnome-Box, KDE Connect, Timeshift, Flatseal, Syncthing, BleachBit, rclone,
 
-**Gaming** - Steam, Lutris, Heroic, protonup-qt
+**Gaming** - [Steam](https://store.steampowered.com/), [Lutris](https://lutris.net/), [Heroic](https://heroicgameslauncher.com/), protonup-qt
 
-**Desining & Editing** - Krita, PhotoGIMP, 
+**Desining & Editing** - [Krita](https://github.com/KDE/krita), [PhotoGIMP](https://github.com/Diolinux/PhotoGIMP), [Inkscape](https://github.com/inkscape/inkscape), [Blender](https://www.blender.org/), [Kdenlive](https://github.com/KDE/kdenlive), [Davinchi Resolve](https://www.blackmagicdesign.com/products/davinciresolve) (On [DistroBox](https://github.com/89luca89/distrobox))

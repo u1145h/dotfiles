@@ -8,3 +8,23 @@
 ![03](https://github.com/u1145h/dotfiles/assets/78568197/fbd1113e-fa8e-4eaa-b586-edebe17d1502)
 ![05](https://github.com/u1145h/dotfiles/assets/78568197/1bccdbb7-66c2-4df5-96dc-dfadabebb687)
 
+### Packages
+**Terminal** - kitty
+**App Launcher** - Rofi 
+**LockScreen** - Hyprlock
+**Wallpaper** - hyprpaperE
+**LogOut Menu** - wlogout
+**TopBar** - waybar
+**Browser** - Brave
+**File Manager** - thunar
+**Image Viewer** - imv
+**Document Viewer** - zathura
+**Code Editor** - VSCode/CodeOSS , NeoVim
+**Basic Text Editor** - mousepad
+**Notification Service** - Dunst
+**Bluetooth** - blueman
+**Power Mode** - rog-control-center
+
+**Terminal Tools** - cava, tty-clock, bottom, htop, neofetch, ranger
+
+**Extra** - Spotify, Webcord, ZapZap, Obsidian, Gnome-Box, KDE Connect

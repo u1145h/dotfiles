@@ -10,19 +10,33 @@
 
 ### Packages
 **Terminal** - kitty
+
 **App Launcher** - Rofi 
+
 **LockScreen** - Hyprlock
+
 **Wallpaper** - hyprpaperE
+
 **LogOut Menu** - wlogout
+
 **TopBar** - waybar
+
 **Browser** - Brave
+
 **File Manager** - thunar
+
 **Image Viewer** - imv
+
 **Document Viewer** - zathura
+
 **Code Editor** - VSCode/CodeOSS , NeoVim
+
 **Basic Text Editor** - mousepad
+
 **Notification Service** - Dunst
+
 **Bluetooth** - blueman
+
 **Power Mode** - rog-control-center
 
 **Terminal Tools** - cava, tty-clock, bottom, htop, neofetch, ranger

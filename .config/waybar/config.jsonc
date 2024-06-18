@@ -1,0 +1,159 @@
+{
+  "layer": "top",
+  "position": "bottom",
+  "mode": "dock",
+  "exclusive": true,
+  "passthrough": false,
+  "gtk-layer-shell": true,
+  "height": 0,
+  "modules-left": [
+    "custom/appmenu",
+    // "custom/weather",
+    "power-profiles-daemon",
+    "cpu",
+    "memory",
+    "temperature"
+  ],
+  "modules-center": ["hyprland/workspaces"],
+  "modules-right": [
+    "tray",
+    "network",
+    //"custom/bluetooth",
+    "custom/language",
+    "battery",
+    "backlight",
+    "pulseaudio",
+    "pulseaudio#microphone",
+    "clock",
+    "custom/power"
+    //"custom/notification"
+  ],
+
+  // █▀▄▀█ █▀█ █▀▄ █ █ █  █▀▀
+  // █░▀░█ █▄█ █▄▀ █▄█ █▄ ██▄
+  "network": {
+    "format-wifi": "󰤨",
+    "format-disconnected": "󰤭",
+    "tooltip-format": "Connected to {essid}",
+    "on-click": "hyprctl dispatch exec '[float]' 'kitty -e nmtui'"
+  },
+  "custom/notification": {
+    "format": "{} ", // Unicode for a dot (or any other symbol you prefer)
+    "exec": "~/.config/dunst/scripts/notification_manager.sh show_notification_panel",
+    "on-click": "~/.config/dunst/scripts/notification_manager.shshow_notification_panel",
+    "on-right-click": "~/.config/dunst/scripts/notification_manager.sh toggle_dnd",
+    "on-middle-click": "~/.config/dunst/scripts/notification_manager.sh clear_notifications",
+  },
+  "power-profiles-daemon": {
+    "format": "{icon}",
+    "tooltip-format": "Power profile: {profile}\nDriver: {driver}",
+    "tooltip": true,
+    "format-icons": {
+      "default": "",
+      "performance": "",
+      "balanced": "",
+      "power-saver": ""
+    }
+  },
+  "custom/power": {
+    "format": "⏻", // always run; consider advanced run conditions
+    "on-click": "wlogout", // update system
+    "signal": 8
+  },
+  "cpu": {
+    "format": "  {usage}%",
+    "tooltip": false
+  },
+  "memory": {
+    "format": "󰍛 {}%"
+  },
+  "temperature": {
+    // "thermal-zone": 2,
+    // "hwmon-path": "/sys/class/hwmon/hwmon2/temp1_input",
+    "critical-threshold": 80,
+    // "format-critical": "{temperatureC}°C {icon}",
+    "format": "{icon} {temperatureC}°C",
+    "format-icons": ["", "", ""]
+  },
+  "hyprland/window": {
+    "format": "Focused Window"
+  },
+  "hyprland/workspaces": {
+    "disable-scroll": true,
+    "all-outputs": true,
+    "on-click": "activate",
+    //"format": "{icon}",
+    "persistent_workspaces": {
+      "1": []
+    }
+  },
+  "custom/appmenu": {
+    "format": "󰣇", // always run; consider advanced run conditions
+    "on-click": "rofi -show drun", // update system
+    "signal": 8
+  },
+  "custom/weather": {
+    "tooltip": true,
+    "format": "{}",
+    "interval": 30,
+    "exec": "~/.config/waybar/scripts/waybar-wttr.py",
+    "return-type": "json"
+  },
+  "tray": {
+    "icon-size": 13,
+    "spacing": 10
+  },
+  "clock": {
+    // "timezone": "America/New_York",
+    "tooltip-format": "<big>{clock} {AMPM}</big>\n<tt><small>{:%Y %B}</small></tt>\n<tt><small>{calendar}</small></tt>",
+    "format": "<b>{:%I:%M %p}</b>",
+    "format-alt": "{:%Y-%m-%d | %I:%M %p}"
+  },
+  "backlight": {
+    "device": "intel_backlight",
+    "format": "{icon} {percent}%",
+    "format-icons": ["󰃞", "󰃟", "󰃝", "󰃠"],
+    "on-scroll-up": "brightnessctl set 1%+",
+    "on-scroll-down": "brightnessctl set 1%-",
+    "min-length": 6
+  },
+  "battery": {
+    "states": {
+      "good": 95,
+      "warning": 30,
+      "critical": 20
+    },
+    "format": "{icon} {capacity}%",
+    "format-charging": " {capacity}%",
+    "format-plugged": " {capacity}%",
+    "format-alt": "{time} {icon}",
+    "format-icons": [" ", " ", " ", " ", " "]
+  },
+  "pulseaudio": {
+    "format": "{icon} {volume}%",
+    "tooltip": false,
+    "format-muted": " Muted ",
+    "on-click": "pamixer -t",
+    "on-scroll-up": "pamixer -i 5",
+    "on-scroll-down": "pamixer -d 5",
+    "scroll-step": 5,
+    "format-icons": {
+      "headphone": " ",
+      "hands-free": " ",
+      "headset": " ",
+      "phone": " ",
+      "portable": " ",
+      "car": " ",
+      "default": [" ", " ", " "]
+    }
+  },
+  "pulseaudio#microphone": {
+    "format": "{format_source}",
+    "format-source": " {volume}%",
+    "format-source-muted": " ",
+    "on-click": "pamixer --default-source -t",
+    "on-scroll-up": "pamixer --default-source -i 5",
+    "on-scroll-down": "pamixer --default-source -d 5",
+    "scroll-step": 5
+  }
+}

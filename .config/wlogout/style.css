@@ -1,0 +1,47 @@
+window {
+    font-family: monospace;
+    font-size: 14pt;
+    color: #d4be98; /* text */
+    background-color: rgba(29, 32, 33, 0.8);
+}
+
+button {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 25%;
+    border: 2px solid #433F39;
+    border-radius: 10px;
+    background-color: #1d2021;
+    margin: 5px;
+}
+
+button:hover {
+    border: 2px solid #a9b665;
+    background-color: rgba(29, 32, 33, 1);
+    color: #d4be98;
+}
+
+button:focus {
+    border: 2px solid #a9b665;
+    background-color: rgba(29, 32, 33, 1);
+    color: #d4be98;
+}
+
+#lock {
+    background-image: image(url("./lock.png"));
+}
+#logout {
+    background-image: image(url("./logout.png"));
+}
+#suspend {
+    background-image: image(url("./sleep.png"));
+}
+#shutdown {
+    background-image: image(url("./power.png"));
+}
+#reboot {
+    background-image: image(url("./restart.png"));
+}
+#hibernate {
+    background-image: image(url("./restart.png"));
+}

@@ -1,5 +1,5 @@
 # Arch Linux - Hyprland (Dotfiles)
-This is my main **Linux Workspace**. I am new to ricing Linux, so there are lots of configuration files that may not work as intended, but I will keep this repository up-to-date with any changes and fixes I make to my personal setup. 😊
+This is my main **Linux Workspace**. I am new to ricing Linux. There might be some configuration that may not work as intended, but I will keep this repository up-to-date with any changes and fixes I make to my personal setup. 😊
 
 ### 🖼️ Screenshots
 ![06](https://github.com/u1145h/dotfiles/assets/78568197/eed0ba63-1fec-425a-8486-bb140e0e4e84)

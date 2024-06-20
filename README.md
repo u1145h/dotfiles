@@ -1,4 +1,4 @@
-#  Arch Linux - Hyprland (Dotfiles)
+# Arch Linux - Hyprland (Dotfiles)
 This is my main **Linux Workspace**. I am new to ricing Linux, so there are lots of configuration files that may not work as intended, but I will keep this repository up-to-date with any changes and fixes I make to my personal setup. 😊
 
 ### 🖼️ Screenshots
@@ -54,7 +54,7 @@ This is my main **Linux Workspace**. I am new to ricing Linux, so there are lots
 
 ---
 ## 🎨 Appearance
-**THEME** - Gruvbox-Dark (Changes few colors to match my color scheme)
+**THEME** - [Gruvbox-Dark](https://github.com/u1145h/dotfiles/tree/main/home/.themes/Gruvbox-Dark) (Changes few colors to match my color scheme)
 
 **ICON** - [Colloid Green Nord Dark](https://github.com/vinceliuice/Colloid-icon-theme)
 

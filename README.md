@@ -1,6 +1,7 @@
-# Arch Linux - Hyprland (Dotfiles)
+#  Arch Linux - Hyprland (Dotfiles)
+This is my main **Linux Workspace**. I am new to ricing Linux, so there are lots of configuration files that may not work as intended, but I will keep this repository up-to-date with any changes and fixes I make to my personal setup. 😊
 
-### Screenshots
+### 🖼️ Screenshots
 ![06](https://github.com/u1145h/dotfiles/assets/78568197/eed0ba63-1fec-425a-8486-bb140e0e4e84)
 ![01](https://github.com/u1145h/dotfiles/assets/78568197/b4f78911-6039-4590-b75e-8d4ead3234f5)
 ![02](https://github.com/u1145h/dotfiles/assets/78568197/4aa97049-4377-4315-97d8-494357e89493)
@@ -9,7 +10,8 @@
 ![05](https://github.com/u1145h/dotfiles/assets/78568197/1bccdbb7-66c2-4df5-96dc-dfadabebb687)
 
 ---
-## Packages
+## 📦 Packages
+
 **Terminal** - [kitty](https://github.com/kovidgoyal/kitty)
 
 **App Launcher** - [Rofi](https://github.com/davatorium/rofi)
@@ -49,3 +51,13 @@
 **Gaming** - [Steam](https://store.steampowered.com/), [Lutris](https://lutris.net/), [Heroic](https://heroicgameslauncher.com/), [protonup-qt](https://davidotek.github.io/protonup-qt/)
 
 **Desining & Editing** - [Krita](https://github.com/KDE/krita), [PhotoGIMP](https://github.com/Diolinux/PhotoGIMP), [Inkscape](https://github.com/inkscape/inkscape), [Blender](https://www.blender.org/), [Kdenlive](https://github.com/KDE/kdenlive), [Davinchi Resolve](https://www.blackmagicdesign.com/products/davinciresolve) (On [DistroBox](https://github.com/89luca89/distrobox))
+
+---
+## 🎨 Appearance
+**THEME** - Gruvbox-Dark (Changes few colors to match my color scheme)
+
+**ICON** - [Colloid Green Nord Dark](https://github.com/vinceliuice/Colloid-icon-theme)
+
+**FONT's** 
+    - MAIN : SF Pro Text Regular (11)
+    - TERMINAL : JetBrainsMono Nerd Font (10)

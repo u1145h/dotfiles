@@ -50,7 +50,7 @@ This is my main **Linux Workspace**. I am new to ricing Linux. There might be so
 
 **Gaming** - [Steam](https://store.steampowered.com/), [Lutris](https://lutris.net/), [Heroic](https://heroicgameslauncher.com/), [protonup-qt](https://davidotek.github.io/protonup-qt/)
 
-**Desining & Editing** - [Krita](https://github.com/KDE/krita), [PhotoGIMP](https://github.com/Diolinux/PhotoGIMP), [Inkscape](https://github.com/inkscape/inkscape), [Blender](https://www.blender.org/), [Kdenlive](https://github.com/KDE/kdenlive), [Davinchi Resolve](https://www.blackmagicdesign.com/products/davinciresolve) (On [DistroBox](https://github.com/89luca89/distrobox))
+**Designing & Editing** - [Krita](https://github.com/KDE/krita), [PhotoGIMP](https://github.com/Diolinux/PhotoGIMP), [Inkscape](https://github.com/inkscape/inkscape), [Blender](https://www.blender.org/), [Kdenlive](https://github.com/KDE/kdenlive), [Davinchi Resolve](https://www.blackmagicdesign.com/products/davinciresolve) (On [DistroBox](https://github.com/89luca89/distrobox))
 
 ---
 ## 🎨 Appearance

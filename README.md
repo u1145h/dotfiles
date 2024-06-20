@@ -54,7 +54,7 @@ This is my main **Linux Workspace**. I am new to ricing Linux. There might be so
 
 ---
 ## 🎨 Appearance
-**THEME** - [Gruvbox-Dark](https://github.com/u1145h/dotfiles/tree/main/home/.themes/Gruvbox-Dark) (Changes few colors to match my color scheme)
+**THEME** - Gruvbox ([original](https://www.gnome-look.org/p/1681313/)) ([Custom](https://github.com/u1145h/dotfiles/tree/main/home/.themes/))  (Custom Gruvbox Theme Used on this Rice based on the original Theme "Gruvbox-Dark-B-LB")
 
 **ICON** - [Colloid Green Nord Dark](https://github.com/vinceliuice/Colloid-icon-theme)
 

@@ -27,11 +27,11 @@ tooltip {
 #battery,
 #pulseaudio,
 #tray,
-#backlight,
 #cpu,
 #memory,
 #temperature,
-#custom-notification {
+#custom-spotify,
+#custom-network {
     color: #d4be98;
     background: #282b2c;
     padding: 0px 10px;
@@ -45,7 +45,33 @@ tooltip {
 }
 
 
+#backlight {
+    color: #d4be98;
+    background: #282b2c;
+    padding: 0px 9px 0px 10px;;
+    margin-top: 0px;
+    margin-bottom: 8px;
+    margin-left: 2px;
+    margin-right: 2px;
+    border: 2px solid #43413B;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8)
+}
+
 #network {
+    color: #d4be98;
+    background: #282b2c;
+    padding: 0px 15px 0px 10px;;
+    margin-top: 0px;
+    margin-bottom: 8px;
+    margin-left: 2px;
+    margin-right: 2px;
+    border: 2px solid #43413B;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
+}
+
+#custom-swaync {
     color: #d4be98;
     background: #282b2c;
     padding: 0px 15px 0px 10px;;
@@ -72,9 +98,9 @@ tooltip {
 }
 
 #power-profiles-daemon {
-    color: #A9B665;
+    color: #d4be98;
     background: #282b2c;
-    padding: 0px 17px 0px 10px;;
+    padding: 0px 16px 0px 11px;;
     margin-top: 0px;
     margin-bottom: 8px;
     margin-left: 2px;
@@ -99,7 +125,7 @@ tooltip {
 #custom-appmenu {
     color: #A9B665;
     background: #282b2c;
-    padding: 0px 14px 0px 10px;
+    padding: 0px 15px 0px 10px;
     margin-top: 0px;
     margin-bottom: 8px;
     margin-left: 8px;
@@ -112,9 +138,9 @@ tooltip {
 #custom-power {
     color: #A9B665;
     background: #282b2c;
-    padding: 0px 13px 0px 10px;
+    padding: 0px 15px 0px 12px;
     margin-top: 0px;
-    margin-bottom: 5px;
+    margin-bottom: 8px;
     margin-left: 2px;
     margin-right: 8px;
     border: 2px solid #43413B;

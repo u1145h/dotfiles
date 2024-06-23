@@ -8,14 +8,15 @@
   "height": 0,
   "modules-left": [
     "custom/appmenu",
-    // "custom/weather",
-    "power-profiles-daemon",
+    "custom/weather",
     "cpu",
     "memory",
-    "temperature"
+    //"temperature",
+    "custom/spotify"
   ],
   "modules-center": ["hyprland/workspaces"],
   "modules-right": [
+    //"custom/network",
     "tray",
     "network",
     //"custom/bluetooth",
@@ -25,34 +26,50 @@
     "pulseaudio",
     "pulseaudio#microphone",
     "clock",
+    //"custom/swaync",
+    "power-profiles-daemon",
     "custom/power"
-    //"custom/notification"
   ],
 
   // █▀▄▀█ █▀█ █▀▄ █ █ █  █▀▀
   // █░▀░█ █▄█ █▄▀ █▄█ █▄ ██▄
+  
+  "custom/network": {
+	"interval": 1,
+	"format-wifi": "<span>  </span>{bandwidthDownBytes}",
+	"tooltip": false
+  },
+  "custom/spotify": {
+    "exec": "$HOME/.config/waybar/scripts/spotify.py --player spotify",
+	"format": "<span size='10000'>  </span>{}",
+    "return-type": "json",
+    "on-click": "playerctl -p spotify play-pause",
+    "on-scroll-up": "playerctl -p spotify next",
+    "on-scroll-down": "playerctl -p spotify previous",
+	"on-click-right-release": "hyprctl dispatch workspace 6",
+	"tooltip": false
+  },
   "network": {
     "format-wifi": "󰤨",
     "format-disconnected": "󰤭",
     "tooltip-format": "Connected to {essid}",
     "on-click": "hyprctl dispatch exec '[float]' 'kitty -e nmtui'"
   },
-  "custom/notification": {
-    "format": "{} ", // Unicode for a dot (or any other symbol you prefer)
-    "exec": "~/.config/dunst/scripts/notification_manager.sh show_notification_panel",
-    "on-click": "~/.config/dunst/scripts/notification_manager.shshow_notification_panel",
-    "on-right-click": "~/.config/dunst/scripts/notification_manager.sh toggle_dnd",
-    "on-middle-click": "~/.config/dunst/scripts/notification_manager.sh clear_notifications",
+  "custom/swaync": {
+    "format": "",
+    "on-click": "~/.config/swaync/scripts/tray_waybar.sh",
+    "on-click-right": "swaync-client -C",
+    "tooltip": false
   },
   "power-profiles-daemon": {
     "format": "{icon}",
     "tooltip-format": "Power profile: {profile}\nDriver: {driver}",
     "tooltip": true,
     "format-icons": {
-      "default": "",
+      "default": "",
       "performance": "",
-      "balanced": "",
-      "power-saver": ""
+      "balanced": "",
+      "power-saver": ""
     }
   },
   "custom/power": {
@@ -62,18 +79,20 @@
   },
   "cpu": {
     "format": "  {usage}%",
-    "tooltip": false
+    "on-click": "hyprctl dispatch exec 'kitty -e btm'"
   },
   "memory": {
-    "format": "󰍛 {}%"
+    "format": "  {}%",
+    "on-click": "hyprctl dispatch exec 'kitty -e htop'"
   },
   "temperature": {
-    // "thermal-zone": 2,
+    "thermal-zone": 2,
     // "hwmon-path": "/sys/class/hwmon/hwmon2/temp1_input",
     "critical-threshold": 80,
-    // "format-critical": "{temperatureC}°C {icon}",
+    "format-critical": "{temperatureC}°C {icon}",
     "format": "{icon} {temperatureC}°C",
-    "format-icons": ["", "", ""]
+    "format-icons": ["", "", ""],
+    "on-click": "hyprctl dispatch exec 'kitty -e btm'"
   },
   "hyprland/window": {
     "format": "Focused Window"
@@ -88,8 +107,8 @@
     }
   },
   "custom/appmenu": {
-    "format": "󰣇", // always run; consider advanced run conditions
-    "on-click": "rofi -show drun", // update system
+    "format": "", // always run; consider advanced run conditions
+    //"on-click": "rofi -show drun", // update system
     "signal": 8
   },
   "custom/weather": {
@@ -131,11 +150,11 @@
   },
   "pulseaudio": {
     "format": "{icon} {volume}%",
-    "tooltip": false,
-    "format-muted": " Muted ",
+    "format-muted": " Muted",
     "on-click": "pamixer -t",
-    "on-scroll-up": "pamixer -i 5",
-    "on-scroll-down": "pamixer -d 5",
+    "on-click-right": "pavucontrol",
+    "on-scroll-up": "pamixer -i 1",
+    "on-scroll-down": "pamixer -d 1",
     "scroll-step": 5,
     "format-icons": {
       "headphone": " ",

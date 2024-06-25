@@ -1,118 +1,104 @@
-#!/usr/bin/env python
-
 import json
 import requests
-from datetime import datetime
 
-# Use your actual location name
-LOCATION_NAME = "Siliguri, West Bengal, India"
+# Replace with your new OpenWeatherMap API key
+API_KEY = '01492e3e7f6f77a0922c3bb241b7fccb'
+
+# City ID for Siliguri, West Bengal, India
+CITY_ID = '1256525'
 
 WEATHER_CODES = {
-    '113': '☀️',
-    '116': '⛅',
-    '119': '☁️',
-    '122': '☁️',
-    '143': '☁️',
-    '176': '🌧️',
-    '179': '🌧️',
-    '182': '🌧️',
-    '185': '🌧️',
-    '200': '⛈️',
-    '227': '🌨️',
-    '230': '🌨️',
-    '248': '☁️',
-    '260': '☁️',
-    '263': '🌧️',
-    '266': '🌧️',
-    '281': '🌧️',
-    '284': '🌧️',
-    '293': '🌧️',
-    '296': '🌧️',
-    '299': '🌧️',
-    '302': '🌧️',
-    '305': '🌧️',
-    '308': '🌧️',
-    '311': '🌧️',
-    '314': '🌧️',
-    '317': '🌧️',
-    '320': '🌨️',
-    '323': '🌨️',
-    '326': '🌨️',
-    '329': '❄️',
-    '332': '❄️',
-    '335': '❄️',
-    '338': '❄️',
-    '350': '🌧️',
-    '353': '🌧️',
-    '356': '🌧️',
-    '359': '🌧️',
-    '362': '🌧️',
-    '365': '🌧️',
-    '368': '🌧️',
-    '371': '❄️',
-    '374': '🌨️',
-    '377': '🌨️',
-    '386': '🌨️',
-    '389': '🌨️',
-    '392': '🌧️',
-    '395': '❄️'
+    '200': '⛈️',  # Thunderstorm with light rain
+    '201': '⛈️',  # Thunderstorm with rain
+    '202': '⛈️',  # Thunderstorm with heavy rain
+    '210': '⛈️',  # Light thunderstorm
+    '211': '⛈️',  # Thunderstorm
+    '212': '⛈️',  # Heavy thunderstorm
+    '221': '⛈️',  # Ragged thunderstorm
+    '230': '⛈️',  # Thunderstorm with light drizzle
+    '231': '⛈️',  # Thunderstorm with drizzle
+    '232': '⛈️',  # Thunderstorm with heavy drizzle
+    '300': '🌧️',  # Light intensity drizzle
+    '301': '🌧️',  # Drizzle
+    '302': '🌧️',  # Heavy intensity drizzle
+    '310': '🌧️',  # Light intensity drizzle rain
+    '311': '🌧️',  # Drizzle rain
+    '312': '🌧️',  # Heavy intensity drizzle rain
+    '313': '🌧️',  # Shower rain and drizzle
+    '314': '🌧️',  # Heavy shower rain and drizzle
+    '321': '🌧️',  # Shower drizzle
+    '500': '🌧️',  # Light rain
+    '501': '🌧️',  # Moderate rain
+    '502': '🌧️',  # Heavy intensity rain
+    '503': '🌧️',  # Very heavy rain
+    '504': '🌧️',  # Extreme rain
+    '511': '🌨️',  # Freezing rain
+    '520': '🌧️',  # Light intensity shower rain
+    '521': '🌧️',  # Shower rain
+    '522': '🌧️',  # Heavy intensity shower rain
+    '531': '🌧️',  # Ragged shower rain
+    '600': '❄️',  # Light snow
+    '601': '❄️',  # Snow
+    '602': '❄️',  # Heavy snow
+    '611': '🌨️',  # Sleet
+    '612': '🌨️',  # Light shower sleet
+    '613': '🌨️',  # Shower sleet
+    '615': '🌨️',  # Light rain and snow
+    '616': '🌨️',  # Rain and snow
+    '620': '🌨️',  # Light shower snow
+    '621': '🌨️',  # Shower snow
+    '622': '🌨️',  # Heavy shower snow
+    '701': '🌫️',  # Mist
+    '711': '🌫️',  # Smoke
+    '721': '🌫️',  # Haze
+    '731': '🌫️',  # Sand, dust whirls
+    '741': '🌫️',  # Fog
+    '751': '🌫️',  # Sand
+    '761': '🌫️',  # Dust
+    '762': '🌫️',  # Volcanic ash
+    '771': '🌬️',  # Squalls
+    '781': '🌪️',  # Tornado
+    '800': '☀️',   # Clear sky
+    '801': '⛅',    # Few clouds
+    '802': '⛅',    # Scattered clouds
+    '803': '☁️',   # Broken clouds
+    '804': '☁️',   # Overcast clouds
 }
 
 data = {}
 
-# Include the location name in the URL request
-weather = requests.get(f"https://wttr.in/{LOCATION_NAME.replace(' ', '%20')}?format=j1").json()
+url = f"http://api.openweathermap.org/data/2.5/weather?id={CITY_ID}&appid={API_KEY}&units=metric"
 
-def format_time(time):
-    return time.replace("00", "").zfill(2)
+try:
+    response = requests.get(url)
+    response.raise_for_status()  # Raise an exception for bad responses (4xx or 5xx)
 
-def format_temp(temp):
-    return (temp + "°").ljust(3)
+    if response.status_code == 200:
+        weather_data = response.json()
 
-def format_chances(hour):
-    chances = {
-        "chanceoffog": "Fog",
-        "chanceoffrost": "Frost",
-        "chanceofovercast": "Overcast",
-        "chanceofrain": "Rain",
-        "chanceofsnow": "Snow",
-        "chanceofsunshine": "Sunshine",
-        "chanceofthunder": "Thunder",
-        "chanceofwindy": "Wind"
-    }
+        # Process current weather condition
+        current_weather = weather_data['weather'][0]
+        current_temp = weather_data['main']['temp']
+        feels_like = weather_data['main']['feels_like']
+        weather_code = str(current_weather['id'])
 
-    conditions = []
-    for event in chances.keys():
-        if int(hour[event]) > 0:
-            conditions.append(chances[event] + " " + hour[event] + "%")
-    return ", ".join(conditions)
+        data['text'] = f"{WEATHER_CODES.get(weather_code, '❓')} {feels_like}°C"
 
-tempint = int(weather['current_condition'][0]['FeelsLikeC'])
-extrachar = ''
-if tempint > 0 and tempint < 10:
-    extrachar = '+'
+        # Prepare tooltip with detailed weather information
+        data['tooltip'] = f"<b>{current_weather['main']} ({current_weather['description']})</b>\n"
+        data['tooltip'] += f"Temperature: {current_temp}°C\n"
+        data['tooltip'] += f"Feels like: {feels_like}°C\n"
+        data['tooltip'] += f"Humidity: {weather_data['main']['humidity']}%\n"
+        data['tooltip'] += f"Wind Speed: {weather_data['wind']['speed']} m/s\n"
+        data['tooltip'] += f"Cloudiness: {weather_data['clouds']['all']}%\n"
 
-data['text'] = ' ' + WEATHER_CODES[weather['current_condition'][0]['weatherCode']] + \
-    " " + extrachar + weather['current_condition'][0]['FeelsLikeC'] + "°"
+    else:
+        data['text'] = "❓"
+        data['tooltip'] = "Weather data unavailable"
 
-data['tooltip'] = f"<b>{weather['current_condition'][0]['weatherDesc'][0]['value']} {weather['current_condition'][0]['temp_C']}°C</b>\n"
-data['tooltip'] += f"Location: {LOCATION_NAME}\n"
-data['tooltip'] += f"Feels like: {weather['current_condition'][0]['FeelsLikeC']}°C\n"
-data['tooltip'] += f"Wind: {weather['current_condition'][0]['windspeedKmph']}Km/h\n"
-data['tooltip'] += f"Humidity: {weather['current_condition'][0]['humidity']}%\n"
-for i, day in enumerate(weather['weather']):
-    data['tooltip'] += f"\n<b>"
-    if i == 0:
-        data['tooltip'] += "Today, "
-    if i == 1:
-        data['tooltip'] += "Tomorrow, "
-    data['tooltip'] += f"{day['date']}</b>\n"
-    data['tooltip'] += f"⬆️ {day['maxtempC']}°C ⬇️ {day['mintempC']}°C "
-    data['tooltip'] += f"🌅 {day['astronomy'][0]['sunrise']} 🌇 {day['astronomy'][0]['sunset']}\n"
-    for hour in day['hourly']:
-        if i == 0:
-            if int(format_time(hour['time'])) < datetime.now().hour - 2:
-                continue
-        data['tooltip'] += f"{format_time(hour['time'])} {WEATHER_CODES[hour['weatherCode']]} {format_temp(hour['FeelsLikeC'])} {hour['weatherDesc'][0]['value']}, {format_chances(hour)}\n"
+except requests.exceptions.RequestException as e:
+    print("Error fetching weather data:", e)
+    data['text'] = "❓"
+    data['tooltip'] = "Error fetching weather data"
 
 print(json.dumps(data))

@@ -25,14 +25,9 @@ tooltip {
 #window,
 #clock,
 #battery,
-#pulseaudio,
 #tray,
-#cpu,
 #memory,
-#temperature,
-#custom-spotify,
-#custom-network,
-#idle_inhibitor {
+#temperature {
     color: #d4be98;
     background: #282b2c;
     padding: 0px 10px;
@@ -44,10 +39,64 @@ tooltip {
     border-radius: 10px;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
 }
-#idle_inhibitor {
+
+
+#cpu {
     color: #d4be98;
     background: #282b2c;
-    padding: 0px 18px 0px 10px;;
+    padding: 0px 10px;
+    margin-top: 0px;
+    margin-bottom: 8px;
+    margin-left: 2px;
+    margin-right: 2px;
+    border: 2px solid #43413B;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
+}
+
+#custom-spotify {
+    color: #89B482;
+    background: #282b2c;
+    padding: 0px 10px;
+    margin-top: 0px;
+    margin-bottom: 8px;
+    margin-left: 2px;
+    margin-right: 2px;
+    border: 2px solid #43413B;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
+}
+
+#pulseaudio {
+    color: #d4be98;
+    background: #282b2c;
+    padding: 0px 10px;
+    margin-top: 0px;
+    margin-bottom: 8px;
+    margin-left: 2px;
+    margin-right: 2px;
+    border: 2px solid #43413B;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
+}
+
+
+#idle_inhibitor {
+    color: #A9B665;
+    background: #282b2c;
+    padding: 0px 18px 0px 10px;
+    margin-top: 0px;
+    margin-bottom: 8px;
+    margin-left: 2px;
+    margin-right: 2px;
+    border: 2px solid #43413B;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
+}
+#idle_inhibitor.deactivated {
+    color: #EA6962;
+    background: #282b2c;
+    padding: 0px 18px 0px 10px;
     margin-top: 0px;
     margin-bottom: 8px;
     margin-left: 2px;
@@ -60,7 +109,7 @@ tooltip {
 #backlight {
     color: #d4be98;
     background: #282b2c;
-    padding: 0px 9px 0px 10px;;
+    padding: 0px 9px 0px 10px;
     margin-top: 0px;
     margin-bottom: 8px;
     margin-left: 2px;
@@ -71,9 +120,22 @@ tooltip {
 }
 
 #network {
+    color: #A9B665;
+    background: #282b2c;
+    padding: 0px 15px 0px 10px;
+    margin-top: 0px;
+    margin-bottom: 8px;
+    margin-left: 2px;
+    margin-right: 2px;
+    border: 2px solid #43413B;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
+}
+
+#network.disconnected {
     color: #d4be98;
     background: #282b2c;
-    padding: 0px 15px 0px 10px;;
+    padding: 0px 15px 0px 10px;
     margin-top: 0px;
     margin-bottom: 8px;
     margin-left: 2px;
@@ -86,7 +148,7 @@ tooltip {
 #custom-swaync {
     color: #d4be98;
     background: #282b2c;
-    padding: 0px 15px 0px 10px;;
+    padding: 0px 15px 0px 10px;
     margin-top: 0px;
     margin-bottom: 8px;
     margin-left: 2px;
@@ -97,9 +159,38 @@ tooltip {
 }
 
 #bluetooth {
+    color: #7DAEA3;
+    background: #282b2c;
+    padding: 0px 13px 0px 12px;
+    margin-top: 0px;
+    margin-bottom: 8px;
+    margin-left: 2px;
+    margin-right: 2px;
+    border: 2px solid #43413B;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
+}
+#bluetooth.bluetooth-disabled,
+#bluetooth.bluetooth-off {
+    color: #d4be98;
+}
+#bluetooth.bluetooth-on {
+    color: #A9B665;
+}
+#bluetooth.bluetooth-connected,
+#bluetooth.bluetooth-connected-battery {
+    color: #89B482;
+}
+#bluetooth.bluetooth-discoverable,
+#bluetooth.bluetooth-discovering,
+#bluetooth.bluetooth-pairable {
+    color: #7DAEA3;
+}
+
+#power-profiles-daemon {
     color: #d4be98;
     background: #282b2c;
-    padding: 0px 13px 0px 12px;;
+    padding: 0px 16px 0px 11px;
     margin-top: 0px;
     margin-bottom: 8px;
     margin-left: 2px;
@@ -109,18 +200,28 @@ tooltip {
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
 }
 
-#power-profiles-daemon {
-    color: #d4be98;
+#power-profiles-daemon.performance {
+    color: #EA6962;
     background: #282b2c;
-    padding: 0px 16px 0px 11px;;
-    margin-top: 0px;
-    margin-bottom: 8px;
-    margin-left: 2px;
-    margin-right: 2px;
+    padding: 0px 15px 0px 11px;
     border: 2px solid #43413B;
-    border-radius: 10px;
+}
+
+#power-profiles-daemon.balanced {
+    color: #E78A4E;
+    background: #282b2c;
+    padding: 0px 18px 0px 10px;
+    border: 2px solid #43413B;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
 }
+
+#power-profiles-daemon.power-saver {
+    color: #A9B665;
+    background: #282b2c;
+    padding: 0px 17px 0px 10px;
+    border: 2px solid #43413B;
+}
+
 #custom-weather {
     color: #d4be98;
     background: #282b2c;
@@ -135,7 +236,7 @@ tooltip {
 }
 
 #custom-appmenu {
-    color: #A9B665;
+    color: #7DAEA3;
     background: #282b2c;
     padding: 0px 15px 0px 10px;
     margin-top: 0px;
@@ -148,7 +249,20 @@ tooltip {
 }
 
 #custom-power {
-    color: #A9B665;
+    color: #E78A4E;
+    background: #282b2c;
+    padding: 0px 15px 0px 12px;
+    margin-top: 0px;
+    margin-bottom: 8px;
+    margin-left: 2px;
+    margin-right: 8px;
+    border: 2px solid #43413B;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
+}
+
+#custom-power:hover {
+    color: #EA6962;
     background: #282b2c;
     padding: 0px 15px 0px 12px;
     margin-top: 0px;

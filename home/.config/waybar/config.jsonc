@@ -32,26 +32,34 @@
     "custom/power"
   ],
 
-  // █▀▄▀█ █▀█ █▀▄ █ █ █  █▀▀
-  // █░▀░█ █▄█ █▄▀ █▄█ █▄ ██▄
+  
+  ///////////////
+  /// MODULES ///
+  ///////////////
   "bluetooth": {
     "format": "{icon}",
-    //"format-connected": " {device_alias}",
-    "format-connected-battery": "󰂱 {num_connections} {device_battery_percentage}%",
-    // "format-device-preference": [ "device1", "device2" ], // preference list deciding the displayed device
+    "format-connected": "󰂱 {device_alias}",
+    "format-connected-battery": "󰂱 {num_connections}",
     "tooltip-format": "{controller_alias}\t{controller_address}\n\n{num_connections} connected",
     "tooltip-format-connected": "{controller_alias}\t{controller_address}\n\n{num_connections} connected\n\n{device_enumerate}",
     "tooltip-format-enumerate-connected": "{device_alias}\t{device_address}",
     "tooltip-format-enumerate-connected-battery": "{device_alias}\t{device_address}\t{device_battery_percentage}%",
     "format-icons": {
-        "disabled": "󰂲",
-        "off": "󰂲",
-        "on": "󰂯",
-        "connected": "󰂱",
-        "discoverable": "󰂳",
-        "discovering": "󰂰",
-        "pairable": "󰂴"
+      "disabled": "󰂲",
+      "off": "󰂲",
+      "on": "󰂯",
+      "connected": "󰂱",
+      "discoverable": "󰂳",
+      "discovering": "󰂰",
+      "pairable": "󰂴"
     },
+    "class-disconnected": "bluetooth-off",
+    "class-connected": "bluetooth-connected",
+    "class-on": "bluetooth-on",
+    "class-off": "bluetooth-off",
+    "class-discoverable": "bluetooth-discoverable",
+    "class-discovering": "bluetooth-discovering",
+    "class-pairable": "bluetooth-pairable",
     "on-click": "blueman-manager"
   },
   "idle_inhibitor": {
@@ -93,15 +101,15 @@
     "tooltip-format": "Power profile: {profile}\nDriver: {driver}",
     "tooltip": true,
     "format-icons": {
-      "default": "",
-      "performance": "",
-      "balanced": "",
-      "power-saver": ""
+      "default": "",
+      "performance": "",
+      "balanced": "",
+      "power-saver": ""
     }
   },
   "custom/power": {
-    "format": "⏻", // always run; consider advanced run conditions
-    "on-click": "wlogout", // update system
+    "format": "⏻",
+    "on-click": "wlogout",
     "signal": 8
   },
   "cpu": {
@@ -134,8 +142,8 @@
     }
   },
   "custom/appmenu": {
-    "format": "", // always run; consider advanced run conditions
-    "on-click": "rofi -show drun" // update system
+    "format": "",
+    "on-click": "rofi -show drun"
   },
   "custom/weather": {
     "tooltip": true,

@@ -1,11 +1,11 @@
 import json
 import requests
 
-# Replace with your new OpenWeatherMap API key
-API_KEY = '01492e3e7f6f77a0922c3bb241b7fccb'
+# OpenWeatherMap API key
+API_KEY = 'add_your_openweathermap_API'
 
-# City ID for Siliguri, West Bengal, India
-CITY_ID = '1256525'
+# City ID
+CITY_ID = 'add_your_location_data_from_openweathermap'
 
 WEATHER_CODES = {
     '200': '⛈️',  # Thunderstorm with light rain
@@ -71,7 +71,7 @@ url = f"http://api.openweathermap.org/data/2.5/weather?id={CITY_ID}&appid={API_K
 
 try:
     response = requests.get(url)
-    response.raise_for_status()  # Raise an exception for bad responses (4xx or 5xx)
+    response.raise_for_status()
 
     if response.status_code == 200:
         weather_data = response.json()
@@ -84,7 +84,6 @@ try:
 
         data['text'] = f"{WEATHER_CODES.get(weather_code, '❓')} {feels_like}°C"
 
-        # Prepare tooltip with detailed weather information
         data['tooltip'] = f"<b>{current_weather['main']} ({current_weather['description']})</b>\n"
         data['tooltip'] += f"Temperature: {current_temp}°C\n"
         data['tooltip'] += f"Feels like: {feels_like}°C\n"

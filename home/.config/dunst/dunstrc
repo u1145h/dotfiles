@@ -1,5 +1,5 @@
 [global]
-script = /home/u1145h/.config/dunst/scripts/log_notification.sh
+script = /home/user_name/.config/dunst/scripts/log_notification.sh
 font = NotoSansMono-Regular 10
 frame_width = 2
 separator_height = 2

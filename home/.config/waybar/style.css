@@ -40,7 +40,6 @@ tooltip {
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
 }
 
-
 #cpu {
     color: #d4be98;
     background: #282b2c;
@@ -159,7 +158,7 @@ tooltip {
 }
 
 #bluetooth {
-    color: #7DAEA3;
+    color: #d4be98;
     background: #282b2c;
     padding: 0px 13px 0px 12px;
     margin-top: 0px;
@@ -169,22 +168,6 @@ tooltip {
     border: 2px solid #43413B;
     border-radius: 10px;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
-}
-#bluetooth.bluetooth-disabled,
-#bluetooth.bluetooth-off {
-    color: #d4be98;
-}
-#bluetooth.bluetooth-on {
-    color: #A9B665;
-}
-#bluetooth.bluetooth-connected,
-#bluetooth.bluetooth-connected-battery {
-    color: #89B482;
-}
-#bluetooth.bluetooth-discoverable,
-#bluetooth.bluetooth-discovering,
-#bluetooth.bluetooth-pairable {
-    color: #7DAEA3;
 }
 
 #power-profiles-daemon {

@@ -8,31 +8,39 @@
   "height": 0,
   "modules-left": [
     "custom/appmenu",
+    "group/hardware",
     "power-profiles-daemon",
-    "custom/weather",
-    "cpu",
-    "memory",
-    //"temperature",
     "custom/spotify"
   ],
   "modules-center": ["hyprland/workspaces"],
   "modules-right": [
-    //"custom/network",
     "tray",
-    "network",
-    "bluetooth",
+    "group/connection",
     "custom/language",
     "battery",
     "backlight",
-    "pulseaudio",
-    "pulseaudio#microphone",
+    "group/audio",
     "idle_inhibitor",
     "clock",
-    //"custom/swaync",
     "custom/power"
   ],
 
-  
+  //////////////
+  /// Groups ///
+  //////////////
+  "group/hardware": {
+    "orientation": "horizontal",
+    "modules": ["cpu", "memory", "temperature"]
+  },
+  "group/audio": {
+    "orientation": "horizontal",
+    "modules": ["pulseaudio", "pulseaudio#microphone"]
+  },
+  "group/connection": {
+    "orientation": "horizontal",
+    "modules": ["network", "bluetooth"]
+  },
+
   ///////////////
   /// MODULES ///
   ///////////////
@@ -69,11 +77,6 @@
       "deactivated": ""
     }
   },
-  "custom/network": {
-    "interval": 1,
-    "format-wifi": "<span>  </span>{bandwidthDownBytes}",
-    "tooltip": false
-  },
   "custom/spotify": {
     "exec": "$HOME/.config/waybar/scripts/spotify.py --player spotify",
     "format": "<span size='10000'>  </span>{}",
@@ -89,12 +92,6 @@
     "format-disconnected": "󰤭",
     "tooltip-format": "Connected to {essid}",
     "on-click": "hyprctl dispatch exec '[float]' 'kitty -e nmtui'"
-  },
-  "custom/swaync": {
-    "format": "",
-    "on-click": "~/.config/swaync/scripts/tray_waybar.sh",
-    "on-click-right": "swaync-client -C",
-    "tooltip": false
   },
   "power-profiles-daemon": {
     "format": "{icon}",
@@ -113,21 +110,22 @@
     "signal": 8
   },
   "cpu": {
+    "interval": 1,
     "format": "  {usage}%",
     "on-click": "hyprctl dispatch exec 'kitty -e btm'"
   },
   "memory": {
+    "interval": 1,
     "format": "  {}%",
     "on-click": "hyprctl dispatch exec 'kitty -e btm'"
   },
   "temperature": {
-    "thermal-zone": 2,
-    // "hwmon-path": "/sys/class/hwmon/hwmon2/temp1_input",
+    "interval": 1,
+    "format": " {}%",
+    "exec": "~/.config/waybar/scripts/temperature.sh",
+    "return-type": "json",
     "critical-threshold": 80,
-    "format-critical": "{temperatureC}°C {icon}",
-    "format": "{icon} {temperatureC}°C",
-    "format-icons": ["", "", ""],
-    "on-click": "hyprctl dispatch exec 'kitty -e btm'"
+    "format-icons": ["", "", ""]
   },
   "hyprland/window": {
     "format": "Focused Window"
@@ -144,13 +142,6 @@
   "custom/appmenu": {
     "format": "",
     "on-click": "rofi -show drun"
-  },
-  "custom/weather": {
-    "tooltip": true,
-    "format": "{}",
-    "interval": 30,
-    "exec": "~/.config/waybar/scripts/waybar-wttr.py",
-    "return-type": "json"
   },
   "tray": {
     "icon-size": 13,

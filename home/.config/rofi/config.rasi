@@ -1,13 +1,14 @@
 configuration {
-	modi:                       "drun,run,window,emoji,filebrowser";
+    modi:                       "drun,run,emoji,window,,filebrowser";
     show-icons:                 true;
-    display-drun:               "💻 APPS";
-    display-run:                "🎩 RUN";
-    display-filebrowser:        "🗃️ FILES";
-    display-window:             "🪟 WINDOWS";
-    display-emoji:              "🙂 EMOJI";
-	drun-display-format:        "{name}";
-	window-format:              "{w} · {c} · {t}";
+    display-drun:               "📦 Apps";
+    display-run:                "🐧 Run";
+    display-filebrowser:        "📁 Files";
+    display-window:             "🪟 Window";
+    display-emoji:              "😃 Emoji";
+    drun-display-format:        "{name}";
+    window-format:              "{w} · {c} · {t}";
+    font:                       "JetBrainsMono Nerd Font 12";  // Add this line
 }
 
 @import                          "shared/colors.rasi"
@@ -97,6 +98,7 @@ prompt {
 textbox-prompt-colon {
     enabled:                     true;
     padding:                     5px 0px;
+    margin-bottom:               10px;
     expand:                      false;
     str:                         "";
     background-color:            inherit;
@@ -105,6 +107,7 @@ textbox-prompt-colon {
 entry {
     enabled:                     true;
     padding:                     5px 0px;
+    margin-bottom:               10px;
     background-color:            inherit;
     text-color:                  inherit;
     cursor:                      text;
@@ -150,9 +153,9 @@ listview {
     
     spacing:                     5px;
     margin:                      0px;
-    padding:                     10px;
+    padding:                     00px;
     border:                      2px 2px 2px 2px ;
-    border-radius:               0px 0px 0px 0px;
+    border-radius:               0px 0px 5px 5px;
     border-color:                @border-color;
     background-color:            transparent;
     text-color:                  @foreground-color;
@@ -169,7 +172,7 @@ element {
     enabled:                     true;
     spacing:                     10px;
     margin:                      0px;
-    padding:                     6px;
+    padding:                     10px 15px;
     border:                      0px solid;
     border-radius:               0px;
     border-color:                @border-color;
@@ -235,23 +238,23 @@ mode-switcher{
     spacing:                     0px;
     margin:                      0px;
     padding:                     0px;
-    border:                      0px solid;
-    border-radius:               0px;
+    border:                      2px 2px 0px 2px solid;
+    border-radius:               4px 4px 0px 0px;
     border-color:                @border-color;
     background-color:            transparent;
     text-color:                  @foreground-color;
 }
 button {
     padding:                     10px;
-    border:                      0px 0px 0px 0px ;
-    border-radius:               0px;
+    border:                      0px;
+    border-radius:               5px 5px 0px 0px;
     border-color:                @border-color;
     background-color:            @background-color;
     text-color:                  inherit;
     cursor:                      pointer;
 }
 button selected {
-    border:                      2px 2px 0px 2px ;
+    border:                      0 ;
     border-radius:               0px;
     border-color:                @border-color;
     background-color:            @border-color;
@@ -264,13 +267,13 @@ message {
     margin:                      0px 0px 10px 0px;
     padding:                     0px;
     border:                      0px solid;
-    border-radius:               0px 0px 0px 0px;
+    border-radius:               0px;
     border-color:                @border-color;
     background-color:            transparent;
     text-color:                  @foreground-color;
 }
 textbox {
-    padding:                     10px;
+    padding:                     20px;
     border:                      0px solid;
     border-radius:               0px;
     border-color:                @border-color;

@@ -15,13 +15,13 @@
   "modules-center": ["hyprland/workspaces"],
   "modules-right": [
     "tray",
-    "group/connection",
     "custom/language",
-    "battery",
     "backlight",
     "group/audio",
-    "idle_inhibitor",
+    "group/connection",
     "clock",
+    "idle_inhibitor",
+    "battery",
     "custom/power"
   ],
 
@@ -38,7 +38,7 @@
   },
   "group/connection": {
     "orientation": "horizontal",
-    "modules": ["network", "bluetooth"]
+    "modules": ["bluetooth", "network"]
   },
 
   ///////////////
@@ -99,7 +99,7 @@
     "tooltip": true,
     "format-icons": {
       "default": "",
-      "performance": "",
+      "performance": "",
       "balanced": "",
       "power-saver": ""
     }

@@ -18,9 +18,9 @@
     "custom/language",
     "backlight",
     "group/audio",
+    "idle_inhibitor",
     "group/connection",
     "clock",
-    "idle_inhibitor",
     "battery",
     "custom/power"
   ],
@@ -38,7 +38,7 @@
   },
   "group/connection": {
     "orientation": "horizontal",
-    "modules": ["bluetooth", "network"]
+    "modules": ["network", "bluetooth"]
   },
 
   ///////////////
@@ -88,8 +88,8 @@
     "tooltip": false
   },
   "network": {
-    "format-wifi": "󰤨",
-    "format-disconnected": "󰤭",
+    "format-wifi": "󰖩",
+    "format-disconnected": "󰖪",
     "tooltip-format": "Connected to {essid}",
     "on-click": "hyprctl dispatch exec '[float]' 'kitty -e nmtui'"
   },
@@ -111,21 +111,21 @@
   },
   "cpu": {
     "interval": 1,
-    "format": "  {usage}%",
+    "format": " {usage}%",
     "on-click": "hyprctl dispatch exec 'kitty -e btm'"
   },
   "memory": {
     "interval": 1,
-    "format": "  {}%",
+    "format": " {}%",
     "on-click": "hyprctl dispatch exec 'kitty -e btm'"
   },
   "temperature": {
     "interval": 1,
-    "format": " {}%",
+    "format": " {}%",
     "exec": "~/.config/waybar/scripts/temperature.sh",
     "return-type": "json",
     "critical-threshold": 80,
-    "format-icons": ["", "", ""]
+    "format-icons": [" ", " ", ""]
   },
   "hyprland/window": {
     "format": "Focused Window"
@@ -168,10 +168,10 @@
       "critical": 20
     },
     "format": "{icon} {capacity}%",
-    "format-charging": " {capacity}%",
+    "format-charging": "󰂄 {capacity}%",
     "format-plugged": " {capacity}%",
     "format-alt": "{time} {icon}",
-    "format-icons": [" ", " ", " ", " ", " "]
+    "format-icons": ["󰁺", "󰁻", "󰁼", "󰁾", "󰂀", "󰂁", "󰁹"]
   },
   "pulseaudio": {
     "format": "{icon} {volume}%",
@@ -189,7 +189,7 @@
       "portable": " ",
       "car": " ",
       "default": [" ", " ", " "]
-    }
+    }    
   },
   "pulseaudio#microphone": {
     "format": "{format_source}",

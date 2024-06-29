@@ -21,8 +21,8 @@
     "idle_inhibitor",
     "group/connection",
     "clock",
-    "battery",
-    "custom/power"
+    "battery"
+    //"custom/power"
   ],
 
   //////////////
@@ -117,7 +117,7 @@
   "memory": {
     "interval": 1,
     "format": " {}%",
-    "on-click": "hyprctl dispatch exec 'kitty -e btm'"
+    "on-click": "hyprctl dispatch exec 'kitty -e htop'"
   },
   "temperature": {
     "interval": 1,
@@ -141,7 +141,8 @@
   },
   "custom/appmenu": {
     "format": "",
-    "on-click": "rofi -show drun"
+    "on-click": "rofi -show drun",
+    "on-click-right": "wlogout"
   },
   "tray": {
     "icon-size": 13,

@@ -24,7 +24,6 @@ tooltip {
 #custom-caffeine,
 #window,
 #clock,
-#battery,
 #tray{
     color: #d4be98;
     background: #282b2c;
@@ -33,6 +32,19 @@ tooltip {
     margin-bottom: 8px;
     margin-left: 2px;
     margin-right: 2px;
+    border: 2px solid #43413B;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
+}
+
+#battery {
+    color: #d4be98;
+    background: #282b2c;
+    padding: 0px 10px;
+    margin-top: 0px;
+    margin-bottom: 8px;
+    margin-left: 2px;
+    margin-right: 8px;
     border: 2px solid #43413B;
     border-radius: 10px;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
@@ -130,7 +142,7 @@ tooltip {
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
 }
 #idle_inhibitor.deactivated {
-    color: #EA6962;
+    color: #E78A4E;
 }
 
 #backlight {
@@ -168,7 +180,7 @@ tooltip {
     color: #d4be98;
 }
 #bluetooth {
-    color: #7DAEA3;
+    color: #A9B665;
     background: #282b2c;
     padding: 0px 15px 0px 15px;
     margin-top: 0px;
@@ -245,7 +257,7 @@ tooltip {
 }
 
 #custom-appmenu {
-    color: #7DAEA3;
+    color: #A9B665;
     background: #282b2c;
     padding: 0px 15px 0px 10px;
     margin-top: 0px;
@@ -255,6 +267,9 @@ tooltip {
     border: 2px solid #43413B;
     border-radius: 10px;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
+}
+#custom-appmenu:hover {
+    color: #E78A4E;
 }
 
 #custom-power {
@@ -271,7 +286,7 @@ tooltip {
 }
 
 #custom-power:hover {
-    color: #EA6962;
+    color: #E78A4E;
     background: #282b2c;
     padding: 0px 15px 0px 12px;
     margin-top: 0px;
@@ -314,7 +329,7 @@ tooltip,
     border-radius: 7px;
 }
 #workspaces button.urgent {
-    color: #EA6962;
+    color: #E78A4E;
     border-radius: 7px;
 }
 #workspaces button:hover {

@@ -1,6 +1,10 @@
 # Arch Linux - Hyprland (Dotfiles)
 There might be some configuration that may not work as intended, but I will keep this repository up-to-date with any changes and fixes I make to my personal setup. 😊
 
+💻 Info
+- **Distro** - [Arch Linux](https://archlinux.org/)
+- **WM** - [Hyprland](https://hyprland.org/)
+
 ### 🖼️ Screenshots
 ![01](/screenshot/01.png)
 ![02](/screenshot/02.png)

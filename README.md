@@ -2,15 +2,13 @@
 There might be some configuration that may not work as intended, but I will keep this repository up-to-date with any changes and fixes I make to my personal setup. 😊
 
 ### 🖼️ Screenshots
-![01](https://github.com/u1145h/dotfiles/assets/78568197/6fd11382-27b0-43f6-91f1-db9a485d481d)
-![02](https://github.com/u1145h/dotfiles/assets/78568197/42e57c63-c38d-44af-ae10-348707b1fe04)
-![03](https://github.com/u1145h/dotfiles/assets/78568197/44cf771c-bb02-4fe4-bf29-56e1f2895996)
-![04](https://github.com/u1145h/dotfiles/assets/78568197/7b72b596-4a1f-43fa-89f5-dfefe48ec638)
-![05](https://github.com/u1145h/dotfiles/assets/78568197/77b9abd6-aba2-4bc2-8201-18434905a5e8)
-![06](https://github.com/u1145h/dotfiles/assets/78568197/cca8b74e-9271-4ef7-aa20-66fcc7a26b06)
-![07](https://github.com/u1145h/dotfiles/assets/78568197/9bb7460d-0fb6-4483-aabe-99a61af8a77c)
-
-
+![01](/screenshot/01.png)
+![02](/screenshot/02.png)
+![03](/screenshot/03.png)
+![04](/screenshot/04.png)
+![05](/screenshot/05.png8)
+![06](/screenshot/06.png)
+![07](/screenshot/07.png)
 
 ## 📦 Packages
 - **Terminal** - [kitty](https://github.com/kovidgoyal/kitty)

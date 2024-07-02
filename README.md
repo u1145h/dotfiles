@@ -10,7 +10,7 @@ There might be some configuration that may not work as intended, but I will keep
 ![02](/screenshot/02.png)
 ![03](/screenshot/03.png)
 ![04](/screenshot/04.png)
-![05](/screenshot/05.png8)
+![05](/screenshot/05.png)
 ![06](/screenshot/06.png)
 ![07](/screenshot/07.png)
 

@@ -1,0 +1,64 @@
+[2024-07-02 02:50:52.353] [info] Using configuration file /home/u1145h/.config/waybar/config.jsonc
+[2024-07-02 02:50:52.354] [info] Unable to receive desktop appearance: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No such interface “org.freedesktop.portal.Settings” on object at path /org/freedesktop/portal/desktop
+[2024-07-02 02:50:52.354] [info] Using CSS file /home/u1145h/.config/waybar/style.css
+[2024-07-02 02:50:52.406] [warning] persistent_workspaces is deprecated. Please change config to use persistent-workspaces.
+[2024-07-02 02:50:52.406] [info] Hyprland IPC starting
+[2024-07-02 02:50:52.452] [info] Loading persistent workspaces from Waybar config
+[2024-07-02 02:50:52.452] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-07-02 02:50:52.478] [warning] persistent_workspaces is deprecated. Please change config to use persistent-workspaces.
+[2024-07-02 02:50:52.520] [info] Loading persistent workspaces from Waybar config
+[2024-07-02 02:50:52.520] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-07-02 02:50:52.551] [error] custom/vpn: argument not found
+[2024-07-02 02:50:52.653] [error] custom/vpn: argument not found
+[2024-07-02 02:50:52.671] [error] clock: format error: invalid arg-id in format string
+[2024-07-02 02:50:52.680] [error] custom/vpn: argument not found
+[2024-07-02 02:50:52.783] [error] custom/vpn: argument not found
+[2024-07-02 02:50:52.807] [error] clock: format error: invalid arg-id in format string
+[2024-07-02 02:50:52.813] [info] Bar configured (width: 1920, height: 42) for output: eDP-1
+[2024-07-02 02:50:52.814] [info] Bar configured (width: 1920, height: 42) for output: HDMI-A-1
+[2024-07-02 02:50:57.478] [error] custom/vpn: argument not found
+[2024-07-02 02:50:57.550] [error] custom/vpn: argument not found
+[2024-07-02 02:51:00.000] [error] clock: format error: invalid arg-id in format string
+[2024-07-02 02:51:00.000] [error] clock: format error: invalid arg-id in format string
+[2024-07-02 02:51:02.514] [error] custom/vpn: argument not found
+[2024-07-02 02:51:02.585] [error] custom/vpn: argument not found
+[2024-07-02 02:51:07.554] [error] custom/vpn: argument not found
+[2024-07-02 02:51:07.621] [error] custom/vpn: argument not found
+[2024-07-02 02:51:12.591] [error] custom/vpn: argument not found
+[2024-07-02 02:51:12.660] [error] custom/vpn: argument not found
+[2024-07-02 02:51:17.629] [error] custom/vpn: argument not found
+[2024-07-02 02:51:17.697] [error] custom/vpn: argument not found
+[2024-07-02 02:51:22.667] [error] custom/vpn: argument not found
+[2024-07-02 02:51:22.735] [error] custom/vpn: argument not found
+[2024-07-02 02:51:27.709] [error] custom/vpn: argument not found
+[2024-07-02 02:51:27.774] [error] custom/vpn: argument not found
+[2024-07-02 02:51:32.748] [error] custom/vpn: argument not found
+[2024-07-02 02:51:32.823] [error] custom/vpn: argument not found
+[2024-07-02 02:51:37.785] [error] custom/vpn: argument not found
+[2024-07-02 02:51:37.859] [error] custom/vpn: argument not found
+[2024-07-02 02:51:42.826] [error] custom/vpn: argument not found
+[2024-07-02 02:51:42.897] [error] custom/vpn: argument not found
+[2024-07-02 02:51:47.863] [error] custom/vpn: argument not found
+[2024-07-02 02:51:47.980] [error] custom/vpn: argument not found
+[2024-07-02 02:51:52.901] [error] custom/vpn: argument not found
+[2024-07-02 02:51:52.981] [error] custom/vpn: argument not found
+[2024-07-02 02:51:57.939] [error] custom/vpn: argument not found
+[2024-07-02 02:51:58.017] [error] custom/vpn: argument not found
+[2024-07-02 02:52:00.000] [error] clock: format error: invalid arg-id in format string
+[2024-07-02 02:52:00.000] [error] clock: format error: invalid arg-id in format string
+[2024-07-02 02:52:02.977] [error] custom/vpn: argument not found
+[2024-07-02 02:52:03.060] [error] custom/vpn: argument not found
+[2024-07-02 02:52:08.021] [error] custom/vpn: argument not found
+[2024-07-02 02:52:08.098] [error] custom/vpn: argument not found
+[2024-07-02 02:52:13.058] [error] custom/vpn: argument not found
+[2024-07-02 02:52:13.134] [error] custom/vpn: argument not found
+[2024-07-02 02:52:18.095] [error] custom/vpn: argument not found
+[2024-07-02 02:52:18.170] [error] custom/vpn: argument not found
+[2024-07-02 02:52:23.137] [error] custom/vpn: argument not found
+[2024-07-02 02:52:23.210] [error] custom/vpn: argument not found
+[2024-07-02 02:52:28.177] [error] custom/vpn: argument not found
+[2024-07-02 02:52:28.248] [error] custom/vpn: argument not found
+[2024-07-02 02:52:33.215] [error] custom/vpn: argument not found
+[2024-07-02 02:52:33.286] [error] custom/vpn: argument not found
+[2024-07-02 02:52:38.250] [error] custom/vpn: argument not found
+[2024-07-02 02:52:38.323] [error] custom/vpn: argument not found

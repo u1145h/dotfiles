@@ -8,22 +8,25 @@
   "height": 0,
   "modules-left": [
     "custom/appmenu",
+    "custom/vpn",
     "group/hardware",
     "power-profiles-daemon",
-    "custom/spotify"
+    "backlight"
+    //"custom/music",
+    //"custom/spotify"
   ],
   "modules-center": ["hyprland/workspaces"],
   "modules-right": [
     "tray",
-    "custom/language",
-    "backlight",
-    "group/audio",
-    "idle_inhibitor",
     "group/connection",
+    "group/audio",
+    "custom/language",
     "clock",
-    "battery"
+    "battery",
+    "idle_inhibitor"
     //"custom/power"
   ],
+
 
   //////////////
   /// Groups ///
@@ -73,8 +76,8 @@
   "idle_inhibitor": {
     "format": "{icon}",
     "format-icons": {
-      "activated": "",
-      "deactivated": ""
+      "activated": "",
+      "deactivated": ""
     }
   },
   "custom/spotify": {
@@ -87,6 +90,16 @@
     "on-click-right-release": "hyprctl dispatch workspace 6",
     "tooltip": false
   },
+"custom/music": {
+  "exec": "$HOME/.config/waybar/scripts/music.py",
+  "format": "<span size='10000'>  </span>{text}",
+  "return-type": "json",
+  "on-click": "playerctl play-pause",
+  "on-scroll-up": "playerctl next",
+  "on-scroll-down": "playerctl previous",
+  "on-click-right-release": "hyprctl dispatch workspace 6",
+  "tooltip": false
+},
   "network": {
     "format-wifi": "󰖩",
     "format-disconnected": "󰖪",
@@ -144,6 +157,12 @@
     "on-click": "rofi -show drun",
     "on-click-right": "wlogout"
   },
+  "custom/vpn": {
+    "format": "󰯄",
+    "interval": 1,
+    "on-click": "hyprctl dispatch exec '[float]' 'kitty -e protonvpn-cli connect'",
+    "on-click-right": "hyprctl dispatch exec '[float]' 'kitty -e protonvpn-cli disconnect'"
+  },
   "tray": {
     "icon-size": 13,
     "spacing": 10
@@ -176,7 +195,7 @@
   },
   "pulseaudio": {
     "format": "{icon} {volume}%",
-    "format-muted": " Muted",
+    "format-muted": "  Muted",
     "on-click": "pamixer -t",
     "on-click-right": "pavucontrol",
     "on-scroll-up": "wpctl set-volume @DEFAULT_AUDIO_SINK@ 1%+",
@@ -189,7 +208,7 @@
       "phone": " ",
       "portable": " ",
       "car": " ",
-      "default": [" ", " ", " "]
+      "default": ["", "", " "]
     }    
   },
   "pulseaudio#microphone": {

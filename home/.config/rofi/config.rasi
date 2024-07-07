@@ -1,5 +1,5 @@
 configuration {
-    modi:                       "drun,run,emoji,window,,filebrowser";
+    modi:                       "drun,run,emoji,window";
     show-icons:                 true;
     display-drun:               "📦 Apps";
     display-run:                "🐧 Run";
@@ -155,7 +155,7 @@ listview {
     margin:                      0px;
     padding:                     00px;
     border:                      2px 2px 2px 2px ;
-    border-radius:               0px 0px 5px 5px;
+    border-radius:               0px;
     border-color:                @border-color;
     background-color:            transparent;
     text-color:                  @foreground-color;
@@ -239,7 +239,7 @@ mode-switcher{
     margin:                      0px;
     padding:                     0px;
     border:                      2px 2px 0px 2px solid;
-    border-radius:               4px 4px 0px 0px;
+    border-radius:               0px;
     border-color:                @border-color;
     background-color:            transparent;
     text-color:                  @foreground-color;
@@ -247,7 +247,7 @@ mode-switcher{
 button {
     padding:                     10px;
     border:                      0px;
-    border-radius:               5px 5px 0px 0px;
+    border-radius:               0px;
     border-color:                @border-color;
     background-color:            @background-color;
     text-color:                  inherit;

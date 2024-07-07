@@ -10,7 +10,7 @@ button {
     background-position: center;
     background-size: 100px;
     border: 2px solid #433F39;
-    border-radius: 10px;
+    border-radius: 0px;
     background-color: #1d2021;
     margin: 5px;
 }

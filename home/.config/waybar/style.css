@@ -3,18 +3,19 @@
     border-radius: 0;
     font-family: JetBrainsMono Nerd Font;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 13px;
     min-height: 0;
 }
 
 window#waybar {
-    background: transparent;
-    color: #cdd6f4;
+    background: #1D2021;
+    color: #d4be98;
+    border: 2px solid #43413B;
 }
 
 tooltip {
-    background: transparent;
-    border-radius: 10px;
+    background: #1D2021;
+    border-radius: 0px;
     border-width: 2px;
     border-style: solid;
     border-color: #43413B;
@@ -22,153 +23,148 @@ tooltip {
 
 #custom-language,
 #custom-caffeine,
-#window,
-#clock,
-#tray{
+#window {
     color: #d4be98;
-    background: #282b2c;
+    background: #1D2021;
     padding: 0px 10px;
     margin-top: 0px;
-    margin-bottom: 8px;
-    margin-left: 2px;
-    margin-right: 2px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-top: 0px;
     border: 2px solid #43413B;
-    border-radius: 10px;
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
+    border-radius: 0px;
+}
+
+#clock{
+    color: #d4be98;
+    background: #1D2021;
+    padding: 0px 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-top: 0px;
+    border-top: 2px solid #43413B;
+    border-bottom: 2px solid #43413B;
+    border-radius: 0px;
+}
+
+#tray{
+    color: #d4be98;
+    background: #262a2b;
+    padding: 0px 7px 0px 7px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-top: 0px;
+    border-top: 2px solid #43413B;
+    border-bottom: 2px solid #43413B;
+    border-right: 2px solid #43413B;
+    border-radius: 0px;
 }
 
 #battery {
     color: #d4be98;
-    background: #282b2c;
-    padding: 0px 10px;
+    background: #1D2021;
+    padding: 0px 8px 0px 7px;
     margin-top: 0px;
-    margin-bottom: 8px;
-    margin-left: 2px;
-    margin-right: 2px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-top: 0px;
     border-top: 2px solid #43413B;
     border-bottom: 2px solid #43413B;
-    border-left: 2px solid #43413B;
     border-right: 2px solid #43413B;
-    border-radius: 10px;
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
-
+    border-radius: 0px;
 }
 
 #cpu {
     color: #d4be98;
-    background: #282b2c;
+    background: #1D2021;
     padding: 0px 0px 0px 9px;
     margin-top: 0px;
-    margin-bottom: 8px;
-    margin-left: 2px;
+    margin-bottom: 0px;
+    margin-top: 0px;
     margin-right: 0px;
     border-top: 2px solid #43413B;
     border-bottom: 2px solid #43413B;
     border-left: 2px solid #43413B;
-    border-right: 0px solid #43413B;
-    border-radius: 10px 0px 0px 10px;
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
+    border-radius: 0px;
 }
 #memory{
     color: #d4be98;
-    background: #282b2c;
-    padding: 0px 15px;
+    background: #1D2021;
+    padding: 0px 10px 0px 10px;
     margin-top: 0px;
-    margin-bottom: 8px;
+    margin-bottom: 0px;
     margin-left: 0px;
     margin-right: 0px;
     border-top: 2px solid #43413B;
     border-bottom: 2px solid #43413B;
-    border-left: 0px solid #43413B;
-    border-right: 0px solid #43413B;
     border-radius: 0px;
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
 }
 #temperature {
     color: #d4be98;
-    background: #282b2c;
+    background: #1D2021;
     padding: 0px 10px 0px 0px;
     margin-top: 0px;
-    margin-bottom: 8px;
+    margin-bottom: 0px;
     margin-left: 0px;
-    margin-right: 2px;
+    margin-top: 0px;
     border-top: 2px solid #43413B;
     border-bottom: 2px solid #43413B;
-    border-left: 0px solid #43413B;
     border-right: 2px solid #43413B;
-    border-radius: 0px 10px 10px 0px;
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
+    border-radius: 0px;
 }
 
 
 #custom-spotify {
     color: #89B482;
-    background: #282b2c;
+    background: #1D2021;
     padding: 0px 11px 0px 13px;
     margin-top: 0px;
-    margin-bottom: 8px;
-    margin-left: 2px;
-    margin-right: 2px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-top: 0px;
     border: 2px solid #43413B;
-    border-radius: 10px;
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
+    border-radius: 0px;
 }
 
 #custom-music {
     color: #d4be98;
-    background: #282b2c;
+    background: #1D2021;
     padding: 0px 10px;
     margin-top: 0px;
-    margin-bottom: 8px;
-    margin-left: 2px;
-    margin-right: 2px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-top: 0px;
     border: 2px solid #43413B;
-    border-radius: 10px;
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
+    border-radius: 0px;
 }
 
 #pulseaudio {
     color: #d4be98;
-    background: #282b2c;
-    padding: 0px 10px;
-    margin-top: 0px;
-    margin-bottom: 8px;
-    margin-left: 2px;
-    margin-right: 0px;
+    background: #1D2021;
+    padding: 0px 5px 0px 7px;
     border-top: 2px solid #43413B;
     border-bottom: 2px solid #43413B;
-    border-left: 2px solid #43413B;
-    border-right: 0px solid #43413B;
-    border-radius: 10px 0px 0px 10px;
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
+    border-radius: 0px;
 }
 #pulseaudio.microphone {
     color: #d4be98;
-    background: #282b2c;
-    padding: 0px 10px 0px 0px;
-    margin-top: 0px;
-    margin-bottom: 8px;
-    margin-left: 0px;
-    margin-right: 0px;
+    background: #1D2021;
+    padding: 0px 10px 0px 5px;
     border-top: 2px solid #43413B;
     border-bottom: 2px solid #43413B;
-    border-left: 0px solid #43413B;
-    border-right: 2px solid #43413B;
-    border-radius: 0px 10px 10px 0px;
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
+    border-radius: 0px;
 }
 
 #idle_inhibitor {
+    background: #1D2021;
     color: #A9B665;
-    background: #282b2c;
-    padding: 0px 16px 0px 9px;
-    margin-top: 0px;
-    margin-bottom: 8px;
-    margin-left: 2px;
-    margin-right: 8px;
-    border: 2px solid #43413B;
-    border-radius: 10px;
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
+    padding: 0px 14px 0px 7px;
+    border-top: 2px solid #43413B;
+    border-bottom: 2px solid #43413B;
+    border-left: 2px solid #43413B;
+    border-radius: 0px;
 }
 #idle_inhibitor.deactivated {
     color: #E78A4E;
@@ -176,155 +172,121 @@ tooltip {
 
 #backlight {
     color: #d4be98;
-    background: #282b2c;
-    padding: 0px 6px 0px 7px;
-    margin-top: 0px;
-    margin-bottom: 8px;
-    margin-left: 2px;
-    margin-right: 2px;
+    padding: 0px 0px 0px 5px;
+    background: #1D2021;
     border-top: 2px solid #43413B;
     border-bottom: 2px solid #43413B;
-    border-left: 2px solid #43413B;
-    border-right: 2px solid #43413B;
-    border-radius: 10px;
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
+    border-radius: 0px;
 }
 
 #custom-vpn {
-    color: #7DAEA3;
-    background: #282b2c;
+    background: #7DAEA3;
+    color: #1D2021;
     padding: 0px 14px 0px 11px;
     margin-top: 0px;
-    margin-bottom: 8px;
-    margin-left: 2px;
-    margin-right: 2px;
-    border-top: 2px solid #43413B;
-    border-bottom: 2px solid #43413B;
-    border-left: 2px solid #43413B;
-    border-right: 2px solid #43413B;
-    border-radius: 10px;
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-top: 0px;
+    border: 2px solid #43413B;
+    border-radius: 0px;
 }
 
 #vpn {
     color: #d4be98;
-    background: #282b2c;
+    background: #1D2021;
     padding: 0px 14px 0px 11px;
     margin-top: 0px;
-    margin-bottom: 8px;
-    margin-left: 2px;
-    margin-right: 2px;
-    border-top: 2px solid #43413B;
-    border-bottom: 2px solid #43413B;
-    border-left: 2px solid #43413B;
-    border-right: 2px solid #43413B;
-    border-radius: 10px;
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-top: 0px;
+    border: 2px solid #43413B;
+    border-radius: 0px;
 }
 
 #network {
     color: #d4be98;
-    background: #282b2c;
-    padding: 0px 5px 0px 11px;
+    background: #1D2021;
+    padding: 0px 5px 0px 8px;
     margin-top: 0px;
-    margin-bottom: 8px;
-    margin-left: 2px;
+    margin-bottom: 0px;
+    margin-top: 0px;
     margin-right: 0px;
     border-top: 2px solid #43413B;
     border-bottom: 2px solid #43413B;
     border-left: 2px solid #43413B;
-    border-right: 0px solid #43413B;
-    border-radius: 10px 0px 0px 10px;
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);    
+    border-radius: 0px;
 }
 #bluetooth {
     color: #d4be98;
-    background: #282b2c;
-    padding: 0px 12px 0px 10px;
-    margin-top: 0px;
-    margin-bottom: 8px;
-    margin-left: 0px;
-    margin-right: 2px;
+    background: #1D2021;
+    padding: 0px 2px 0px 8px;
     border-top: 2px solid #43413B;
     border-bottom: 2px solid #43413B;
-    border-left: 0px solid #43413B;
-    border-right: 2px solid #43413B;
-    border-radius: 0px 10px 10px 0px;
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
+    border-radius: 0px;
 }
 
 #custom-swaync {
     color: #d4be98;
-    background: #282b2c;
+    background: #1D2021;
     padding: 0px 15px 0px 10px;
     margin-top: 0px;
-    margin-bottom: 8px;
-    margin-left: 2px;
-    margin-right: 2px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-top: 0px;
     border: 2px solid #43413B;
-    border-radius: 10px;
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
+    border-radius: 0px;
 }
 
 #power-profiles-daemon {
     color: #d4be98;
-    background: #282b2c;
-    padding: 0px 16px 0px 11px;
-    margin-top: 0px;
-    margin-bottom: 8px;
-    margin-left: 2px;
-    margin-right: 2px;
-    border: 2px solid #43413B;
-    border-radius: 10px;
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
+    background: #1D2021;
+    padding: 0px 14px 0px 10px;
+    border-top: 2px solid #43413B;
+    border-bottom: 2px solid #43413B;
+    border-right: 2px solid #43413B;
+    border-radius: 0px;
 }
 
 #power-profiles-daemon.performance {
+    background: #1D2021;
     color: #EA6962;
-    background: #282b2c;
-    padding: 0px 15px 0px 11px;
-    border: 2px solid #43413B;
+    padding: 0px 14px 0px 9px;
 }
 
 #power-profiles-daemon.balanced {
+    background: #1D2021;
     color: #E78A4E;
-    background: #282b2c;
-    padding: 0px 18px 0px 10px;
-    border: 2px solid #43413B;
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
+    padding: 0px 16px 0px 8px;
 }
 
 #power-profiles-daemon.power-saver {
+    background: #1D2021;
     color: #A9B665;
-    background: #282b2c;
-    padding: 0px 17px 0px 10px;
-    border: 2px solid #43413B;
+    padding: 0px 14px 0px 8px;
 }
 
 #custom-weather {
     color: #d4be98;
-    background: #282b2c;
+    background: #1D2021;
     padding: 0px 12px 0px 10px;
     margin-top: 0px;
-    margin-bottom: 8px;
-    margin-left: 2px;
-    margin-right: 2px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-top: 0px;
     border: 2px solid #43413B;
-    border-radius: 10px;
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
+    border-radius: 0px;
 }
 
 #custom-appmenu {
-    color: #A9B665;
-    background: #282b2c;
-    padding: 0px 15px 0px 10px;
+    background: #1D2021;
+    color: #7DAEA3;
+    padding: 0px 13px 0px 8px;
     margin-top: 0px;
-    margin-bottom: 8px;
-    margin-left: 8px;
-    margin-right: 2px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-top: 0px;
     border: 2px solid #43413B;
-    border-radius: 10px;
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
+    border-radius: 0px;
 }
 #custom-appmenu:hover {
     color: #E78A4E;
@@ -332,66 +294,58 @@ tooltip {
 
 #custom-power {
     color: #E78A4E;
-    background: #282b2c;
+    background: #1D2021;
     padding: 0px 15px 0px 12px;
     margin-top: 0px;
-    margin-bottom: 8px;
-    margin-left: 2px;
-    margin-right: 8px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-top: 0px;
     border: 2px solid #43413B;
-    border-radius: 10px;
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
+    border-radius: 0px;
 }
 
 #custom-power:hover {
     color: #E78A4E;
-    background: #282b2c;
+    background: #1D2021;
     padding: 0px 15px 0px 12px;
     margin-top: 0px;
-    margin-bottom: 8px;
-    margin-left: 2px;
-    margin-right: 8px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-top: 0px;
     border: 2px solid #43413B;
-    border-radius: 10px;
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
+    border-radius: 0px;
 }
 
 /* Workspace Style - Start */
 #workspaces {
-    border-radius: 10px;
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
+    border-radius: 0px;
 }
 tooltip,
 #workspaces {
     color: #d4be98;
-    padding: 0px 10px 0px 0px;
-    margin-top: 0px;
-    margin-bottom: 8px;
-    margin-left: 2px;
-    margin-right: 2px;
-    background-color: #282b2c;
-    border: 2px solid #43413B;
+    padding: 2px 4px 2px 4px;
+    background-color: #1D2021;
+    border-top: 2px solid #43413B;
+    border-bottom: 2px solid #43413B;
     padding: 3px;
 }
 #workspaces button {
-    padding: 2px 7px 2px 7px;
+    padding: 2px 4px 2px 4px;
     color: #d4be98;
 }
 #workspaces button.active {
-    color: #181825;
-    border-radius: 7px;
-    background-color: #a9b665;
+    color: #a9b665;
+    border-radius: 0px;
 }
 #workspaces button.focused {
     color: #A9B665;
-    border-radius: 7px;
+    border-radius: 0px;
 }
 #workspaces button.urgent {
-    color: #181825;
-    border-radius: 7px;
-    background-color: #E78A4E;
+    color: #E78A4E;
+    border-radius: 0px;
 }
 #workspaces button:hover {
-    border-radius: 7px;
+    border-radius: 0px;
 }
 /* Workspace Style - End */

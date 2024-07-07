@@ -25,19 +25,45 @@ set pages-per-row 1
 set pages-per-column 1
 
 # Use dark background colors
-set recolor-lightcolor "#ffffff"
-set recolor-darkcolor "#1d2021"
+set recolor-lightcolor "#1D2021"
+set recolor-darkcolor "#ede0c9"
+set recolor true
 
 # Bindings for switching between dark and light mode
 map <C-w> recolor
 map <C-e> recolor
 
 # Define default colors for different content types
-recolor "application/pdf" "#ffffff" "#1d2021"
-recolor "application/epub+zip" "#ffffff" "#1d2021"
+recolor "application/pdf" "#ede0c9" "#1D2021"
+recolor "application/epub+zip" "#ede0c9" "#1D2021"
 
 # Define custom styles for certain file types
 # Example for PDF files
 set girara-statusbar false
 set girara-cursor false
 set girara-scrollbars never
+
+# Theme colors
+set default-bg "#1D2021"
+set default-fg "#D4BE98"
+set statusbar-bg "#1D2021"
+set statusbar-fg "#D4BE98"
+set inputbar-bg "#1D2021"
+set inputbar-fg "#D4BE98"
+set completion-bg "#1D2021"
+set completion-fg "#D4BE98"
+set notification-bg "#1D2021"
+set notification-fg "#D4BE98"
+set highlight-color "#A9B665"
+set index-bg "#1D2021"
+set index-fg "#D4BE98"
+set window-title-bg "#1D2021"
+set window-title-fg "#D4BE98"
+
+# Additional colors for various elements
+set highlight-active "#EA6962"
+set highlight-inactive "#E78A4E"
+set link-color "#7DAEA3"
+set selection-color "#7DAEA3"
+set cursor-color "#89B482"
+set border-color "#32302F"

@@ -8,22 +8,24 @@
   "height": 0,
   "modules-left": [
     "custom/appmenu",
-    "custom/vpn",
-    "group/hardware",
-    "power-profiles-daemon",
-    "backlight"
+    "clock",
+    "idle_inhibitor",
+    //"custom/vpn",
+    "group/hardware"
     //"custom/music",
     //"custom/spotify"
   ],
-  "modules-center": ["hyprland/workspaces"],
+  "modules-center": [
+    "hyprland/workspaces"
+  ],
   "modules-right": [
-    "tray",
     "group/connection",
+    "backlight",
     "group/audio",
-    "custom/language",
-    "clock",
+    //"custom/language",
     "battery",
-    "idle_inhibitor"
+    "power-profiles-daemon",
+    "tray"
     //"custom/power"
   ],
 
@@ -50,7 +52,7 @@
   "bluetooth": {
     "format": "{icon}",
     "format-connected": "󰂱 {device_alias}",
-    "format-connected-battery": "󰂱 {num_connections}",
+    "format-connected-battery": "󰂱", // .{num_connections}
     "tooltip-format": "{controller_alias}\t{controller_address}\n\n{num_connections} connected",
     "tooltip-format-connected": "{controller_alias}\t{controller_address}\n\n{num_connections} connected\n\n{device_enumerate}",
     "tooltip-format-enumerate-connected": "{device_alias}\t{device_address}",
@@ -138,7 +140,8 @@
     "exec": "~/.config/waybar/scripts/temperature.sh",
     "return-type": "json",
     "critical-threshold": 80,
-    "format-icons": [" ", " ", ""]
+    "format-icons": [" ", " ", ""],
+    "on-click": "hyprctl dispatch exec 'kitty -e btop'"
   },
   "hyprland/window": {
     "format": "Focused Window"
@@ -170,8 +173,8 @@
   "clock": {
     // "timezone": "America/New_York",
     "tooltip-format": "<big>{clock} {AMPM}</big>\n<tt><small>{:%Y %B}</small></tt>\n<tt><small>{calendar}</small></tt>",
-    "format": "<b>{:%I:%M %p}</b>",
-    "format-alt": "{:%Y-%m-%d | %I:%M %p}"
+    "format": "󰅐 <b>{:%I:%M %p}</b>",
+    "format-alt": "󰃭 {:%Y-%m-%d 󰅐 %I:%M %p}"
   },
   "backlight": {
     "device": "intel_backlight",
@@ -179,7 +182,8 @@
     "format-icons": ["󰃞", "󰃟", "󰃝", "󰃠"],
     "on-scroll-up": "brightnessctl set 1%+",
     "on-scroll-down": "brightnessctl set 1%-",
-    "min-length": 6
+    "min-length": 6,
+    "tooltip": false
   },
   "battery": {
     "states": {
@@ -202,19 +206,19 @@
     "on-scroll-down": "wpctl set-volume @DEFAULT_AUDIO_SINK@ 1%-",
     "scroll-step": 5,
     "format-icons": {
-      "headphone": " ",
-      "hands-free": " ",
-      "headset": " ",
-      "phone": " ",
-      "portable": " ",
-      "car": " ",
+      "headphone": "󰋋",
+      "hands-free": "󰋋",
+      "headset": "󰋋",
+      "phone": "󰏲",
+      "portable": "󰏲",
+      "car": "",
       "default": ["", "", " "]
     }    
   },
   "pulseaudio#microphone": {
     "format": "{format_source}",
-    "format-source": " {volume}%",
-    "format-source-muted": " ",
+    "format-source": "󰍬 {volume}%",
+    "format-source-muted": "",
     "on-click": "pamixer --default-source -t",
     "on-scroll-up": "pamixer --default-source -i 5",
     "on-scroll-down": "pamixer --default-source -d 5",

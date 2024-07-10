@@ -27,7 +27,7 @@ set pages-per-column 1
 # Use dark background colors
 set recolor-lightcolor "#1D2021"
 set recolor-darkcolor "#ede0c9"
-set recolor true
+set recolor false
 
 # Bindings for switching between dark and light mode
 map <C-w> recolor

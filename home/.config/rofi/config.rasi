@@ -1,11 +1,12 @@
 configuration {
-    modi:                       "drun,run,emoji,window";
+    modi:                       "drun,run";
     show-icons:                 true;
-    display-drun:               "📦 Apps";
+    display-drun:               "📦 Application";
     display-run:                "🐧 Run";
+    display-window:             "🪟 Open Windows";
+    display-emoji:              "😃 Select Emoji";
+    display-calc:               "🧮 Calculator";
     display-filebrowser:        "📁 Files";
-    display-window:             "🪟 Window";
-    display-emoji:              "😃 Emoji";
     drun-display-format:        "{name}";
     window-format:              "{w} · {c} · {t}";
     font:                       "JetBrainsMono Nerd Font 12";  // Add this line
@@ -45,7 +46,7 @@ window {
     location:                    center;
     anchor:                      center;
     fullscreen:                  false;
-    width:                       800px;
+    width:                       500px;
     x-offset:                    0px;
     y-offset:                    0px;
     enabled:                     true;
@@ -56,7 +57,7 @@ window {
     border-color:                @border-color;
     cursor:                      "default";
     background-color:            @background-color;
-    //background-image:          url("/path/to/image.png", none);
+    //background-image:          url("/home/u1145h/.config/wallpaper/desktop/monitor_02.png, none);
     /* Simple Linear Gradient */
     //background-image:          linear-gradient(red, orange, pink, purple);
     /* Directional Linear Gradient */
@@ -69,7 +70,7 @@ mainbox {
     enabled:                     true;
     spacing:                     0px;
     margin:                      0px;
-    padding:                     20px;
+    padding:                     0px;
     border:                      0px solid;
     border-radius:               0px 0px 0px 0px;
     border-color:                @border-color;
@@ -80,7 +81,7 @@ mainbox {
 inputbar {
     enabled:                     true;
     spacing:                     10px;
-    margin:                      0px 0px 10px 0px;
+    margin:                      0px 0px 0px 0px;
     padding:                     5px 10px;
     border:                      0px solid;
     border-radius:               0px;
@@ -142,7 +143,7 @@ case-indicator {
 listview {
     enabled:                     true;
     columns:                     1;
-    lines:                       8;
+    lines:                       7;
     cycle:                       true;
     dynamic:                     true;
     scrollbar:                   false;
@@ -154,7 +155,7 @@ listview {
     spacing:                     5px;
     margin:                      0px;
     padding:                     00px;
-    border:                      2px 2px 2px 2px ;
+    border:                      2px 0px 0px 0px ;
     border-radius:               0px;
     border-color:                @border-color;
     background-color:            transparent;
@@ -233,12 +234,11 @@ element-text {
 
 /*****----- Mode Switcher -----*****/
 mode-switcher{
-    enabled:                     true;
+    enabled:                     false;
     expand:                      false;
-    spacing:                     0px;
-    margin:                      0px;
+    spacing:                     10px;
+    margin:                      0px 0px 10px 0px;
     padding:                     0px;
-    border:                      2px 2px 0px 2px solid;
     border-radius:               0px;
     border-color:                @border-color;
     background-color:            transparent;
@@ -246,7 +246,7 @@ mode-switcher{
 }
 button {
     padding:                     10px;
-    border:                      0px;
+    border:                      2px 2px 2px 2px solid;
     border-radius:               0px;
     border-color:                @border-color;
     background-color:            @background-color;
@@ -254,7 +254,7 @@ button {
     cursor:                      pointer;
 }
 button selected {
-    border:                      0 ;
+    border:                      2px 2px 2px 2px solid;
     border-radius:               0px;
     border-color:                @border-color;
     background-color:            @border-color;

@@ -35,6 +35,27 @@ tooltip {
     border-radius: 0px;
 }
 
+#gamemode {
+    color: #EA6962;
+    background: #1D2021;
+    padding: 0px 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-top: 0px;
+    border-top: 2px solid #43413B;
+    border-bottom: 2px solid #43413B;
+    border-radius: 0px;
+}
+
+#privacy{
+    color: #EA6962;
+    background: #1D2021;
+    padding: 0px 10px 0px 10px;
+    border-top: 2px solid #43413B;
+    border-bottom: 2px solid #43413B;
+}
+
 #clock{
     color: #d4be98;
     background: #1D2021;
@@ -58,7 +79,6 @@ tooltip {
     margin-top: 0px;
     border-top: 2px solid #43413B;
     border-bottom: 2px solid #43413B;
-    border-right: 2px solid #43413B;
     border-radius: 0px;
 }
 
@@ -86,7 +106,6 @@ tooltip {
     margin-right: 0px;
     border-top: 2px solid #43413B;
     border-bottom: 2px solid #43413B;
-    border-left: 2px solid #43413B;
     border-radius: 0px;
 }
 #memory{
@@ -119,13 +138,9 @@ tooltip {
 #custom-spotify {
     color: #89B482;
     background: #1D2021;
-    padding: 0px 11px 0px 13px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin-top: 0px;
-    margin-top: 0px;
-    border: 2px solid #43413B;
-    border-radius: 0px;
+    padding: 0px 10px 0px 8px;
+    border-top: 2px solid #43413B;
+    border-bottom: 2px solid #43413B;
 }
 
 #custom-music {
@@ -180,16 +195,19 @@ tooltip {
 }
 
 #custom-vpn {
-    background: #7DAEA3;
-    color: #1D2021;
-    padding: 0px 14px 0px 11px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin-top: 0px;
-    margin-top: 0px;
-    border: 2px solid #43413B;
+    color: #9e7fd8;
+    background: #1D2021;
+    padding: 0px 12px 0px 9px;
+    border-top: 2px solid #43413B;
+    border-bottom: 2px solid #43413B;
+    border-right: 2px solid #43413B;
     border-radius: 0px;
 }
+
+#custom-vpn:hover {
+    color: #7DAEA3;
+}
+
 
 #vpn {
     color: #d4be98;
@@ -244,6 +262,7 @@ tooltip {
     border-top: 2px solid #43413B;
     border-bottom: 2px solid #43413B;
     border-right: 2px solid #43413B;
+    /* border-left: 2px solid #43413B; */
     border-radius: 0px;
 }
 
@@ -268,12 +287,10 @@ tooltip {
 #custom-weather {
     color: #d4be98;
     background: #1D2021;
-    padding: 0px 12px 0px 10px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin-top: 0px;
-    margin-top: 0px;
-    border: 2px solid #43413B;
+    padding: 0px 8px 0px 6px;
+    border-top: 2px solid #43413B;
+    border-bottom: 2px solid #43413B;
+    border-right: 2px solid #43413B;
     border-radius: 0px;
 }
 
@@ -289,13 +306,13 @@ tooltip {
     border-radius: 0px;
 }
 #custom-appmenu:hover {
-    color: #E78A4E;
+    color: #A9B665;
 }
 
 #custom-power {
     color: #E78A4E;
     background: #1D2021;
-    padding: 0px 15px 0px 12px;
+    padding: 0px 12px 0px 10px;
     margin-top: 0px;
     margin-bottom: 0px;
     margin-top: 0px;
@@ -305,15 +322,8 @@ tooltip {
 }
 
 #custom-power:hover {
-    color: #E78A4E;
-    background: #1D2021;
-    padding: 0px 15px 0px 12px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin-top: 0px;
-    margin-top: 0px;
-    border: 2px solid #43413B;
-    border-radius: 0px;
+    color: #1D2021;
+    background: #EA6962;
 }
 
 /* Workspace Style - Start */
@@ -327,14 +337,18 @@ tooltip,
     background-color: #1D2021;
     border-top: 2px solid #43413B;
     border-bottom: 2px solid #43413B;
+    border-right: 2px solid #43413B;
     padding: 3px;
 }
 #workspaces button {
     padding: 2px 4px 2px 4px;
+    border-radius: 10px;
+    margin: 0px 2px;
     color: #d4be98;
 }
 #workspaces button.active {
-    color: #a9b665;
+    color: #1D2021;
+    background-color: #a9b665;
     border-radius: 0px;
 }
 #workspaces button.focused {

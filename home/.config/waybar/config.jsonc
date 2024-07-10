@@ -1,6 +1,6 @@
 {
   "layer": "top",
-  "position": "bottom",
+  "position": "top",
   "mode": "dock",
   "exclusive": true,
   "passthrough": false,
@@ -8,17 +8,18 @@
   "height": 0,
   "modules-left": [
     "custom/appmenu",
-    "clock",
-    "idle_inhibitor",
+    "custom/weather",
+    "hyprland/workspaces",
     //"custom/vpn",
-    "group/hardware"
+    "group/hardware",
     //"custom/music",
-    //"custom/spotify"
+    "custom/spotify",
+    "gamemode"
   ],
-  "modules-center": [
-    "hyprland/workspaces"
-  ],
+  "modules-center": ["clock"],
   "modules-right": [
+    "privacy",
+    "idle_inhibitor",
     "group/connection",
     "backlight",
     "group/audio",
@@ -28,14 +29,14 @@
     "tray"
     //"custom/power"
   ],
-
+  
 
   //////////////
   /// Groups ///
   //////////////
   "group/hardware": {
     "orientation": "horizontal",
-    "modules": ["cpu", "memory", "temperature"]
+    "modules": ["cpu", "memory", "custom/gpu-usage", "temperature"]
   },
   "group/audio": {
     "orientation": "horizontal",
@@ -49,6 +50,46 @@
   ///////////////
   /// MODULES ///
   ///////////////
+  "custom/gpu-usage": {
+  "exec": "cat /sys/class/hwmon/hwmon2/device/gpu_busy_percent",
+  "format": "GPU: {}%",
+  "return-type": "",
+  "interval": 1
+  },
+  "gamemode": {
+    "format": "{glyph}",
+    "format-alt": "{glyph} {count}",
+    "glyph": "",
+    "hide-not-running": true,
+    "use-icon": true,
+    "icon-name": "input-gaming-symbolic",
+    "icon-spacing": 4,
+    "icon-size": 20,
+    "tooltip": true,
+    "tooltip-format": "Games running: {count}"
+  },
+  "privacy": {
+	"icon-spacing": 10,
+	"icon-size": 11,
+	"transition-duration": 250,
+	"modules": [
+		{
+			"type": "screenshare",
+			"tooltip": true,
+			"tooltip-icon-size": 18
+		},/* 
+		{
+			"type": "audio-out",
+			"tooltip": true,
+			"tooltip-icon-size": 18
+		}, */
+		{
+			"type": "audio-in",
+			"tooltip": true,
+			"tooltip-icon-size": 18
+		}
+	]
+},
   "bluetooth": {
     "format": "{icon}",
     "format-connected": "󰂱 {device_alias}",
@@ -81,6 +122,13 @@
       "activated": "",
       "deactivated": ""
     }
+  },
+  "custom/weather": {
+    "format": "{}°",
+    "tooltip": true,
+    "interval": 900,
+    "exec": "wttrbar --location 'Siliguri'",
+    "return-type": "json"
   },
   "custom/spotify": {
     "exec": "$HOME/.config/waybar/scripts/spotify.py --player spotify",

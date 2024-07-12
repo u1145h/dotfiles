@@ -1,6 +1,6 @@
 {
   "layer": "top",
-  "position": "top",
+  "position": "bottom",
   "mode": "dock",
   "exclusive": true,
   "passthrough": false,
@@ -11,14 +11,14 @@
     "custom/weather",
     "hyprland/workspaces",
     //"custom/vpn",
-    "group/hardware",
+    "group/hardware"
     //"custom/music",
-    "custom/spotify",
-    "gamemode"
+    //"custom/spotify",
+    //"privacy"
+    //"gamemode"
   ],
-  "modules-center": ["clock"],
+  "modules-center": ["wlr/taskbar"],
   "modules-right": [
-    "privacy",
     "idle_inhibitor",
     "group/connection",
     "backlight",
@@ -26,10 +26,10 @@
     //"custom/language",
     "battery",
     "power-profiles-daemon",
+    "clock",
     "tray"
     //"custom/power"
   ],
-  
 
   //////////////
   /// Groups ///
@@ -51,10 +51,10 @@
   /// MODULES ///
   ///////////////
   "custom/gpu-usage": {
-  "exec": "cat /sys/class/hwmon/hwmon2/device/gpu_busy_percent",
-  "format": "GPU: {}%",
-  "return-type": "",
-  "interval": 1
+    "exec": "cat /sys/class/hwmon/hwmon2/device/gpu_busy_percent",
+    "format": "GPU: {}%",
+    "return-type": "",
+    "interval": 1
   },
   "gamemode": {
     "format": "{glyph}",
@@ -69,26 +69,45 @@
     "tooltip-format": "Games running: {count}"
   },
   "privacy": {
-	"icon-spacing": 10,
-	"icon-size": 11,
-	"transition-duration": 250,
-	"modules": [
-		{
-			"type": "screenshare",
-			"tooltip": true,
-			"tooltip-icon-size": 18
-		},/* 
+    "icon-spacing": 10,
+    "icon-size": 11,
+    "transition-duration": 250,
+    "modules": [
+      {
+        "type": "screenshare",
+        "tooltip": true,
+        "tooltip-icon-size": 18
+      } /* 
 		{
 			"type": "audio-out",
 			"tooltip": true,
 			"tooltip-icon-size": 18
-		}, */
-		{
-			"type": "audio-in",
-			"tooltip": true,
-			"tooltip-icon-size": 18
-		}
-	]
+		}, */,
+      {
+        "type": "audio-in",
+        "tooltip": true,
+        "tooltip-icon-size": 18
+      }
+    ]
+  },
+
+  "wlr/taskbar": {
+    "format": "{icon}",
+    "icon-size": 14,
+    "icon-theme": "Numix-Circle",
+    "tooltip-format": "{title}",
+    "on-click": "activate",
+    "on-click-middle": "close",
+    "ignore-list": [
+       "Alacritty"
+    ],
+    "app_ids-mapping": {
+      "firefoxdeveloperedition": "firefox-developer-edition"
+    },
+    "rewrite": {
+        "Firefox Web Browser": "Firefox",
+        "Foot Server": "Terminal"
+    }
 },
   "bluetooth": {
     "format": "{icon}",
@@ -140,16 +159,16 @@
     "on-click-right-release": "hyprctl dispatch workspace 6",
     "tooltip": false
   },
-"custom/music": {
-  "exec": "$HOME/.config/waybar/scripts/music.py",
-  "format": "<span size='10000'>  </span>{text}",
-  "return-type": "json",
-  "on-click": "playerctl play-pause",
-  "on-scroll-up": "playerctl next",
-  "on-scroll-down": "playerctl previous",
-  "on-click-right-release": "hyprctl dispatch workspace 6",
-  "tooltip": false
-},
+  "custom/music": {
+    "exec": "$HOME/.config/waybar/scripts/music.py",
+    "format": "<span size='10000'>  </span>{text}",
+    "return-type": "json",
+    "on-click": "playerctl play-pause",
+    "on-scroll-up": "playerctl next",
+    "on-scroll-down": "playerctl previous",
+    "on-click-right-release": "hyprctl dispatch workspace 6",
+    "tooltip": false
+  },
   "network": {
     "format-wifi": "󰖩",
     "format-disconnected": "󰖪",
@@ -261,7 +280,7 @@
       "portable": "󰏲",
       "car": "",
       "default": ["", "", " "]
-    }    
+    }
   },
   "pulseaudio#microphone": {
     "format": "{format_source}",

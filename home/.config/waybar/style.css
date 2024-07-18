@@ -13,8 +13,10 @@ window#waybar {
 }
 
 tooltip {
-    background: transparent;
-    border-radius: 8px;
+    background: #1D2021;
+    padding: 5px;
+    border: 2px solid #43413B;
+    border-radius: 5px;
 }
 
 #custom-language,
@@ -23,10 +25,10 @@ tooltip {
     color: #d4be98;
     background: #1D2021;
     padding: 0px 10px;
-    margin-top: 0px;
+    margin-top: 5px;
     margin-bottom: 0px;
-    margin-top: 0px;
-    margin-top: 0px;
+    margin-top: 5px;
+    margin-top: 5px;
     border: 2px solid #43413B;
     border-radius: 0px;
 }
@@ -35,10 +37,10 @@ tooltip {
     color: #EA6962;
     background: #1D2021;
     padding: 0px 10px;
-    margin-top: 0px;
+    margin-top: 5px;
     margin-bottom: 0px;
-    margin-top: 0px;
-    margin-top: 0px;
+    margin-top: 5px;
+    margin-top: 5px;
     border-top: 2px solid #43413B;
     border-bottom: 2px solid #43413B;
     border-radius: 0px;
@@ -55,11 +57,11 @@ tooltip {
 #clock{
     color: #d4be98;
     background: #1D2021;
-    padding: 0px 10px;
+    padding: 0px 9px 0px 8px;
     border: 2px solid #43413B;
     border-radius: 8px;
-    margin-top: 0px;
-    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-bottom: 2px;
     margin-left: 2px;
     margin-right: 2px;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
@@ -69,8 +71,8 @@ tooltip {
     color: #d4be98;
     background: #262a2b;
     padding: 0px 7px 0px 7px;
-    margin-top: 0px;
-    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-bottom: 2px;
     margin-right: 5px;
     margin-left: 2px;
     border: 2px solid #43413B;
@@ -86,8 +88,8 @@ tooltip {
     border-bottom: 2px solid #43413B;
     border-right: 2px solid #43413B;
     border-radius: 0px 8px 8px 0px;
-    margin-top: 0px;
-    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-bottom: 2px;
     margin-right: 2px;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
 }
@@ -100,8 +102,8 @@ tooltip {
     border-bottom: 2px solid #43413B;
     border-left: 2px solid #43413B;
     border-radius: 9px 0px 0px 8px;
-    margin-top: 0px;
-    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-bottom: 2px;
     margin-left: 2px;
     box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.8);
 }
@@ -112,8 +114,8 @@ tooltip {
     border-top: 2px solid #43413B;
     border-bottom: 2px solid #43413B;
     border-radius: 0px;
-    margin-top: 0px;
-    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-bottom: 2px;
     box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.8);
 }
 #temperature {
@@ -124,8 +126,8 @@ tooltip {
     border-bottom: 2px solid #43413B;
     border-right: 2px solid #43413B;
     border-radius: 0px 8px 8px 0px;
-    margin-top: 0px;
-    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-bottom: 2px;
     margin-right: 2px;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
 }
@@ -142,10 +144,10 @@ tooltip {
     color: #d4be98;
     background: #1D2021;
     padding: 0px 10px;
-    margin-top: 0px;
+    margin-top: 5px;
     margin-bottom: 0px;
-    margin-top: 0px;
-    margin-top: 0px;
+    margin-top: 5px;
+    margin-top: 5px;
     border: 2px solid #43413B;
     border-radius: 0px;
 }
@@ -157,19 +159,19 @@ tooltip {
     border-top: 2px solid #43413B;
     border-bottom: 2px solid #43413B;
     border-radius: 0px;
-    margin-top: 0px;
-    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-bottom: 2px;
     box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.8);
 }
 #pulseaudio.microphone {
     color: #d4be98;
     background: #1D2021;
-    padding: 0px 10px 0px 4px;
+    padding: 0px 9px 0px 3px;
     border-top: 2px solid #43413B;
     border-bottom: 2px solid #43413B;
     border-radius: 0px;
-    margin-top: 0px;
-    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-bottom: 2px;
     box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.8);
 }
 
@@ -179,8 +181,8 @@ tooltip {
     padding: 0px 14px 0px 7px;
     border: 2px solid #43413B;
     border-radius: 8px;
-    margin-top: 0px;
-    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-bottom: 2px;
     margin-right: 2px;
     margin-left: 2px;
     box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.8);
@@ -191,13 +193,13 @@ tooltip {
 
 #backlight {
     color: #d4be98;
-    padding: 0px 0px 0px 5px;
+    padding: 0px 2px 0px 5px;
     background: #1D2021;
     border-top: 2px solid #43413B;
     border-bottom: 2px solid #43413B;
     border-radius: 0px;
-    margin-top: 0px;
-    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-bottom: 2px;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
 }
 
@@ -211,6 +213,7 @@ tooltip {
     border-radius: 0px;
 }
 
+
 #custom-vpn:hover {
     color: #7DAEA3;
 }
@@ -220,10 +223,10 @@ tooltip {
     color: #d4be98;
     background: #1D2021;
     padding: 0px 14px 0px 11px;
-    margin-top: 0px;
+    margin-top: 5px;
     margin-bottom: 0px;
-    margin-top: 0px;
-    margin-top: 0px;
+    margin-top: 5px;
+    margin-top: 5px;
     border: 2px solid #43413B;
     border-radius: 0px;
 }
@@ -236,20 +239,20 @@ tooltip {
     border-bottom: 2px solid #43413B;
     border-left: 2px solid #43413B;
     border-radius: 8px 0px 0px 8px;
-    margin-top: 0px;
-    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-bottom: 2px;
     margin-left: 2px;
     box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.8);
 }
 #bluetooth {
     color: #d4be98;
     background: #1D2021;
-    padding: 0px 2px 0px 8px;
+    padding: 0px 4px 0px 7px;
     border-top: 2px solid #43413B;
     border-bottom: 2px solid #43413B;
     border-radius: 0px;
-    margin-top: 0px;
-    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-bottom: 2px;
     box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.8);
 }
 
@@ -257,8 +260,8 @@ tooltip {
     color: #d4be98;
     background: #1D2021;
     padding: 0px 15px 0px 10px;
-    margin-top: 0px;
-    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-bottom: 2px;
     margin-left: 2px;
     border: 2px solid #43413B;
     border-radius: 0px 0px 8px 8px;
@@ -270,8 +273,8 @@ tooltip {
     padding: 0px 14px 0px 10px;
     border: 2px solid #43413B;
     border-radius: 8px;
-    margin-top: 0px;
-    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-bottom: 2px;
     margin-left: 2px;
     margin-right: 2px;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
@@ -298,11 +301,11 @@ tooltip {
 #custom-weather {
     color: #d4be98;
     background: #1D2021;
-    padding: 0px 8px 0px 6px;
+    padding: 0px 7px 0px 8px;
     border: 2px solid #43413B;
     border-radius: 8px;
-    margin-top: 0px;
-    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-bottom: 2px;
     margin-right: 2px;
     margin-left: 2px;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
@@ -312,8 +315,8 @@ tooltip {
     background: #1D2021;
     color: #7DAEA3;
     padding: 3px 13px 5px 8px;
-    margin-top: 0px;
-    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-bottom: 2px;
     margin-right: 2px;
     margin-left: 5px;
     border: 2px solid #43413B;
@@ -328,10 +331,10 @@ tooltip {
     color: #E78A4E;
     background: #1D2021;
     padding: 0px 12px 0px 10px;
-    margin-top: 0px;
+    margin-top: 5px;
     margin-bottom: 0px;
-    margin-top: 0px;
-    margin-top: 0px;
+    margin-top: 5px;
+    margin-top: 5px;
     border: 2px solid #43413B;
     border-radius: 0px;
 }
@@ -347,10 +350,10 @@ tooltip {
     padding: 2px 4px 2px 4px;
     background-color: #1D2021;
     border: 2px solid #43413B;
-    padding: 3px;
+    padding: 2px;
     border-radius: 8px;
-    margin-top: 0px;
-    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-bottom: 2px;
     margin-right: 2px;
     margin-left: 2px;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
@@ -359,6 +362,7 @@ tooltip {
     padding: 2px 4px 2px 4px;
     border-radius: 10px;
     color: #d4be98;
+    margin: 1px;
 }
 #workspaces button.active {
     color: #1D2021;
@@ -381,22 +385,22 @@ tooltip {
 
 #taskbar {
     border-radius: 8px;
-    margin-top: 0px;
-    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-bottom: 2px;
     margin-right: 2px;
     margin-left: 2px;
     color: #d4be98;
-    padding: 2px 4px 2px 4px;
     background-color: #1D2021;
     border: 2px solid #43413B;
-    padding: 3px;
+    padding: 2px;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
 }
 
 #taskbar button {
-    padding: 2px 4px 2px 4px;
+    padding: 2px 3px 2px 5.5px;
     border-radius: 5px;
     color: #d4be98;
+    margin: 1px;
 }
 #taskbar button.active {
     color: #1D2021;

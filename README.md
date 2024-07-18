@@ -42,4 +42,4 @@ There might be some configuration that may not work as intended, but I will keep
 - **FONT's** 
     - MAIN : SF Pro Text Regular (11)
     - TERMINAL : JetBrainsMono Nerd Font (10)
-- **Firefox Theme** - [Bali10050](https://github.com/Bali10050/FirefoxCSS)
+- **Firefox Theme** - [Bali10050](https://github.com/migueravila/SimpleFox)

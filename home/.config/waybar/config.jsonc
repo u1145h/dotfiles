@@ -1,6 +1,6 @@
 {
   "layer": "top",
-  "position": "bottom",
+  "position": "top",
   "mode": "dock",
   "exclusive": true,
   "passthrough": false,
@@ -11,7 +11,8 @@
     "custom/weather",
     "hyprland/workspaces",
     //"custom/vpn",
-    "group/hardware"
+    "group/hardware",
+    "idle_inhibitor"
     //"custom/music",
     //"custom/spotify",
     //"privacy"
@@ -19,7 +20,6 @@
   ],
   "modules-center": ["wlr/taskbar"],
   "modules-right": [
-    "idle_inhibitor",
     "group/connection",
     "backlight",
     "group/audio",
@@ -94,15 +94,13 @@
   "wlr/taskbar": {
     "format": "{icon}",
     "icon-size": 14,
-    "icon-theme": "Numix-Circle",
+    "icon-theme": "Papirus",
     "tooltip-format": "{title}",
     "on-click": "activate",
     "on-click-middle": "close",
-    "ignore-list": [
-       "Alacritty"
-    ],
+    "ignore-list": ["Alacritty"],
     "app_ids-mapping": {
-      "firefoxdeveloperedition": "firefox-developer-edition"
+        "firefoxdeveloperedition": "firefox-developer-edition"
     },
     "rewrite": {
         "Firefox Web Browser": "Firefox",
@@ -234,8 +232,8 @@
     "on-click-right": "hyprctl dispatch exec '[float]' 'kitty -e protonvpn-cli disconnect'"
   },
   "tray": {
-    "icon-size": 13,
-    "spacing": 10
+    "icon-size": 12,
+    "spacing": 7
   },
   "clock": {
     // "timezone": "America/New_York",

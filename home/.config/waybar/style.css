@@ -25,10 +25,10 @@ tooltip {
     color: #d4be98;
     background: #1D2021;
     padding: 0px 10px;
-    margin-top: 5px;
+    margin-top: 2px;
     margin-bottom: 0px;
-    margin-top: 5px;
-    margin-top: 5px;
+    margin-top: 2px;
+    margin-top: 2px;
     border: 2px solid #43413B;
     border-radius: 0px;
 }
@@ -37,10 +37,10 @@ tooltip {
     color: #EA6962;
     background: #1D2021;
     padding: 0px 10px;
-    margin-top: 5px;
+    margin-top: 2px;
     margin-bottom: 0px;
-    margin-top: 5px;
-    margin-top: 5px;
+    margin-top: 2px;
+    margin-top: 2px;
     border-top: 2px solid #43413B;
     border-bottom: 2px solid #43413B;
     border-radius: 0px;
@@ -60,8 +60,8 @@ tooltip {
     padding: 0px 9px 0px 8px;
     border: 2px solid #43413B;
     border-radius: 8px;
-    margin-top: 5px;
-    margin-bottom: 2px;
+    margin-top: 2px;
+    margin-bottom:5px;
     margin-left: 2px;
     margin-right: 2px;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
@@ -71,8 +71,8 @@ tooltip {
     color: #d4be98;
     background: #262a2b;
     padding: 0px 7px 0px 7px;
-    margin-top: 5px;
-    margin-bottom: 2px;
+    margin-top: 2px;
+    margin-bottom:5px;
     margin-right: 5px;
     margin-left: 2px;
     border: 2px solid #43413B;
@@ -88,8 +88,8 @@ tooltip {
     border-bottom: 2px solid #43413B;
     border-right: 2px solid #43413B;
     border-radius: 0px 8px 8px 0px;
-    margin-top: 5px;
-    margin-bottom: 2px;
+    margin-top: 2px;
+    margin-bottom:5px;
     margin-right: 2px;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
 }
@@ -102,8 +102,8 @@ tooltip {
     border-bottom: 2px solid #43413B;
     border-left: 2px solid #43413B;
     border-radius: 9px 0px 0px 8px;
-    margin-top: 5px;
-    margin-bottom: 2px;
+    margin-top: 2px;
+    margin-bottom:5px;
     margin-left: 2px;
     box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.8);
 }
@@ -114,8 +114,8 @@ tooltip {
     border-top: 2px solid #43413B;
     border-bottom: 2px solid #43413B;
     border-radius: 0px;
-    margin-top: 5px;
-    margin-bottom: 2px;
+    margin-top: 2px;
+    margin-bottom:5px;
     box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.8);
 }
 #temperature {
@@ -126,8 +126,8 @@ tooltip {
     border-bottom: 2px solid #43413B;
     border-right: 2px solid #43413B;
     border-radius: 0px 8px 8px 0px;
-    margin-top: 5px;
-    margin-bottom: 2px;
+    margin-top: 2px;
+    margin-bottom:5px;
     margin-right: 2px;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
 }
@@ -144,10 +144,10 @@ tooltip {
     color: #d4be98;
     background: #1D2021;
     padding: 0px 10px;
-    margin-top: 5px;
+    margin-top: 2px;
     margin-bottom: 0px;
-    margin-top: 5px;
-    margin-top: 5px;
+    margin-top: 2px;
+    margin-top: 2px;
     border: 2px solid #43413B;
     border-radius: 0px;
 }
@@ -159,8 +159,8 @@ tooltip {
     border-top: 2px solid #43413B;
     border-bottom: 2px solid #43413B;
     border-radius: 0px;
-    margin-top: 5px;
-    margin-bottom: 2px;
+    margin-top: 2px;
+    margin-bottom:5px;
     box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.8);
 }
 #pulseaudio.microphone {
@@ -170,8 +170,8 @@ tooltip {
     border-top: 2px solid #43413B;
     border-bottom: 2px solid #43413B;
     border-radius: 0px;
-    margin-top: 5px;
-    margin-bottom: 2px;
+    margin-top: 2px;
+    margin-bottom:5px;
     box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.8);
 }
 
@@ -181,8 +181,8 @@ tooltip {
     padding: 0px 14px 0px 7px;
     border: 2px solid #43413B;
     border-radius: 8px;
-    margin-top: 5px;
-    margin-bottom: 2px;
+    margin-top: 2px;
+    margin-bottom:5px;
     margin-right: 2px;
     margin-left: 2px;
     box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.8);
@@ -193,29 +193,34 @@ tooltip {
 
 #backlight {
     color: #d4be98;
-    padding: 0px 2px 0px 5px;
+    padding: 0px 2px 0px 7px;
     background: #1D2021;
     border-top: 2px solid #43413B;
     border-bottom: 2px solid #43413B;
-    border-radius: 0px;
-    margin-top: 5px;
-    margin-bottom: 2px;
+    border-left: 2px solid #43413B;
+    border-radius: 8px 0px 0px 8px;
+    margin-top: 2px;
+    margin-bottom:5px;
+    margin-left:2px;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
 }
 
 #custom-vpn {
-    color: #9e7fd8;
     background: #1D2021;
-    padding: 0px 12px 0px 9px;
-    border-top: 2px solid #43413B;
-    border-bottom: 2px solid #43413B;
-    border-right: 2px solid #43413B;
-    border-radius: 0px;
+    color: #bbabff;
+    padding: 0px 11px 0px 9px;
+    border: 2px solid #43413B;
+    border-radius: 8px;
+    margin-top: 2px;
+    margin-bottom:5px;
+    margin-right: 2px;
+    margin-left: 2px;
+    box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.8);
 }
 
 
 #custom-vpn:hover {
-    color: #7DAEA3;
+    color: rgb(142, 114, 255);
 }
 
 
@@ -223,10 +228,10 @@ tooltip {
     color: #d4be98;
     background: #1D2021;
     padding: 0px 14px 0px 11px;
-    margin-top: 5px;
+    margin-top: 2px;
     margin-bottom: 0px;
-    margin-top: 5px;
-    margin-top: 5px;
+    margin-top: 2px;
+    margin-top: 2px;
     border: 2px solid #43413B;
     border-radius: 0px;
 }
@@ -239,8 +244,8 @@ tooltip {
     border-bottom: 2px solid #43413B;
     border-left: 2px solid #43413B;
     border-radius: 8px 0px 0px 8px;
-    margin-top: 5px;
-    margin-bottom: 2px;
+    margin-top: 2px;
+    margin-bottom:5px;
     margin-left: 2px;
     box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.8);
 }
@@ -251,8 +256,8 @@ tooltip {
     border-top: 2px solid #43413B;
     border-bottom: 2px solid #43413B;
     border-radius: 0px;
-    margin-top: 5px;
-    margin-bottom: 2px;
+    margin-top: 2px;
+    margin-bottom:5px;
     box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.8);
 }
 
@@ -260,8 +265,8 @@ tooltip {
     color: #d4be98;
     background: #1D2021;
     padding: 0px 15px 0px 10px;
-    margin-top: 5px;
-    margin-bottom: 2px;
+    margin-top: 2px;
+    margin-bottom:5px;
     margin-left: 2px;
     border: 2px solid #43413B;
     border-radius: 0px 0px 8px 8px;
@@ -273,8 +278,8 @@ tooltip {
     padding: 0px 14px 0px 10px;
     border: 2px solid #43413B;
     border-radius: 8px;
-    margin-top: 5px;
-    margin-bottom: 2px;
+    margin-top: 2px;
+    margin-bottom:5px;
     margin-left: 2px;
     margin-right: 2px;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
@@ -304,8 +309,8 @@ tooltip {
     padding: 0px 7px 0px 8px;
     border: 2px solid #43413B;
     border-radius: 8px;
-    margin-top: 5px;
-    margin-bottom: 2px;
+    margin-top: 2px;
+    margin-bottom:5px;
     margin-right: 2px;
     margin-left: 2px;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
@@ -315,8 +320,8 @@ tooltip {
     background: #1D2021;
     color: #7DAEA3;
     padding: 3px 13px 5px 8px;
-    margin-top: 5px;
-    margin-bottom: 2px;
+    margin-top: 2px;
+    margin-bottom:5px;
     margin-right: 2px;
     margin-left: 5px;
     border: 2px solid #43413B;
@@ -331,10 +336,10 @@ tooltip {
     color: #E78A4E;
     background: #1D2021;
     padding: 0px 12px 0px 10px;
-    margin-top: 5px;
+    margin-top: 2px;
     margin-bottom: 0px;
-    margin-top: 5px;
-    margin-top: 5px;
+    margin-top: 2px;
+    margin-top: 2px;
     border: 2px solid #43413B;
     border-radius: 0px;
 }
@@ -352,8 +357,8 @@ tooltip {
     border: 2px solid #43413B;
     padding: 2px;
     border-radius: 8px;
-    margin-top: 5px;
-    margin-bottom: 2px;
+    margin-top: 2px;
+    margin-bottom:5px;
     margin-right: 2px;
     margin-left: 2px;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
@@ -385,8 +390,8 @@ tooltip {
 
 #taskbar {
     border-radius: 8px;
-    margin-top: 5px;
-    margin-bottom: 2px;
+    margin-top: 2px;
+    margin-bottom:5px;
     margin-right: 2px;
     margin-left: 2px;
     color: #d4be98;

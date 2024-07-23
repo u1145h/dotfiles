@@ -1,6 +1,6 @@
 {
   "layer": "top",
-  "position": "top",
+  "position": "bottom",
   "mode": "dock",
   "exclusive": true,
   "passthrough": false,
@@ -10,9 +10,8 @@
     "custom/appmenu",
     "custom/weather",
     "hyprland/workspaces",
-    //"custom/vpn",
     "group/hardware",
-    "idle_inhibitor"
+    "custom/vpn"
     //"custom/music",
     //"custom/spotify",
     //"privacy"
@@ -20,7 +19,8 @@
   ],
   "modules-center": ["wlr/taskbar"],
   "modules-right": [
-    "group/connection",
+    "idle_inhibitor",
+    //"group/connection",
     "backlight",
     "group/audio",
     //"custom/language",
@@ -131,7 +131,7 @@
     "class-discoverable": "bluetooth-discoverable",
     "class-discovering": "bluetooth-discovering",
     "class-pairable": "bluetooth-pairable",
-    "on-click": "blueman-manager"
+    "on-click": "overskride" /* blueman-manager */
   },
   "idle_inhibitor": {
     "format": "{icon}",
@@ -170,8 +170,9 @@
   "network": {
     "format-wifi": "󰖩",
     "format-disconnected": "󰖪",
-    "tooltip-format": "Connected to {essid}",
-    "on-click": "hyprctl dispatch exec '[float]' 'kitty -e nmtui'"
+    /* "tooltip-format": "Connected to {essid}", */
+    "on-click": "hyprctl dispatch exec '[float]' 'kitty -e nmtui'",
+    "tooltip": false
   },
   "power-profiles-daemon": {
     "format": "{icon}",
@@ -223,13 +224,15 @@
   "custom/appmenu": {
     "format": "",
     "on-click": "rofi -show drun",
-    "on-click-right": "wlogout"
+    "on-click-right": "wlogout",
+    "tooltip": false
   },
   "custom/vpn": {
     "format": "󰯄",
     "interval": 1,
     "on-click": "hyprctl dispatch exec '[float]' 'kitty -e protonvpn-cli connect'",
-    "on-click-right": "hyprctl dispatch exec '[float]' 'kitty -e protonvpn-cli disconnect'"
+    "on-click-right": "hyprctl dispatch exec '[float]' 'kitty -e protonvpn-cli disconnect'",
+    "tooltip": false
   },
   "tray": {
     "icon-size": 12,

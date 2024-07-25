@@ -33,7 +33,7 @@ There might be some configuration that may not work as intended, but I will keep
 - **Designing & Editing** - [Krita](https://github.com/KDE/krita), [PhotoGIMP](https://github.com/Diolinux/PhotoGIMP), [Inkscape](https://github.com/inkscape/inkscape), [Blender](https://www.blender.org/), [Kdenlive](https://github.com/KDE/kdenlive), [Davinchi Resolve](https://www.blackmagicdesign.com/products/davinciresolve) (On [DistroBox](https://github.com/89luca89/distrobox))
 
 ## 🎨 Appearance
-- **THEME** - Gruvbox ([original](https://www.gnome-look.org/p/1681313/)) ([Custom](https://github.com/user_name/dotfiles/tree/main/home/.themes/))  (Custom Gruvbox Theme Used on this Rice based on the original Theme "Gruvbox-Dark-B-LB")
+- **THEME** - [Gruvbox](https://github.com/user_name/dotfiles/tree/main/home/.themes/)
 - **ICON** - [Colloid Green Nord Dark](https://github.com/vinceliuice/Colloid-icon-theme)
 - **FONT's** 
     - MAIN : SF Pro Text Regular (11)

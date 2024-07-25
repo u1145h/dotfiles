@@ -6,9 +6,9 @@ There might be some configuration that may not work as intended, but I will keep
 - **WM** - [Hyprland](https://hyprland.org/)
 
 ### 🖼️ Screenshots
-![01](/screenshot/01.png)
-![02](/screenshot/02.png)
-![03](/screenshot/03.png)
+![01](/screenshot/1.png)
+![02](/screenshot/2.png)
+![03](/screenshot/3.png)
 
 ## 📦 Packages
 - **Terminal** - [kitty](https://github.com/kovidgoyal/kitty)

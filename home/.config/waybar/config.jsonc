@@ -1,34 +1,31 @@
 {
   "layer": "top",
-  "position": "bottom",
+  "position": "top",
   "mode": "dock",
   "exclusive": true,
   "passthrough": false,
   "gtk-layer-shell": true,
   "height": 0,
+  "margin-top": 4,
+  "margin-bottom": 0,
+  "margin-left": 4,
+  "margin-right": 4,
   "modules-left": [
     "custom/appmenu",
     "custom/weather",
     "hyprland/workspaces",
     "group/hardware",
-    "custom/vpn"
-    //"custom/music",
-    //"custom/spotify",
-    //"privacy"
-    //"gamemode"
+    "idle_inhibitor"
+    //"custom/spotify"
   ],
   "modules-center": ["wlr/taskbar"],
   "modules-right": [
-    "idle_inhibitor",
-    //"group/connection",
     "backlight",
     "group/audio",
-    //"custom/language",
-    "battery",
     "power-profiles-daemon",
     "clock",
-    "tray"
-    //"custom/power"
+    "tray",
+    "battery"
   ],
 
   //////////////
@@ -36,7 +33,7 @@
   //////////////
   "group/hardware": {
     "orientation": "horizontal",
-    "modules": ["cpu", "memory", "custom/gpu-usage", "temperature"]
+    "modules": ["cpu", "memory", "temperature"]
   },
   "group/audio": {
     "orientation": "horizontal",
@@ -50,50 +47,10 @@
   ///////////////
   /// MODULES ///
   ///////////////
-  "custom/gpu-usage": {
-    "exec": "cat /sys/class/hwmon/hwmon2/device/gpu_busy_percent",
-    "format": "GPU: {}%",
-    "return-type": "",
-    "interval": 1
-  },
-  "gamemode": {
-    "format": "{glyph}",
-    "format-alt": "{glyph} {count}",
-    "glyph": "",
-    "hide-not-running": true,
-    "use-icon": true,
-    "icon-name": "input-gaming-symbolic",
-    "icon-spacing": 4,
-    "icon-size": 20,
-    "tooltip": true,
-    "tooltip-format": "Games running: {count}"
-  },
-  "privacy": {
-    "icon-spacing": 10,
-    "icon-size": 11,
-    "transition-duration": 250,
-    "modules": [
-      {
-        "type": "screenshare",
-        "tooltip": true,
-        "tooltip-icon-size": 18
-      } /* 
-		{
-			"type": "audio-out",
-			"tooltip": true,
-			"tooltip-icon-size": 18
-		}, */,
-      {
-        "type": "audio-in",
-        "tooltip": true,
-        "tooltip-icon-size": 18
-      }
-    ]
-  },
 
   "wlr/taskbar": {
     "format": "{icon}",
-    "icon-size": 14,
+    "icon-size": 12,
     "icon-theme": "Papirus",
     "tooltip-format": "{title}",
     "on-click": "activate",
@@ -154,18 +111,7 @@
     "on-click": "playerctl -p spotify play-pause",
     "on-scroll-up": "playerctl -p spotify next",
     "on-scroll-down": "playerctl -p spotify previous",
-    "on-click-right-release": "hyprctl dispatch workspace 6",
-    "tooltip": false
-  },
-  "custom/music": {
-    "exec": "$HOME/.config/waybar/scripts/music.py",
-    "format": "<span size='10000'>  </span>{text}",
-    "return-type": "json",
-    "on-click": "playerctl play-pause",
-    "on-scroll-up": "playerctl next",
-    "on-scroll-down": "playerctl previous",
-    "on-click-right-release": "hyprctl dispatch workspace 6",
-    "tooltip": false
+    "on-click-right-release": "hyprctl dispatch workspace 6"
   },
   "network": {
     "format-wifi": "󰖩",
@@ -185,32 +131,24 @@
       "power-saver": ""
     }
   },
-  "custom/power": {
-    "format": "⏻",
-    "on-click": "wlogout",
-    "signal": 8
-  },
   "cpu": {
     "interval": 1,
-    "format": " {usage}%",
+    "format": "{usage}%",
     "on-click": "hyprctl dispatch exec 'kitty -e btm'"
   },
   "memory": {
     "interval": 1,
-    "format": " {}%",
+    "format": "{}%",
     "on-click": "hyprctl dispatch exec 'kitty -e htop'"
   },
   "temperature": {
     "interval": 1,
-    "format": " {}%",
+    "format": "{}°C",
     "exec": "~/.config/waybar/scripts/temperature.sh",
     "return-type": "json",
     "critical-threshold": 80,
     "format-icons": [" ", " ", ""],
     "on-click": "hyprctl dispatch exec 'kitty -e btop'"
-  },
-  "hyprland/window": {
-    "format": "Focused Window"
   },
   "hyprland/workspaces": {
     "disable-scroll": true,
@@ -227,13 +165,6 @@
     "on-click-right": "wlogout",
     "tooltip": false
   },
-  "custom/vpn": {
-    "format": "󰯄",
-    "interval": 1,
-    "on-click": "hyprctl dispatch exec '[float]' 'kitty -e protonvpn-cli connect'",
-    "on-click-right": "hyprctl dispatch exec '[float]' 'kitty -e protonvpn-cli disconnect'",
-    "tooltip": false
-  },
   "tray": {
     "icon-size": 12,
     "spacing": 7
@@ -242,14 +173,31 @@
     // "timezone": "America/New_York",
     "tooltip-format": "<big>{clock} {AMPM}</big>\n<tt><small>{:%Y %B}</small></tt>\n<tt><small>{calendar}</small></tt>",
     "format": "󰅐 <b>{:%I:%M %p}</b>",
-    "format-alt": "󰃭 {:%Y-%m-%d 󰅐 %I:%M %p}"
+    "format-alt": "󰃭 {:%Y-%m-%d 󰅐 %I:%M %p}",
+    "tooltip": false
   },
   "backlight": {
     "device": "intel_backlight",
     "format": "{icon} {percent}%",
-    "format-icons": ["󰃞", "󰃟", "󰃝", "󰃠"],
-    "on-scroll-up": "brightnessctl set 1%+",
-    "on-scroll-down": "brightnessctl set 1%-",
+    "format-icons": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "on-scroll-up": "brightnessctl set 5%+",
+    "on-scroll-down": "brightnessctl set 5%-",
     "min-length": 6,
     "tooltip": false
   },

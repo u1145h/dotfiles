@@ -24,8 +24,8 @@
     "group/audio",
     "power-profiles-daemon",
     "clock",
-    "tray",
-    "battery"
+    "battery",
+    "tray"
   ],
 
   //////////////

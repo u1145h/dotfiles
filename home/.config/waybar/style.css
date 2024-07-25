@@ -25,8 +25,7 @@ tooltip {
 
 #clock {
     color: #d4be98;
-    padding: 0px 7px 0px 7px;
-    border-left: 2px solid #43413B;
+    padding: 0px 7px 0px 5px;
 }
 
 #tray {
@@ -40,12 +39,12 @@ tooltip {
 
 #battery {
     color: #d4be98;
-    padding: 0px 10px 2px 7px;
+    padding: 0px 7px 0px 5px;
 }
 
 #cpu {
     color: #d4be98;
-    padding: 0px 0px 0px 8px;
+    padding: 0px 0px 0px 5px;
 }
 
 #memory {
@@ -75,9 +74,7 @@ tooltip {
 
 #idle_inhibitor {
     color: #A9B665;
-    padding: 0px 14px 0px 7px;
-    border-left: 2px solid #43413B;
-    border-right: 2px solid #43413B;
+    padding: 0px 10px 0px 3px;
 }
 
 #idle_inhibitor.deactivated {
@@ -86,9 +83,7 @@ tooltip {
 
 #backlight {
     color: #d4be98;
-    padding: 0px 7px 0px 7px;
-    border-left: 2px solid #43413B;
-    border-right: 2px solid #43413B;
+    padding: 0px 0px 0px 0px;
 }
 
 #vpn {
@@ -109,8 +104,7 @@ tooltip {
 
 #power-profiles-daemon {
     color: #d4be98;
-    padding: 0px 14px 0px 10px;
-    border-left: 2px solid #43413B;
+    padding: 0px 9px 0px 5px;
 }
 #power-profiles-daemon.performance {
     color: #EA6962;
@@ -128,8 +122,7 @@ tooltip {
 
 #custom-weather {
     color: #d4be98;
-    padding: 0px 7px 0px 8px;
-    border-right: 2px solid #43413B;
+    padding: 0px 0px 0px 8px;
 }
 
 
@@ -158,14 +151,13 @@ tooltip {
 #workspaces {
     color: #d4be98;
     padding: 2px 0px 2px 0px; 
-    border-radius: 0px;
-    border-right: 2px solid #43413B;
 }
 
 #workspaces button {
-    padding: 3px 5px 3px 5px;
+    padding: 1px 3px 1px 3px;
     color: #d4be98;
-    margin: 2px;
+    margin: 4px;
+    border-radius: 3px;
 }
 
 #workspaces button.active {
@@ -185,33 +177,14 @@ tooltip {
 
 
 #taskbar {
-    color: #d4be98;
     padding: 2px;
     border-radius: 0px;
 }
-
 #taskbar button {
-    padding: 3px 3px 3px 7px;
-    color: #d4be98;
-    margin: 2px;
+    padding: 2px 2px 2px 6px;
+    margin: 3px;
+    border-radius: 3px;
 }
-
 #taskbar button.active {
     background: #32302F;
-}
-
-#taskbar button.minimized {
-    color: #E78A4E;
-}
-
-#taskbar button.maximized {
-    color: #EA6962;
-}
-
-#taskbar button.fullscreen {
-    color: #89B482;
-}
-
-#taskbar.empty {
-    color: #32302F;
 }

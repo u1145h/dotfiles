@@ -38,6 +38,6 @@ There might be some configuration that may not work as intended, but I will keep
 - **FONT's** 
     - MAIN : SF Pro Text Regular (11)
     - TERMINAL : JetBrainsMono Nerd Font (10)
-- **Firefox Theme** - [Bali10050](https://github.com/migueravila/SimpleFox)
+- **Firefox Theme** - [SimpleFox](https://github.com/migueravila/SimpleFox)
 - **Vescord Theme** - [system24](https://github.com/refact0r/system24)
 - **Spotify Theme** - [spicetify-text](https://github.com/spicetify/spicetify-themes/tree/master/text)

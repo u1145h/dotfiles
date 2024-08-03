@@ -9,7 +9,7 @@ corner_radius = 8
 word_wrap = true
 ignore_newline = false
 origin = "top-center"
-offset = "20x10"
+offset = "2x2"
 width = 350
 shrink = false
 monitor = 0
@@ -26,19 +26,19 @@ scale = false
 
 [urgency_low]
 timeout = 2
-background = "#1d2021"
+background = "#1A1918"
 foreground = "#d4be98"
 frame_color = "#43413B"
 
 [urgency_normal]
 timeout = 5
-background = "#1d2021"
+background = "#1A1918"
 foreground = "#d4be98"
 frame_color = "#A9B665"
 
 [urgency_critical]
 timeout = 10
-background = "#1d2021"
+background = "#1A1918"
 foreground = "#d4be98"
 frame_color = "#EA6962"
 

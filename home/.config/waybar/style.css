@@ -3,78 +3,145 @@
     border-radius: 0px;
     font-family: JetBrainsMono Nerd Font;
     font-weight: bold;
-    font-size: 13px;
+    font-size: 12px;
     min-height: 0;
 }
 
 window#waybar {
-    background: #1D2021;
-    color: #d4be98;
-    border: 2px solid #43413B;
-    border-radius: 0px;
+    background-color: transparent;
+    border-radius: 8px;
+    padding-bottom: 3px;
     /* box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8); */
 }
 
 tooltip {
     background: #1D2021;
     border: 2px solid #43413B;
-    border-radius: 0px;
-    padding: 8px 5px 8px 5px;
-    /* box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8); */
+    border-radius: 8px;
+    padding: 8px 8px 8px 8px;
+    margin: 4px;
 }
 
 #clock {
+    background: #1D2021;
+    border: 2px solid #43413B;
+    margin: 0px 1px 4px 1px;
     color: #d4be98;
-    padding: 0px 7px 0px 5px;
+    padding: 0px 7px 0px 6px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
+}
+
+#custom-media {
+    background: #1D2021;
+    border: 2px solid #43413B;
+    margin: 0px 1px 4px 1px;
+    color: #EA6962;
+    padding: 0px 6px 0px 6px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
 }
 
 #tray {
-    border: 2px solid #43413B;
     background: #1a1918;
-    border-left: 2px solid #43413B;
+    border: 2px solid #43413B;
     color: #d4be98;
-    padding: 0px 8px 0px 8px;
-    border-radius: 0px;
+    margin: 0px 4px 4px 1px;
+    padding: 0px 6px 0px 6px;
+    border-radius: 5px 12px 12px 5px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
 }
 
 #battery {
+    background: #1D2021;
+    border: 2px solid #43413B;
+    margin: 0px 1px 4px 1px;
+    color: #EA6962;
+    padding: 0px 6px 0px 6px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
+}
+#battery.charging {
+    color: #A2AE61;
+}
+#battery.plugged {
     color: #d4be98;
-    padding: 0px 7px 0px 5px;
 }
 
 #cpu {
+    background: #1D2021;
+    border-top: 2px solid #43413B;
+    border-bottom: 2px solid #43413B;
+    border-left: 2px solid #43413B;
+    margin: 0px 0px 4px 1px;
     color: #d4be98;
     padding: 0px 0px 0px 5px;
+    border-radius: 5px 0px 0px 5px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
 }
 
 #memory {
+    background: #1D2021;
+    border-top: 2px solid #43413B;
+    border-bottom: 2px solid #43413B;
+    margin: 0px 0px 4px 0px;
+    background: #1D2021;
     color: #d4be98;
-    padding: 0px 10px 0px 10px;
+    padding: 0px 12px 0px 12px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
 }
 
 #temperature {
+    background: #1D2021;
+    border-top: 2px solid #43413B;
+    border-bottom: 2px solid #43413B;
+    border-right: 2px solid #43413B;
+    margin: 0px 1px 4px 0px;
+    background: #1D2021;
     color: #d4be98;
-    padding: 0px 8px 0px 0px;
+    padding: 0px 5px 0px 0px;
+    border-radius: 0px 5px 5px 0px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
 }
 
 #custom-spotify {
+    background: #1D2021;
+    border: 2px solid #43413B;
+    margin: 0px 1px 4px 1px;
     color: #89B482;
-    padding: 0px 10px 0px 8px;
+    padding: 0px 7px 0px 6px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
 }
 
 #pulseaudio {
+    background: #1D2021;
+    border-top: 2px solid #43413B;
+    border-bottom: 2px solid #43413B;
+    margin: 0px 0px 4px 0px;
     color: #d4be98;
-    padding: 0px 7px 0px 8px;
+    padding: 0px 5px 0px 5px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
 }
-
 #pulseaudio.microphone {
+    background: #1D2021;
+    border-top: 2px solid #43413B;
+    border-bottom: 2px solid #43413B;
+    border-right: 2px solid #43413B;
+    margin: 0px 1px 4px 0px;
     color: #d4be98;
-    padding: 0px 15px 0px 3px;
+    padding: 0px 8px 0px 3px;
+    border-radius: 0px 5px 5px 0px;
 }
 
 #idle_inhibitor {
+    background: #1D2021;
+    border: 2px solid #43413B;
+    margin: 0px 3px 4px 1px;
     color: #A9B665;
-    padding: 0px 10px 0px 3px;
+    padding: 0px 12px 0px 6px;
+    border-radius: 5px 12px 12px 5px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
 }
 
 #idle_inhibitor.deactivated {
@@ -82,56 +149,76 @@ tooltip {
 }
 
 #backlight {
+    background: #1D2021;
+    border-top: 2px solid #43413B;
+    border-left: 2px solid #43413B;
+    border-bottom: 2px solid #43413B;
+    margin: 0px 0px 4px 1px;
     color: #d4be98;
-    padding: 0px 0px 0px 0px;
-}
-
-#vpn {
-    color: #d4be98;
-    padding: 0px 14px 0px 11px;
+    padding: 0px 0px 0px 2px;
+    border-radius: 12px 0px 0px 12px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
 }
 
 #network {
+    background: #1D2021;
     color: #d4be98;
     padding: 0px 5px 0px 8px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
 }
 
 #bluetooth {
+    background: #1D2021;
     color: #d4be98;
     padding: 0px 4px 0px 7px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
 }
 
-
 #power-profiles-daemon {
+    background: #1D2021;
+    border: 2px solid #43413B;
+    margin: 0px 1px 4px 1px;
     color: #d4be98;
     padding: 0px 9px 0px 5px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
 }
 #power-profiles-daemon.performance {
     color: #EA6962;
-    padding: 0px 13px 0px 7px;
+    padding: 0px 11px 0px 6px;
 }
 #power-profiles-daemon.balanced {
     color: #E78A4E;
-    padding: 0px 15px 0px 7px;
+    padding: 0px 13px 0px 5px;
 }
 #power-profiles-daemon.power-saver {
     color: #A9B665;
-    padding: 0px 13px 0px 7px;
+    padding: 0px 11px 0px 6px;
 }
 
 
 #custom-weather {
+    background: #1D2021;
+    border: 2px solid #43413B;
+    margin: 0px 1px 4px 1px;
     color: #d4be98;
-    padding: 0px 0px 0px 8px;
+    padding: 0px 5px 0px 5px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
 }
 
 
 #custom-appmenu {
-    background: #1a1918;
-    color: #7DAEA3;
-    padding: 3px 13px 5px 9px;
-    border-radius: 0px;
+    background: #1A1918;
     border: 2px solid #43413B;
+    margin: 0px 1px 4px 4px;
+    color: #7DAEA3;
+    padding: 0px 11px 1px 8px;
+    border-radius: 12px 5px 5px 12px;
+    border: 2px solid #43413B;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
 }
 #custom-appmenu:hover {
     color: #A9B665;
@@ -139,8 +226,11 @@ tooltip {
 
 
 #custom-power {
+    background: #1D2021;
     color: #E78A4E;
-    padding: 0px 12px 0px 10px;
+    padding: 0px 12px 0px 12px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
 }
 
 #custom-power:hover {
@@ -149,15 +239,20 @@ tooltip {
 
 /* Workspace Style - Start */
 #workspaces {
+    background: #1D2021;
+    border: 2px solid #43413B;
+    margin: 0px 1px 4px 1px;
     color: #d4be98;
-    padding: 2px 0px 2px 0px; 
+    padding: 2px 2px 2px 2px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
 }
 
 #workspaces button {
     padding: 1px 3px 1px 3px;
     color: #d4be98;
-    margin: 4px;
-    border-radius: 3px;
+    margin: 1px;
+    border-radius: 2.5px;
 }
 
 #workspaces button.active {
@@ -177,13 +272,17 @@ tooltip {
 
 
 #taskbar {
+    background: #1D2021;
+    border: 2px solid #43413B;
+    margin: 0px 3px 4px 3px;
     padding: 2px;
-    border-radius: 0px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
 }
 #taskbar button {
-    padding: 2px 2px 2px 6px;
-    margin: 3px;
-    border-radius: 3px;
+    padding: 2px 1px 2px 5px;
+    border-radius: 5px;
+    margin: 1px;
 }
 #taskbar button.active {
     background: #32302F;

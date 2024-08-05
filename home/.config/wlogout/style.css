@@ -1,7 +1,7 @@
 window {
     font-family: monospace;
     font-size: 14pt;
-    color: #d4be98;
+    color: #F7F3EA;
     background-color: rgba(29, 32, 33, 0.8);
 }
 
@@ -11,26 +11,26 @@ button {
     background-size: 100px;
     border: 2px solid #433F39;
     border-radius: 8px;
-    background-color: #1d2021;
+    background-color: #111314;
     margin: 5px;
 }
 
 button:hover {
     border: 2px solid #a9b665;
     background-color: rgba(29, 32, 33, 1);
-    color: #d4be98;
+    color: #F7F3EA;
 }
 
 button:active {
     border: 2px solid #a9b665;
     background-color: rgba(29, 32, 33, 1);
-    color: #d4be98;
+    color: #F7F3EA;
 }
 
 button:focus {
     border: 2px solid #a9b665;
     background-color: rgba(29, 32, 33, 1);
-    color: #d4be98;
+    color: #F7F3EA;
 }
 
 #lock {

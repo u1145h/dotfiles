@@ -25,7 +25,7 @@ set pages-per-row 1
 set pages-per-column 1
 
 # Use dark background colors
-set recolor-lightcolor "#1D2021"
+set recolor-lightcolor "#111314"
 set recolor-darkcolor "#ede0c9"
 set recolor false
 
@@ -34,8 +34,8 @@ map <C-w> recolor
 map <C-e> recolor
 
 # Define default colors for different content types
-recolor "application/pdf" "#ede0c9" "#1D2021"
-recolor "application/epub+zip" "#ede0c9" "#1D2021"
+recolor "application/pdf" "#ede0c9" "#111314"
+recolor "application/epub+zip" "#ede0c9" "#111314"
 
 # Define custom styles for certain file types
 # Example for PDF files
@@ -44,21 +44,21 @@ set girara-cursor false
 set girara-scrollbars never
 
 # Theme colors
-set default-bg "#1D2021"
-set default-fg "#D4BE98"
-set statusbar-bg "#1D2021"
-set statusbar-fg "#D4BE98"
-set inputbar-bg "#1D2021"
-set inputbar-fg "#D4BE98"
-set completion-bg "#1D2021"
-set completion-fg "#D4BE98"
-set notification-bg "#1D2021"
-set notification-fg "#D4BE98"
+set default-bg "#111314"
+set default-fg "#F7F3EA"
+set statusbar-bg "#111314"
+set statusbar-fg "#F7F3EA"
+set inputbar-bg "#111314"
+set inputbar-fg "#F7F3EA"
+set completion-bg "#111314"
+set completion-fg "#F7F3EA"
+set notification-bg "#111314"
+set notification-fg "#F7F3EA"
 set highlight-color "#A9B665"
-set index-bg "#1D2021"
-set index-fg "#D4BE98"
-set window-title-bg "#1D2021"
-set window-title-fg "#D4BE98"
+set index-bg "#111314"
+set index-fg "#F7F3EA"
+set window-title-bg "#111314"
+set window-title-fg "#F7F3EA"
 
 # Additional colors for various elements
 set highlight-active "#EA6962"
@@ -66,4 +66,4 @@ set highlight-inactive "#E78A4E"
 set link-color "#7DAEA3"
 set selection-color "#7DAEA3"
 set cursor-color "#89B482"
-set border-color "#32302F"
+set border-color "#232526"

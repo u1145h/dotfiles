@@ -248,7 +248,7 @@
 
 .screenshot-ui-show-pointer-button:insensitive, .screenshot-ui-type-button:insensitive {
   color: rgba(251, 241, 199, 0.35);
-  background-color: #1d2021;
+  background-color: #111314;
   box-shadow: none !important;
 }
 
@@ -325,22 +325,22 @@
 }
 
 .modal-dialog-linked-button:last-child {
-  color: #1d2021;
+  color: #111314;
   background-color: #7daea3;
 }
 
 .modal-dialog-linked-button:hover:last-child {
-  color: #1d2021;
+  color: #111314;
   background-color: #99c0b7;
 }
 
 .modal-dialog-linked-button:active:last-child {
-  color: #1d2021;
+  color: #111314;
   background-color: #6da498;
 }
 
 .modal-dialog-linked-button:insensitive:last-child {
-  color: #1d2021;
+  color: #111314;
   background-color: rgba(125, 174, 163, 0.05);
 }
 
@@ -842,7 +842,7 @@ StEntry StLabel.hint-text,
 
 /* Login Dialog */
 #lockDialogGroup {
-  background-color: #1d2021;
+  background-color: #111314;
 }
 
 .login-dialog-banner-view {
@@ -1471,7 +1471,7 @@ StEntry StLabel.hint-text,
 /* OSD */
 .screenshot-ui-panel, .workspace-switcher-container, .switcher-list, .resize-popup, .osd-window {
   color: rgba(251, 241, 199, 0.7);
-  background-color: #1d2021;
+  background-color: #111314;
   border: none;
   box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.25);
   margin: 5px 8px 11px;
@@ -1509,7 +1509,7 @@ StEntry StLabel.hint-text,
 
 .pad-osd-window {
   padding: 32px;
-  background-color: #1d2021;
+  background-color: #111314;
 }
 
 .pad-osd-window .pad-osd-title-box {
@@ -1768,7 +1768,7 @@ StEntry StLabel.hint-text,
 
 .popup-menu .popup-menu-content {
   padding: 6px;
-  background-color: #1d2021;
+  background-color: #111314;
   border-radius: 18px;
   margin: 0;
   box-shadow: 0 3px 8px -5px rgba(0, 0, 0, 0.12);
@@ -1950,7 +1950,7 @@ StEntry StLabel.hint-text,
 .unlock-dialog-notifications-container .unlock-dialog-notification-source {
   padding: 12px 6px;
   border: none;
-  background-color: #1d2021;
+  background-color: #111314;
   color: #fbf1c7;
   border-radius: 18px;
 }
@@ -2322,7 +2322,7 @@ StWidget.focused .app-grid-running-dot {
   padding: 12px;
   box-shadow: none;
   border: none;
-  background-color: #1d2021;
+  background-color: #111314;
 }
 
 .app-folder-dialog .folder-name-container {
@@ -2388,7 +2388,7 @@ StWidget.focused .app-grid-running-dot {
 
 .system-action-icon {
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
-  background-color: #1d2021;
+  background-color: #111314;
   color: #fbf1c7;
   border-radius: 9999px;
   icon-size: 48px;
@@ -2671,12 +2671,12 @@ StWidget.focused .app-grid-running-dot {
 
 .calendar .calendar-today:selected {
   background-color: #7daea3;
-  color: #1d2021 !important;
+  color: #111314 !important;
 }
 
 .calendar .calendar-today:selected:hover, .calendar .calendar-today:selected:focus {
   background-color: #96beb5;
-  color: #1d2021 !important;
+  color: #111314 !important;
 }
 
 .calendar .calendar-day-with-events {
@@ -3202,7 +3202,7 @@ StWidget.focused .app-grid-running-dot {
 }
 
 .workspace-animation {
-  background-color: #1d2021;
+  background-color: #111314;
 }
 
 .calendar .calendar-change-month-back,
@@ -3421,17 +3421,17 @@ StWidget.focused .app-grid-running-dot {
 
 .quick-toggle:checked {
   background-color: rgba(125, 174, 163, 0.95) !important;
-  color: #1d2021;
+  color: #111314;
 }
 
 .quick-toggle:checked:hover {
   background-color: #afc9b1 !important;
-  color: #1d2021;
+  color: #111314;
 }
 
 .quick-toggle:checked:active {
   background-color: #96bbaa !important;
-  color: #1d2021;
+  color: #111314;
 }
 
 .quick-toggle > StBoxLayout {
@@ -3514,17 +3514,17 @@ StWidget.focused .app-grid-running-dot {
 
 .quick-menu-toggle .quick-toggle-arrow:checked {
   background-color: rgba(125, 174, 163, 0.75) !important;
-  color: #1d2021;
+  color: #111314;
 }
 
 .quick-menu-toggle .quick-toggle-arrow:checked:hover {
   background-color: #afc9b1 !important;
-  color: #1d2021;
+  color: #111314;
 }
 
 .quick-menu-toggle .quick-toggle-arrow:checked:active {
   background-color: #96bbaa !important;
-  color: #1d2021;
+  color: #111314;
 }
 
 .quick-menu-toggle .quick-toggle-arrow:ltr {
@@ -3890,7 +3890,7 @@ StWidget.focused .app-grid-running-dot {
 
 .screenshot-ui-shot-cast-button:checked {
   background-color: #fbf1c7;
-  color: #1d2021;
+  color: #111314;
 }
 
 .screenshot-ui-shot-cast-button:insensitive {
@@ -3990,7 +3990,7 @@ StWidget.focused .app-grid-running-dot {
 
 .screenshot-ui-tooltip {
   color: #fbf1c7;
-  background-color: #1d2021;
+  background-color: #111314;
   border-radius: 9999px;
   padding: 6px 12px;
   text-align: center;
@@ -4003,7 +4003,7 @@ StWidget.focused .app-grid-running-dot {
 
 .window-caption {
   color: #fbf1c7;
-  background-color: #1d2021;
+  background-color: #111314;
   border-radius: 9999px;
   padding: 6px 12px;
 }
@@ -4031,7 +4031,7 @@ StWidget.focused .app-grid-running-dot {
 
 .workspace-background {
   border-radius: 30px;
-  background-color: #1d2021;
+  background-color: #111314;
   box-shadow: 0 4px 16px 4px rgba(0, 0, 0, 0.3);
 }
 

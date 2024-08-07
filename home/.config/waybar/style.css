@@ -9,7 +9,7 @@
 
 window#waybar {
     background-color: #111314;
-    border-radius: 5px;
+    border-radius: 20px;
     border: 2px solid #232526;
 }
 window#waybar:hover {
@@ -28,7 +28,9 @@ tooltip {
     margin: 0px;
     color: #F7F3EA;
     background: #232526;;
-    padding: 0px 7px 0px 7px;
+    border-top: 2px solid #232526;
+    border-bottom: 2px solid #232526;
+    padding: 0px 6px;
     border-radius: 5px;
 }
 
@@ -42,17 +44,19 @@ tooltip {
 
 #tray {
     background: #232526;
-    border: 2px solid #232526;
+    border-top: 2px solid #232526;
+    border-bottom: 2px solid #232526;
+    border-right: 2px solid #232526;
     color: #F7F3EA;
     margin: 0px;
-    padding: 0px 6px 0px 0px;
-    border-radius: 0px 5px 5px 0px;
+    padding: 0px 5px 0px 2px;
+    border-radius: 0px 20px 20px 0px;
 }
 
 #battery {
-    margin: 0px 1px 0px 1px;
+    margin: 0px;
     color: #EA6962;
-    padding: 0px 5px 0px 0px;
+    padding: 0px 5px 0px 2px;
     border-radius: 0px;
 }
 #battery.charging {
@@ -63,7 +67,6 @@ tooltip {
 }
 
 #cpu {
-    background: #232526;
     margin: 0px;
     color: #F7F3EA;
     padding: 0px 2px 0px 8px;
@@ -71,32 +74,30 @@ tooltip {
 }
 
 #memory {
-    background: #232526;
     margin: 0px;
     color: #F7F3EA;
     padding: 0px 8px 0px 10px;
 }
 
 #temperature {
-    background: #232526;
     margin: 0px;
     color: #F7F3EA;
-    padding: 0px 5px 0px 2px;
+    padding: 0px 5px 0px 5px;
     border-radius: 0px 0px 0px 0px;
 }
 
 #custom-spotify {
-    margin: 0px 2px 0px 2px;
+    margin: 0px;
     color: #89B482;
-    padding: 0px 2px 0px 5px;
+    padding: 0px 2px 0px 8px;
     border-radius: 5px;
+    background: #232526;
 }
 
 #pulseaudio {
     border-top: 2px solid #232526;
     border-bottom: 2px solid #232526;
     margin: 0px;
-    background: #232526;
     color: #F7F3EA;
     padding: 0px 0px 0px 5px;
 }
@@ -106,8 +107,7 @@ tooltip {
 #pulseaudio.microphone {
     margin: 0px 0px 0px 0px;
     color: #EA6962;
-    background: #232526;
-    padding: 0px 5px 0px 8px;
+    padding: 0px 9px 0px 8px;
     border-radius: 0px 0px 0px 0px;
 }
 #pulseaudio.microphone.source-muted {
@@ -117,8 +117,7 @@ tooltip {
 #idle_inhibitor {
     margin: 0px;
     color: #A9B665;
-    background: #232526;
-    padding: 0px 12px 0px 0px;
+    padding: 0px 13px 0px 3px;
     border-radius: 0px;
 }
 
@@ -127,48 +126,65 @@ tooltip {
 }
 
 #backlight {
+    background: #232526;
+    border-top: 2px solid #232526;
+    border-bottom: 2px solid #232526;
     margin: 0px;
     color: #F7F3EA;
-    padding: 0px 4px 0px 0px;
+    padding: 0px 7px 0px 0px;
     border-radius: 0px 0px 0px 0px;
 }
 
 #network {
     color: #F7F3EA;
-    padding: 0px 0px 0px 8px;
+    background: #232526;
+    padding: 0px 9px 0px 7px;
     border-radius: 0px;
+    border-top: 2px solid #232526;
+    border-bottom: 2px solid #232526;
 }
-
+#network.disconnected {
+    color: #E5894D;
+}
 #bluetooth {
     color: #F7F3EA;
-    padding: 0px 4px 0px 7px;
+    background: #232526;
+    padding: 0px 8px 0px 5px;
     border-radius: 0px;
+    border-top: 2px solid #232526;
+    border-bottom: 2px solid #232526;
 }
+#bluetooth.connected {
+    color: #7DAEA3;
+}
+
+
 
 #power-profiles-daemon {
     margin: 0px;
-    color: #F7F3EA;
-    padding: 0px 9px 0px 0px;
+    background: #232526;
     border-radius: 0px;
+    border-top: 2px solid #232526;
+    border-bottom: 2px solid #232526;
 }
 
 #power-profiles-daemon.performance {
     color: #EA6962;
-    padding: 0px 8px 0px 6px;
+    padding: 0px 13px 0px 5px;
 }
 #power-profiles-daemon.balanced {
     color: #E78A4E;
-    padding: 0px 9px 0px 5px;
+    padding: 0px 13px 0px 5px;
 }
 #power-profiles-daemon.power-saver {
     color: #A9B665;
-    padding: 0px 8px 0px 6px;
+    padding: 0px 13px 0px 5px;
 }
 
 #custom-weather {
     margin: 0px;
     color: #F7F3EA;
-    padding: 0px 0px 0px 5px;
+    padding: 0px 2px 0px 3px;
     border-radius: 0px;
 }
 
@@ -180,8 +196,8 @@ tooltip {
     border-bottom: 2px solid #232526;
     margin: 0px 0px 0px 0px;
     color: #7DAEA3;
-    padding: 0px 7px 1px 8px;
-    border-radius: 5px 0px 0px 5px;
+    padding: 0px 8px 1px 10px;
+    border-radius: 20px 0px 0px 20px;
 }
 #custom-appmenu:hover {
     color: #A9B665;
@@ -201,14 +217,16 @@ tooltip {
     background: #232526;
     margin: 0px;
     color: #F7F3EA;
-    padding: 2px 0px 2px 2px;
+    padding: 0px 2px 0px 2px;
     border-radius: 0px;
+    border-top: 2px solid #232526;
+    border-bottom: 2px solid #232526;
 }
 #workspaces button {
-    padding: 0px;
+    padding: 0px 2px 0px 2px;
     color: #F7F3EA;
-    margin: 1px 0px 1px 1px;
-    border-radius: 2.0px;
+    margin: 0px 0px 0px 2px;
+    border-radius: 0px;
     background: #232526;
 }
 #workspaces button.active {
@@ -219,7 +237,7 @@ tooltip {
     color: #A9B665;
     background: #232526;
 }
-#workspaces button:hover {
+#workspaces button.hover {
     color: #A9B665;
     background: transparent;
 }
@@ -230,16 +248,33 @@ tooltip {
 
 /* Workspace Style - End */
 #taskbar {
-    margin: 0px 1px 0px 1px;
-    padding: 2px;
+    margin: 0px;
+    padding: 0px 1px 0px 2px;
     border-radius: 0px;
+    background: #232526;
+    border-top: 2px solid #232526;
+    border-bottom: 2px solid #232526;
 }
 #taskbar button {
-    padding: 2px 1px 2px 0px;
-    border-radius: 2.0px;
-    margin: 1px;
+    padding: 2px 2px 2px 2px;
+    border-radius: 0px;
+    margin: 0px 1px 0px 1px;
+    background: transparent;
 }
 #taskbar button.active {
+    color: #89B482;
+    background: #232526;
+}
+#taskbar button.focused {
+    color: #A9B665;
+    background: #232526;
+}
+#taskbar button.urgent {
+    color: #E78A4E;
+    background: #232526;
+}
+#taskbar button.hover {
+    color: #A9B665;
     background: #232526;
 }
 
@@ -247,29 +282,37 @@ tooltip {
 /* Custom Arrow */
 #custom-arrowl1 {
     margin: 0px;
-    padding: 2px 0px;
-    font-size: 14pt;
+    padding: 0px;
+    font-size: 12pt;
 	color: #232526;
+    border-top: 2px solid #232526;
+    border-bottom: 2px solid #232526;
 	background: transparent;
 }
 #custom-arrowl2 {
     margin: 0px;
-    padding: 2px 0px;
-    font-size: 14pt;
+    padding: 0px;
+    font-size: 12pt;
 	color: #111314;
+    border-top: 2px solid #232526;
+    border-bottom: 2px solid #232526;
     background: #232526;
 }
 #custom-arrowr1 {
     margin: 0px;
-    padding: 2px 0px;
-    font-size: 14pt;
+    padding: 0px;
+    font-size: 12pt;
 	color: #232526;
+    border-top: 2px solid #232526;
+    border-bottom: 2px solid #232526;
 	background: transparent;
 }
 #custom-arrowr2 {
     margin: 0px;
-    padding: 2px 0px;
-    font-size: 14pt;
+    padding: 0px;
+    font-size: 12pt;
 	color: #111314;
+    border-top: 2px solid #232526;
+    border-bottom: 2px solid #232526;
     background: #232526;
 }

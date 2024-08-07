@@ -9,7 +9,7 @@ corner_radius = 8
 word_wrap = true
 ignore_newline = false
 origin = "top-center"
-offset = "10x10"
+offset = "15x15"
 width = 350
 shrink = false
 monitor = 0
@@ -28,7 +28,7 @@ scale = false
 timeout = 2
 background = "#111314"
 foreground = "#F7F3EA"
-frame_color = "#232526"
+frame_color = "#272627"
 
 [urgency_normal]
 timeout = 5

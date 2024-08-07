@@ -1,4 +1,4 @@
-neofetch
+#nitch
 # Personal Zsh configuration file. It is strongly recommended to keep all
 # shell customization and configuration (including exported environment
 # variables such as PATH) in this file or in files sourced from it.
@@ -61,10 +61,7 @@ path=(~/bin $path)
 
 # Export environment variables.
 export GPG_TTY=$TTY
-export XDG_SESSION_TYPE=wayland
-export GDK_BACKEND=wayland
-export QT_QPA_PLATFORM=wayland
-export CLUTTER_BACKEND=wayland
+export EDITOR=nvim
 
 # Source additional local files if they exist.
 z4h source ~/.env.zsh
@@ -74,6 +71,9 @@ z4h source ~/.env.zsh
 # This is just an example that you should delete. It does nothing useful.
 z4h source ohmyzsh/ohmyzsh/lib/diagnostics.zsh  # source an individual file
 z4h load   ohmyzsh/ohmyzsh/plugins/emoji-clock  # load a plugin
+
+#oh-my-posh theme integration
+#eval "$(oh-my-posh init zsh)"
 
 # Define key bindings.
 z4h bindkey z4h-backward-kill-word  Ctrl+Backspace     Ctrl+H
@@ -106,3 +106,11 @@ alias ls="${aliases[ls]:-ls} -A"
 # Set shell options: http://zsh.sourceforge.net/Doc/Release/Options.html.
 setopt glob_dots     # no special treatment for file names with a leading dot
 setopt no_auto_menu  # require an extra TAB press to open the completion menu
+
+export PATH=$PATH:/home/u1145h/.spicetify
+
+## [Completion]
+## Completion scripts setup. Remove the following line to uninstall
+[[ -f /home/u1145h/.dart-cli-completion/zsh-config.zsh ]] && . /home/u1145h/.dart-cli-completion/zsh-config.zsh || true
+## [/Completion]
+

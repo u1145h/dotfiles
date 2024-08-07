@@ -23,7 +23,7 @@
  * Base States *
  ***************/
 .background {
-  background-color: #1d2021;
+  background-color: #111314;
   color: #fbf1c7;
 }
 
@@ -2508,11 +2508,11 @@ window > .titlebar headerbar:not(.flat) {
 }
 
 window.devel headerbar {
-  background: #1d2021 cross-fade(10%-gtk-icontheme("system-run-symbolic"), image(transparent)) 90% 0/256px 256px no-repeat, linear-gradient(to right, transparent 65%, rgba(125, 174, 163, 0.1)), linear-gradient(to top, #242829 3px, #292d2f);
+  background: #111314 cross-fade(10%-gtk-icontheme("system-run-symbolic"), image(transparent)) 90% 0/256px 256px no-repeat, linear-gradient(to right, transparent 65%, rgba(125, 174, 163, 0.1)), linear-gradient(to top, #242829 3px, #292d2f);
 }
 
 window.devel headerbar:backdrop {
-  background: #1d2021 cross-fade(10%-gtk-icontheme("system-run-symbolic"), image(transparent)) 90% 0/256px 256px no-repeat, image(#1d2021);
+  background: #111314 cross-fade(10%-gtk-icontheme("system-run-symbolic"), image(transparent)) 90% 0/256px 256px no-repeat, image(#111314);
   /* background-color would flash */
 }
 
@@ -2769,12 +2769,12 @@ stack.view treeview.view {
  *********/
 menubar {
   padding: 0;
-  background-color: #1d2021;
+  background-color: #111314;
   color: #fbf1c7;
 }
 
 menubar:backdrop {
-  background-color: #1d2021;
+  background-color: #111314;
   color: rgba(251, 241, 199, 0.7);
 }
 
@@ -3362,11 +3362,11 @@ tabbar:not(.inline) scrolledwindow.pinned undershoot {
 }
 
 tabbar:not(.inline) undershoot.left {
-  background: linear-gradient(to right, #1d2021, rgba(0, 0, 0, 0) 20px);
+  background: linear-gradient(to right, #111314, rgba(0, 0, 0, 0) 20px);
 }
 
 tabbar:not(.inline) undershoot.right {
-  background: linear-gradient(to left, #1d2021, rgba(0, 0, 0, 0) 20px);
+  background: linear-gradient(to left, #111314, rgba(0, 0, 0, 0) 20px);
 }
 
 tabbar:not(.inline) .needs-attention-left undershoot.left {
@@ -3378,18 +3378,18 @@ tabbar:not(.inline) .needs-attention-right undershoot.right {
 }
 
 tabbar:not(.inline) tabbox > background {
-  background-color: #1d2021;
+  background-color: #111314;
 }
 
 tabbar:not(.inline) .start-action,
 tabbar:not(.inline) .end-action {
-  background-color: alpha(#1d2021, 0.6);
+  background-color: alpha(#111314, 0.6);
   border-color: rgba(251, 241, 199, 0.12);
 }
 
 dnd tab {
   min-height: 24px;
-  background-color: #1d2021;
+  background-color: #111314;
   color: #fbf1c7;
   box-shadow: 0 1px 5px 1px rgba(0, 0, 0, 0.09), 0 2px 14px 3px rgba(0, 0, 0, 0.05), 0 0 0 1px rgba(0, 0, 0, 0.05);
   outline: 1px solid rgba(29, 32, 33, 0.75);
@@ -3898,7 +3898,7 @@ scale > trough > highlight {
 }
 
 scale > trough > highlight:disabled {
-  background-color: #1d2021;
+  background-color: #111314;
   background-image: image(rgba(251, 241, 199, 0.32));
 }
 
@@ -5203,7 +5203,7 @@ paned > separator {
 paned > separator.wide {
   min-width: 6px;
   min-height: 6px;
-  background-color: #1d2021;
+  background-color: #111314;
   background-image: image(#423f3e), image(#423f3e);
   background-size: 1px 1px, 1px 1px;
 }
@@ -5472,7 +5472,7 @@ colorchooser .popover.osd:backdrop {
  * Misc *
  ********/
 .content-view {
-  background-color: #1d2021;
+  background-color: #111314;
 }
 
 /**********************
@@ -5509,12 +5509,12 @@ window.solid-csd {
   margin: 0;
   padding: 2px;
   border-radius: 0;
-  background-color: #1d2021;
+  background-color: #111314;
   border: 1px solid #423f3e;
 }
 
 window.solid-csd:backdrop {
-  background-color: #1d2021;
+  background-color: #111314;
 }
 
 window.ssd {
@@ -5765,16 +5765,16 @@ popover.entry-completion > contents {
 }
 
 .nautilus-window.view {
-  background-color: #1d2021;
+  background-color: #111314;
 }
 
 .nautilus-window .sidebar-pane {
-  background-color: #1d2021;
+  background-color: #111314;
   color: #fbf1c7;
 }
 
 .nautilus-window .sidebar-pane:backdrop {
-  background-color: #1d2021;
+  background-color: #111314;
   transition: none;
 }
 
@@ -7041,7 +7041,7 @@ spinner.fade-in:checked {
 
 window > contents > leaflet > box > stack.background {
   background-color: transparent;
-  background-image: linear-gradient(to bottom, transparent, transparent 48px, #1d2021 48px, #1d2021);
+  background-image: linear-gradient(to bottom, transparent, transparent 48px, #111314 48px, #111314);
 }
 
 @define-color weather_temp_chart_fill_color rgba(180, 113, 9, 0.5);
@@ -7080,7 +7080,7 @@ window > contents > leaflet > box > stack.background {
 }
 
 .forecast-card separator {
-  background-color: #1d2021;
+  background-color: #111314;
 }
 
 #daily-forecast-box > separator:last-child {
@@ -7165,7 +7165,7 @@ image.circular {
 }
 
 #gnome-system-monitor.background.csd {
-  background-color: #1d2021;
+  background-color: #111314;
 }
 
 #gnome-system-monitor treeview.view {
@@ -7862,7 +7862,7 @@ row.expander .sidebar-pane toolbarview > scrolledwindow image.expander-row-arrow
 }
 
 .nautilus-window placessidebar > scrolledwindow {
-  background-color: #1d2021;
+  background-color: #111314;
   color: #fbf1c7;
   border-radius: none;
   margin: 0;
@@ -8097,7 +8097,7 @@ placessidebar list.navigation-sidebar > row:selected:hover, .nautilus-window pla
 }
 
 .content-pane {
-  background-color: #1d2021;
+  background-color: #111314;
   color: #fbf1c7;
   border-top-right-radius: 12px;
   box-shadow: inset 0 1px rgba(251, 241, 199, 0.1);
@@ -8244,7 +8244,7 @@ themeswitcher checkbutton radio, themeswitcher checkbutton radio:hover, themeswi
 }
 
 themeswitcher checkbutton.system {
-  background: linear-gradient(-45deg, #1d2021 50%, #fbf1c7 50%);
+  background: linear-gradient(-45deg, #111314 50%, #fbf1c7 50%);
 }
 
 themeswitcher checkbutton.light {
@@ -8254,7 +8254,7 @@ themeswitcher checkbutton.light {
 
 themeswitcher checkbutton.dark {
   color: #fbf1c7;
-  background-color: #1d2021;
+  background-color: #111314;
 }
 
 /* GTK NAMED COLORS
@@ -8265,7 +8265,7 @@ themeswitcher checkbutton.dark {
 /* text color for entries, views and content in general */
 @define-color theme_text_color #fbf1c7;
 /* widget base background color */
-@define-color theme_bg_color #1d2021;
+@define-color theme_bg_color #111314;
 /* text widgets and the like base background color */
 @define-color theme_base_color #282524;
 /* base background color of selections */
@@ -8273,7 +8273,7 @@ themeswitcher checkbutton.dark {
 /* text/foreground color of selections */
 @define-color theme_selected_fg_color rgba(29, 32, 33, 0.87);
 /* base background color of insensitive widgets */
-@define-color insensitive_bg_color #1d2021;
+@define-color insensitive_bg_color #111314;
 /* text foreground color of insensitive widgets */
 @define-color insensitive_fg_color rgba(251, 241, 199, 0.5);
 /* insensitive text widgets and the like base background color */
@@ -8283,7 +8283,7 @@ themeswitcher checkbutton.dark {
 /* text color for entries, views and content in general on backdrop windows */
 @define-color theme_unfocused_text_color #fbf1c7;
 /* widget base background color on backdrop windows */
-@define-color theme_unfocused_bg_color #1d2021;
+@define-color theme_unfocused_bg_color #111314;
 /* text widgets and the like base background color on backdrop windows */
 @define-color theme_unfocused_base_color #282524;
 /* base background color of selections on backdrop windows */
@@ -8306,8 +8306,8 @@ read if you used those and something break with a version upgrade you're on your
 @define-color wm_unfocused_title rgba(251, 241, 199, 0.7);
 @define-color wm_highlight rgba(251, 241, 199, 0.1);
 @define-color wm_border #080707;
-@define-color wm_focused_bg #1d2021;
-@define-color wm_unfocused_bg #1d2021;
+@define-color wm_focused_bg #111314;
+@define-color wm_unfocused_bg #111314;
 @define-color wm_button_icon #fbf1c7;
 @define-color wm_button_focused_bg rgba(251, 241, 199, 0.04);
 @define-color wm_button_unfocused_bg rgba(251, 241, 199, 0.04);
@@ -8437,14 +8437,14 @@ read if you used those and something break with a version upgrade you're on your
 @define-color error_bg_color #c14a4a;
 @define-color error_fg_color #fbf1c7;
 @define-color error_color #c14a4a;
-@define-color window_bg_color #1d2021;
+@define-color window_bg_color #111314;
 @define-color window_fg_color #fbf1c7;
 @define-color view_bg_color #282524;
 @define-color view_fg_color #fbf1c7;
-@define-color headerbar_bg_color #1d2021;
+@define-color headerbar_bg_color #111314;
 @define-color headerbar_fg_color #fbf1c7;
 @define-color headerbar_border_color rgba(251, 241, 199, 0.12);
-@define-color headerbar_backdrop_color #1d2021;
+@define-color headerbar_backdrop_color #111314;
 @define-color headerbar_shade_color rgba(251, 241, 199, 0.12);
 @define-color card_bg_color #282524;
 @define-color card_fg_color #fbf1c7;

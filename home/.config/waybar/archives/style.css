@@ -1,0 +1,279 @@
+* {
+    border: none;
+    border-radius: 0px;
+    font-family: JetBrainsMono Nerd Font;
+    font-weight: bold;
+    font-size: 12px;
+    min-height: 0;
+}
+
+window#waybar {
+    background-color: transparent;
+    border-radius: 8px;
+    padding-bottom: 3px;
+    /* box-shadow: 1px -1px 1px rgba(0, 0, 0, 0.8); */
+}
+
+tooltip {
+    background: #111314;
+    border: 2px solid #232526;
+    border-radius: 8px;
+    padding: 8px 8px 8px 8px;
+    margin: 4px;
+}
+
+#clock {
+    background: #111314;
+    border: 2px solid #232526;
+    margin: 4px 1px 0px 1px;
+    color: #F7F3EA;
+    padding: 0px 7px 0px 7px;
+    border-radius: 8px;
+    /* box-shadow: 1px -1px 1px rgba(0, 0, 0, 0.8); */
+}
+
+#custom-media {
+    background: #111314;
+    border: 2px solid #232526;
+    margin: 4px 1px 0px 1px;
+    color: #EA6962;
+    padding: 0px 6px 0px 6px;
+    border-radius: 5px;
+    /* box-shadow: 1px -1px 1px rgba(0, 0, 0, 0.8); */
+}
+
+#tray {
+    background: #1a1918;
+    border: 2px solid #232526;
+    color: #F7F3EA;
+    margin: 4px 4px 0px 1px;
+    padding: 0px 6px 0px 6px;
+    border-radius: 5px 8px 8px 5px;
+    /* box-shadow: 1px -1px 1px rgba(0, 0, 0, 0.8); */
+}
+
+#battery {
+    background: #111314;
+    border: 2px solid #232526;
+    margin: 4px 1px 0px 1px;
+    color: #EA6962;
+    padding: 0px 6px 0px 6px;
+    border-radius: 5px;
+    /* box-shadow: 1px -1px 1px rgba(0, 0, 0, 0.8); */
+}
+#battery.charging {
+    color: #A2AE61;
+}
+#battery.plugged {
+    color: #7DAEA3;
+}
+
+#cpu {
+    background: #111314;
+    border-top: 2px solid #232526;
+    border-bottom: 2px solid #232526;
+    border-left: 2px solid #232526;
+    margin: 4px 0px 0px 1px;
+    color: #F7F3EA;
+    padding: 0px 0px 0px 7px;
+    border-radius: 8px 0px 0px 8px;
+    /* box-shadow: 1px -1px 1px rgba(0, 0, 0, 0.8); */
+}
+
+#memory {
+    background: #111314;
+    border-top: 2px solid #232526;
+    border-bottom: 2px solid #232526;
+    margin: 4px 0px 0px 0px;
+    background: #111314;
+    color: #F7F3EA;
+    padding: 0px 8px 0px 8px;
+    /* box-shadow: 1px -1px 1px rgba(0, 0, 0, 0.8); */
+}
+
+#temperature {
+    background: #111314;
+    border-top: 2px solid #232526;
+    border-bottom: 2px solid #232526;
+    border-right: 2px solid #232526;
+    margin: 4px 1px 0px 0px;
+    background: #111314;
+    color: #F7F3EA;
+    padding: 0px 5px 0px 0px;
+    border-radius: 0px 5px 5px 0px;
+    /* box-shadow: 1px -1px 1px rgba(0, 0, 0, 0.8); */
+}
+
+#custom-spotify {
+    background: #111314;
+    border: 2px solid #232526;
+    margin: 4px 2px 0px 2px;
+    color: #89B482;
+    padding: 0px 7px 0px 6px;
+    border-radius: 8px;
+    /* box-shadow: 1px -1px 1px rgba(0, 0, 0, 0.8); */
+}
+
+#pulseaudio {
+    background: #111314;
+    border-top: 2px solid #232526;
+    border-bottom: 2px solid #232526;
+    margin: 4px 0px 0px 0px;
+    color: #F7F3EA;
+    padding: 0px 5px 0px 5px;
+    /* box-shadow: 1px -1px 1px rgba(0, 0, 0, 0.8); */
+}
+#pulseaudio.microphone {
+    background: #111314;
+    border-top: 2px solid #232526;
+    border-bottom: 2px solid #232526;
+    border-right: 2px solid #232526;
+    margin: 4px 1px 0px 0px;
+    color: #F7F3EA;
+    padding: 0px 8px 0px 3px;
+    border-radius: 0px 5px 5px 0px;
+}
+
+#idle_inhibitor {
+    background: #111314;
+    border: 2px solid #232526;
+    margin: 4px 2px 0px 1px;
+    color: #A9B665;
+    padding: 0px 13px 0px 7px;
+    border-radius: 5px 8px 8px 5px;
+    /* box-shadow: 1px -1px 1px rgba(0, 0, 0, 0.8); */
+}
+
+#idle_inhibitor.deactivated {
+    color: #E78A4E;
+}
+
+#backlight {
+    background: #111314;
+    border-top: 2px solid #232526;
+    border-left: 2px solid #232526;
+    border-bottom: 2px solid #232526;
+    margin: 4px 0px 0px 1px;
+    color: #F7F3EA;
+    padding: 0px 0px 0px 5px;
+    border-radius: 5px 0px 0px 5px;
+    /* box-shadow: 1px -1px 1px rgba(0, 0, 0, 0.8); */
+}
+
+#network {
+    background: #111314;
+    color: #F7F3EA;
+    padding: 0px 5px 0px 8px;
+    border-radius: 5px;
+    /* box-shadow: 1px -1px 1px rgba(0, 0, 0, 0.8); */
+}
+
+#bluetooth {
+    background: #111314;
+    color: #F7F3EA;
+    padding: 0px 4px 0px 7px;
+    border-radius: 5px;
+    /* box-shadow: 1px -1px 1px rgba(0, 0, 0, 0.8); */
+}
+
+#power-profiles-daemon {
+    background: #111314;
+    border: 2px solid #232526;
+    margin: 4px 1px 0px 1px;
+    color: #F7F3EA;
+    padding: 0px 9px 0px 5px;
+    border-radius: 5px;
+    /* box-shadow: 1px -1px 1px rgba(0, 0, 0, 0.8); */
+}
+#power-profiles-daemon.performance {
+    color: #EA6962;
+    padding: 0px 11px 0px 6px;
+}
+#power-profiles-daemon.balanced {
+    color: #E78A4E;
+    padding: 0px 13px 0px 5px;
+}
+#power-profiles-daemon.power-saver {
+    color: #A9B665;
+    padding: 0px 11px 0px 6px;
+}
+
+#custom-weather {
+    background: #111314;
+    border: 2px solid #232526;
+    margin: 4px 1px 0px 1px;
+    color: #F7F3EA;
+    padding: 0px 5px 0px 5px;
+    border-radius: 5px;
+    /* box-shadow: 1px -1px 1px rgba(0, 0, 0, 0.8); */
+}
+
+#custom-appmenu {
+    background: #1A1918;
+    border: 2px solid #232526;
+    margin: 4px 1px 0px 4px;
+    color: #7DAEA3;
+    padding: 0px 11px 1px 8px;
+    border-radius: 8px 5px 5px 8px;
+    border: 2px solid #232526;
+    /* box-shadow: 1px -1px 1px rgba(0, 0, 0, 0.8); */
+}
+#custom-appmenu:hover {
+    color: #A9B665;
+}
+
+#custom-power {
+    background: #111314;
+    color: #E78A4E;
+    padding: 0px 8px 0px 8px;
+    border-radius: 5px;
+    /* box-shadow: 1px -1px 1px rgba(0, 0, 0, 0.8); */
+}
+#custom-power:hover {
+    color: #111314;
+}
+
+/* Workspace Style - Start */
+#workspaces {
+    background: #111314;
+    border: 2px solid #232526;
+    margin: 4px 1px 0px 1px;
+    color: #F7F3EA;
+    padding: 2px 2px 2px 2px;
+    border-radius: 5px;
+    /* box-shadow: 1px -1px 1px rgba(0, 0, 0, 0.8); */
+}
+#workspaces button {
+    padding: 1px 3px 1px 3px;
+    color: #F7F3EA;
+    margin: 1px;
+    border-radius: 2.5px;
+}
+#workspaces button.active {
+    color: #111314;
+    background: #A9B665;
+}
+#workspaces button.focused {
+    color: #A9B665;
+}
+#workspaces button.urgent {
+    color: #E78A4E;
+}
+/* Workspace Style - End */
+
+#taskbar {
+    background: #111314;
+    border: 2px solid #232526;
+    margin: 4px 1px 0px 1px;
+    padding: 2px;
+    border-radius: 5px;
+    /* box-shadow: 1px -1px 1px rgba(0, 0, 0, 0.8); */
+}
+#taskbar button {
+    padding: 2px 1px 2px 5px;
+    border-radius: 2.5px;
+    margin: 1px;
+}
+#taskbar button.active {
+    background: #232526;
+}

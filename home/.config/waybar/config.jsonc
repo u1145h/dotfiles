@@ -17,21 +17,24 @@
     "custom/arrowl2",
     "hyprland/workspaces",
     "custom/arrowl1",
-    "power-profiles-daemon",
-    "custom/arrowl2",
-    //"wlr/taskbar",
     "group/hardware",
-    "custom/arrowl1",
-    "custom/spotify"
+    "custom/arrowl2",
+    /* "custom/spotify", */
+    "wlr/taskbar",
+    "custom/arrowl1"
   ],
-  "modules-center": ["custom/arrowr1","clock","custom/arrowl1"],
+  "modules-center": ["custom/arrowr1", "clock", "custom/arrowl1"],
   "modules-right": [
     "custom/arrowr1",
-    "idle_inhibitor",
+    "group/connection",
     "custom/arrowr2",
-    "backlight",
+    "idle_inhibitor",
     "custom/arrowr1",
+    "backlight",
+    "custom/arrowr2",
     "group/audio",
+    "custom/arrowr1",
+    "power-profiles-daemon",
     "custom/arrowr2",
     "battery",
     "custom/arrowr1",
@@ -64,7 +67,7 @@
     "width": 5,
     "format-icons": {
       "spotify": "",
-      "default": " "
+      "default": ""
     },
     "escape": true,
     "exec": "$HOME/.config/system_scripts/mediaplayer.py 2> /dev/null",
@@ -73,8 +76,9 @@
 
   "wlr/taskbar": {
     "format": "{icon}",
-    "icon-size": 12,
-    "icon-theme": "Papirus",
+    "icon-size": 16,
+    "icon-spacing": 10,
+    "icon-theme": "Colloid-Green-Nord-Dark",
     "tooltip-format": "{title}",
     "on-click": "activate",
     "on-click-middle": "close",
@@ -83,14 +87,16 @@
       "firefoxdeveloperedition": "firefox-developer-edition"
     },
     "rewrite": {
+      "kitty": "Terminal",
       "Firefox Web Browser": "Firefox",
       "Foot Server": "Terminal"
     }
   },
   "bluetooth": {
     "format": "{icon}",
+    "icon-size": 15,
     "format-connected": "󰂱 {device_alias}",
-    "format-connected-battery": "󰂱", // .{num_connections}
+    "format-connected-battery": "󰂱 {num_connections}", // .
     "tooltip-format": "{controller_alias}\t{controller_address}\n\n{num_connections} connected",
     "tooltip-format-connected": "{controller_alias}\t{controller_address}\n\n{num_connections} connected\n\n{device_enumerate}",
     "tooltip-format-enumerate-connected": "{device_alias}\t{device_address}",
@@ -111,7 +117,7 @@
     "class-discoverable": "bluetooth-discoverable",
     "class-discovering": "bluetooth-discovering",
     "class-pairable": "bluetooth-pairable",
-    "on-click": "overskride" /* blueman-manager */
+    "on-click": "blueman-manager"
   },
   "idle_inhibitor": {
     "format": "{icon}",
@@ -199,7 +205,8 @@
   },
   "tray": {
     "icon-size": 12,
-    "spacing": 5
+    "spacing": 7,
+    "ignored-apps": ["nm-applet", "Network", "network"]
   },
   "clock": {
     "format": "󰅐 <b>{:%I:%M %p}</b>",

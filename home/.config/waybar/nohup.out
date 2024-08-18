@@ -1,0 +1,1411 @@
+[2024-08-09 01:14:50.856] [info] Using configuration file /home/u1145h/.config/waybar/config.jsonc
+[2024-08-09 01:14:50.859] [info] Discovered appearance 'dark'
+[2024-08-09 01:14:50.859] [info] Using CSS file /home/u1145h/.config/waybar/style.css
+[2024-08-09 01:14:50.869] [info] Hyprland IPC starting
+[2024-08-09 01:14:50.871] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-08-09 01:14:51.091] [info] Bar configured (width: 1910, height: 26) for output: eDP-1
+[2024-08-09 01:15:35.284] [info] Using configuration file /home/u1145h/.config/waybar/config.jsonc
+[2024-08-09 01:15:35.287] [info] Discovered appearance 'dark'
+[2024-08-09 01:15:35.287] [info] Using CSS file /home/u1145h/.config/waybar/style.css
+[2024-08-09 01:15:35.299] [info] Hyprland IPC starting
+[2024-08-09 01:15:35.301] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-08-09 01:15:35.551] [info] Bar configured (width: 1910, height: 26) for output: eDP-1
+[2024-08-09 01:26:10.125] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2024-08-09 01:26:10.151] [info] Loading persistent workspaces from Hyprland workspace rules
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 21600 (18%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 21600 (18%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 27600 (23%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 27600 (23%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 33600 (28%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 33600 (28%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 33600 (28%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 39600 (33%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 39600 (33%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 39600 (33%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 45600 (38%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 45600 (38%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 51600 (43%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 51600 (43%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 51600 (43%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 57600 (48%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 57600 (48%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 57600 (48%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 63600 (53%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 63600 (53%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 63600 (53%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 63600 (53%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 63600 (53%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 69600 (58%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 69600 (58%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 69600 (58%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 69600 (58%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 69600 (58%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 69600 (58%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 75600 (63%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 75600 (63%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 69600 (58%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 63600 (53%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 63600 (53%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 57600 (48%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 51600 (43%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 45600 (38%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 39600 (33%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 33600 (28%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 27600 (23%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 21600 (18%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 15600 (13%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 9600 (8%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 3600 (3%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 0 (0%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 0 (0%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 0 (0%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 0 (0%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 0 (0%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 0 (0%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 6000 (5%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 6000 (5%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 12000 (10%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 12000 (10%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 12000 (10%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 18000 (15%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 18000 (15%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 18000 (15%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 24000 (20%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 24000 (20%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 24000 (20%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 24000 (20%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 30000 (25%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 36000 (30%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 36000 (30%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 42000 (35%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 48000 (40%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 54000 (45%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 60000 (50%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 66000 (55%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 72000 (60%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 78000 (65%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 78000 (65%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 84000 (70%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 84000 (70%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 90000 (75%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 96000 (80%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 96000 (80%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 102000 (85%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 108000 (90%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 114000 (95%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 120000 (100%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 120000 (100%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 114000 (95%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 108000 (90%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 102000 (85%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 96000 (80%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 90000 (75%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 84000 (70%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 78000 (65%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 72000 (60%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 66000 (55%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 60000 (50%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 54000 (45%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 48000 (40%)
+	Max brightness: 120000
+
+thread 'main' panicked at src/main.rs:61:64:
+called `Result::unwrap()` on an `Err` value: reqwest::Error { kind: Body, source: hyper::Error(Body, Error { kind: Io(Kind(ConnectionReset)) }) }
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+thread 'main' panicked at src/main.rs:61:64:
+called `Result::unwrap()` on an `Err` value: reqwest::Error { kind: Body, source: hyper::Error(Body, Error { kind: Io(Kind(ConnectionReset)) }) }
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+[2024-08-09 03:06:15.833] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-08-09 03:06:15.999] [info] Bar configured (width: 1070, height: 26) for output: HDMI-A-1
+[2024-08-09 03:06:15.999] [error] Item '': No icon name or pixmap given.
+[2024-08-09 03:06:25.789] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-08-09 03:06:26.076] [info] Bar configured (width: 1910, height: 26) for output: DP-1
+[2024-08-09 03:06:26.076] [error] Item '': No icon name or pixmap given.
+thread 'main' panicked at src/main.rs:61:64:
+called `Result::unwrap()` on an `Err` value: reqwest::Error { kind: Body, source: hyper::Error(Body, Error { kind: Io(Kind(ConnectionReset)) }) }
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+thread 'main' panicked at src/main.rs:61:64:
+called `Result::unwrap()` on an `Err` value: reqwest::Error { kind: Body, source: hyper::Error(Body, Error { kind: Io(Kind(ConnectionReset)) }) }
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+Gdk-Message: 04:20:20.590: Error reading events from display: Connection reset by peer
+[2024-08-10 17:10:42.373] [info] Using configuration file /home/u1145h/.config/waybar/config.jsonc
+[2024-08-10 17:10:42.375] [info] Discovered appearance 'dark'
+[2024-08-10 17:10:42.375] [info] Using CSS file /home/u1145h/.config/waybar/style.css
+[2024-08-10 17:10:42.498] [info] Hyprland IPC starting
+[2024-08-10 17:10:42.544] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-08-10 17:10:42.585] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-08-10 17:10:42.626] [info] Loading persistent workspaces from Hyprland workspace rules
+
+** (waybar:64387): WARNING **: 17:10:43.149: Status Notifier Item with bus name ':1.11' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+[2024-08-10 17:10:43.293] [info] Bar configured (width: 1910, height: 26) for output: DP-1
+[2024-08-10 17:10:43.293] [info] Bar configured (width: 1070, height: 26) for output: HDMI-A-1
+[2024-08-10 17:10:43.294] [info] Bar configured (width: 1910, height: 26) for output: eDP-1
+
+** (waybar:64387): WARNING **: 17:10:44.004: Status Notifier Item with bus name ':1.11' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+[2024-08-10 17:11:12.463] [info] Using configuration file /home/u1145h/.config/waybar/config.jsonc
+[2024-08-10 17:11:12.470] [info] Discovered appearance 'dark'
+[2024-08-10 17:11:12.471] [info] Using CSS file /home/u1145h/.config/waybar/style.css
+[2024-08-10 17:11:12.501] [info] Hyprland IPC starting
+[2024-08-10 17:11:12.520] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-08-10 17:11:12.552] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-08-10 17:11:12.590] [info] Loading persistent workspaces from Hyprland workspace rules
+
+** (waybar:65404): WARNING **: 17:11:13.297: Status Notifier Item with bus name ':1.11' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+[2024-08-10 17:11:13.445] [info] Bar configured (width: 1910, height: 26) for output: DP-1
+[2024-08-10 17:11:13.445] [info] Bar configured (width: 1070, height: 26) for output: HDMI-A-1
+[2024-08-10 17:11:13.445] [info] Bar configured (width: 1910, height: 26) for output: eDP-1
+
+** (waybar:65404): WARNING **: 17:11:14.068: Status Notifier Item with bus name ':1.11' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+[2024-08-10 17:12:18.992] [info] Using configuration file /home/u1145h/.config/waybar/config.jsonc
+[2024-08-10 17:12:18.994] [info] Discovered appearance 'dark'
+[2024-08-10 17:12:18.994] [info] Using CSS file /home/u1145h/.config/waybar/style.css
+[2024-08-10 17:12:19.052] [info] Hyprland IPC starting
+[2024-08-10 17:12:19.130] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-08-10 17:12:19.185] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-08-10 17:12:19.190] [info] Loading persistent workspaces from Hyprland workspace rules
+
+** (waybar:68090): WARNING **: 17:12:19.567: Status Notifier Item with bus name ':1.11' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+[2024-08-10 17:12:19.807] [info] Bar configured (width: 1910, height: 26) for output: DP-1
+[2024-08-10 17:12:19.807] [info] Bar configured (width: 1070, height: 26) for output: HDMI-A-1
+[2024-08-10 17:12:19.807] [info] Bar configured (width: 1910, height: 26) for output: eDP-1
+
+** (waybar:68090): WARNING **: 17:12:20.970: Status Notifier Item with bus name ':1.11' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+[2024-08-10 17:13:37.768] [info] Using configuration file /home/u1145h/.config/waybar/config.jsonc
+[2024-08-10 17:13:37.770] [info] Discovered appearance 'dark'
+[2024-08-10 17:13:37.770] [info] Using CSS file /home/u1145h/.config/waybar/style.css
+[2024-08-10 17:13:37.879] [info] Hyprland IPC starting
+[2024-08-10 17:13:37.973] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-08-10 17:13:38.020] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-08-10 17:13:38.079] [info] Loading persistent workspaces from Hyprland workspace rules
+
+** (waybar:71119): WARNING **: 17:13:38.659: Status Notifier Item with bus name ':1.11' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+[2024-08-10 17:13:38.830] [info] Bar configured (width: 1910, height: 26) for output: DP-1
+[2024-08-10 17:13:38.831] [info] Bar configured (width: 1070, height: 26) for output: HDMI-A-1
+[2024-08-10 17:13:38.831] [info] Bar configured (width: 1910, height: 26) for output: eDP-1
+
+** (waybar:71119): WARNING **: 17:13:39.963: Status Notifier Item with bus name ':1.11' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+[2024-08-10 17:13:42.955] [info] Using configuration file /home/u1145h/.config/waybar/config.jsonc
+[2024-08-10 17:13:42.957] [info] Discovered appearance 'dark'
+[2024-08-10 17:13:42.957] [info] Using CSS file /home/u1145h/.config/waybar/style.css
+[2024-08-10 17:13:43.041] [info] Hyprland IPC starting
+[2024-08-10 17:13:43.207] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-08-10 17:13:43.259] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-08-10 17:13:43.281] [info] Loading persistent workspaces from Hyprland workspace rules
+
+** (waybar:71382): WARNING **: 17:13:43.905: Status Notifier Item with bus name ':1.11' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+[2024-08-10 17:13:44.062] [info] Bar configured (width: 1910, height: 26) for output: DP-1
+[2024-08-10 17:13:44.063] [info] Bar configured (width: 1070, height: 26) for output: HDMI-A-1
+[2024-08-10 17:13:44.063] [info] Bar configured (width: 1910, height: 26) for output: eDP-1
+
+** (waybar:71382): WARNING **: 17:13:44.988: Status Notifier Item with bus name ':1.11' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+[2024-08-10 17:13:49.738] [info] Using configuration file /home/u1145h/.config/waybar/config.jsonc
+[2024-08-10 17:13:49.740] [info] Discovered appearance 'dark'
+[2024-08-10 17:13:49.740] [info] Using CSS file /home/u1145h/.config/waybar/style.css
+[2024-08-10 17:13:49.849] [info] Hyprland IPC starting
+[2024-08-10 17:13:49.952] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-08-10 17:13:49.977] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-08-10 17:13:50.070] [info] Loading persistent workspaces from Hyprland workspace rules
+
+** (waybar:71695): WARNING **: 17:13:50.611: Status Notifier Item with bus name ':1.11' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+[2024-08-10 17:13:50.768] [info] Bar configured (width: 1910, height: 26) for output: DP-1
+[2024-08-10 17:13:50.768] [info] Bar configured (width: 1070, height: 26) for output: HDMI-A-1
+[2024-08-10 17:13:50.768] [info] Bar configured (width: 1910, height: 26) for output: eDP-1
+
+** (waybar:71695): WARNING **: 17:13:51.980: Status Notifier Item with bus name ':1.11' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+[2024-08-10 17:14:11.128] [info] Using configuration file /home/u1145h/.config/waybar/config.jsonc
+[2024-08-10 17:14:11.131] [info] Discovered appearance 'dark'
+[2024-08-10 17:14:11.131] [info] Using CSS file /home/u1145h/.config/waybar/style.css
+[2024-08-10 17:14:11.240] [info] Hyprland IPC starting
+[2024-08-10 17:14:11.333] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-08-10 17:14:11.384] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-08-10 17:14:11.423] [info] Loading persistent workspaces from Hyprland workspace rules
+
+** (waybar:72537): WARNING **: 17:14:12.047: Status Notifier Item with bus name ':1.11' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+[2024-08-10 17:14:12.203] [info] Bar configured (width: 1910, height: 26) for output: DP-1
+[2024-08-10 17:14:12.203] [info] Bar configured (width: 1070, height: 26) for output: HDMI-A-1
+[2024-08-10 17:14:12.204] [info] Bar configured (width: 1910, height: 26) for output: eDP-1
+
+** (waybar:72537): WARNING **: 17:14:12.967: Status Notifier Item with bus name ':1.11' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+[2024-08-10 17:15:40.005] [info] Using configuration file /home/u1145h/.config/waybar/config.jsonc
+[2024-08-10 17:15:40.007] [info] Discovered appearance 'dark'
+[2024-08-10 17:15:40.007] [info] Using CSS file /home/u1145h/.config/waybar/style.css
+[2024-08-10 17:15:40.068] [info] Hyprland IPC starting
+[2024-08-10 17:15:40.172] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-08-10 17:15:40.245] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-08-10 17:15:40.251] [info] Loading persistent workspaces from Hyprland workspace rules
+
+** (waybar:75883): WARNING **: 17:15:40.788: Status Notifier Item with bus name ':1.11' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+[2024-08-10 17:15:40.920] [info] Bar configured (width: 1910, height: 26) for output: DP-1
+[2024-08-10 17:15:40.920] [info] Bar configured (width: 1070, height: 26) for output: HDMI-A-1
+[2024-08-10 17:15:40.920] [info] Bar configured (width: 1910, height: 26) for output: eDP-1
+
+** (waybar:75883): WARNING **: 17:15:41.954: Status Notifier Item with bus name ':1.11' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+[2024-08-10 17:15:53.819] [info] Using configuration file /home/u1145h/.config/waybar/config.jsonc
+[2024-08-10 17:15:53.821] [info] Discovered appearance 'dark'
+[2024-08-10 17:15:53.821] [info] Using CSS file /home/u1145h/.config/waybar/style.css
+[2024-08-10 17:15:53.890] [info] Hyprland IPC starting
+[2024-08-10 17:15:53.978] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-08-10 17:15:54.058] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-08-10 17:15:54.071] [info] Loading persistent workspaces from Hyprland workspace rules
+
+** (waybar:76445): WARNING **: 17:15:54.656: Status Notifier Item with bus name ':1.11' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+[2024-08-10 17:15:54.865] [info] Bar configured (width: 1910, height: 26) for output: DP-1
+[2024-08-10 17:15:54.865] [info] Bar configured (width: 1070, height: 26) for output: HDMI-A-1
+[2024-08-10 17:15:54.865] [info] Bar configured (width: 1910, height: 26) for output: eDP-1
+
+** (waybar:76445): WARNING **: 17:15:55.949: Status Notifier Item with bus name ':1.11' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+[2024-08-10 17:18:54.883] [info] Using configuration file /home/u1145h/.config/waybar/config.jsonc
+[2024-08-10 17:18:54.885] [info] Discovered appearance 'dark'
+[2024-08-10 17:18:54.885] [info] Using CSS file /home/u1145h/.config/waybar/style.css
+[2024-08-10 17:18:54.947] [info] Hyprland IPC starting
+[2024-08-10 17:18:55.028] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-08-10 17:18:55.059] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-08-10 17:18:55.070] [info] Loading persistent workspaces from Hyprland workspace rules
+
+** (waybar:83216): WARNING **: 17:18:55.610: Status Notifier Item with bus name ':1.11' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+[2024-08-10 17:18:55.752] [info] Bar configured (width: 1910, height: 26) for output: DP-1
+[2024-08-10 17:18:55.753] [info] Bar configured (width: 1070, height: 26) for output: HDMI-A-1
+[2024-08-10 17:18:55.753] [info] Bar configured (width: 1910, height: 26) for output: eDP-1
+
+** (waybar:83216): WARNING **: 17:18:56.947: Status Notifier Item with bus name ':1.11' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+[2024-08-10 17:19:20.034] [info] Using configuration file /home/u1145h/.config/waybar/config.jsonc
+[2024-08-10 17:19:20.036] [info] Discovered appearance 'dark'
+[2024-08-10 17:19:20.036] [info] Using CSS file /home/u1145h/.config/waybar/style.css
+[2024-08-10 17:19:20.177] [info] Hyprland IPC starting
+[2024-08-10 17:19:20.307] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-08-10 17:19:20.337] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-08-10 17:19:20.353] [info] Loading persistent workspaces from Hyprland workspace rules
+
+** (waybar:84198): WARNING **: 17:19:20.937: Status Notifier Item with bus name ':1.11' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+[2024-08-10 17:19:21.094] [info] Bar configured (width: 1910, height: 26) for output: DP-1
+[2024-08-10 17:19:21.095] [info] Bar configured (width: 1070, height: 26) for output: HDMI-A-1
+[2024-08-10 17:19:21.095] [info] Bar configured (width: 1910, height: 26) for output: eDP-1
+
+** (waybar:84198): WARNING **: 17:19:21.984: Status Notifier Item with bus name ':1.11' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+[2024-08-10 17:20:38.179] [info] Using configuration file /home/u1145h/.config/waybar/config.jsonc
+[2024-08-10 17:20:38.182] [info] Discovered appearance 'dark'
+[2024-08-10 17:20:38.182] [info] Using CSS file /home/u1145h/.config/waybar/style.css
+[2024-08-10 17:20:38.299] [info] Hyprland IPC starting
+[2024-08-10 17:20:38.393] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-08-10 17:20:38.446] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-08-10 17:20:38.482] [info] Loading persistent workspaces from Hyprland workspace rules
+
+** (waybar:87165): WARNING **: 17:20:38.978: Status Notifier Item with bus name ':1.11' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+[2024-08-10 17:20:39.231] [info] Bar configured (width: 1910, height: 26) for output: DP-1
+[2024-08-10 17:20:39.231] [info] Bar configured (width: 1070, height: 26) for output: HDMI-A-1
+[2024-08-10 17:20:39.231] [info] Bar configured (width: 1910, height: 26) for output: eDP-1
+
+** (waybar:87165): WARNING **: 17:20:40.040: Status Notifier Item with bus name ':1.11' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+[2024-08-10 17:20:58.192] [info] Using configuration file /home/u1145h/.config/waybar/config.jsonc
+[2024-08-10 17:20:58.194] [info] Discovered appearance 'dark'
+[2024-08-10 17:20:58.194] [info] Using CSS file /home/u1145h/.config/waybar/style.css
+[2024-08-10 17:20:58.303] [info] Hyprland IPC starting
+[2024-08-10 17:20:58.374] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-08-10 17:20:58.409] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-08-10 17:20:58.458] [info] Loading persistent workspaces from Hyprland workspace rules
+
+** (waybar:87980): WARNING **: 17:20:59.075: Status Notifier Item with bus name ':1.11' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+[2024-08-10 17:20:59.251] [info] Bar configured (width: 1910, height: 26) for output: DP-1
+[2024-08-10 17:20:59.251] [info] Bar configured (width: 1070, height: 26) for output: HDMI-A-1
+[2024-08-10 17:20:59.251] [info] Bar configured (width: 1910, height: 26) for output: eDP-1
+
+** (waybar:87980): WARNING **: 17:21:00.019: Status Notifier Item with bus name ':1.11' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+[2024-08-10 17:21:06.073] [info] Using configuration file /home/u1145h/.config/waybar/config.jsonc
+[2024-08-10 17:21:06.076] [info] Discovered appearance 'dark'
+[2024-08-10 17:21:06.076] [info] Using CSS file /home/u1145h/.config/waybar/style.css
+[2024-08-10 17:21:06.206] [info] Hyprland IPC starting
+[2024-08-10 17:21:06.275] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-08-10 17:21:06.320] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-08-10 17:21:06.365] [info] Loading persistent workspaces from Hyprland workspace rules
+
+** (waybar:88348): WARNING **: 17:21:07.009: Status Notifier Item with bus name ':1.11' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+[2024-08-10 17:21:07.178] [info] Bar configured (width: 1910, height: 26) for output: DP-1
+[2024-08-10 17:21:07.178] [info] Bar configured (width: 1070, height: 26) for output: HDMI-A-1
+[2024-08-10 17:21:07.179] [info] Bar configured (width: 1910, height: 26) for output: eDP-1
+
+** (waybar:88348): WARNING **: 17:21:07.975: Status Notifier Item with bus name ':1.11' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+[2024-08-10 17:21:16.387] [info] Using configuration file /home/u1145h/.config/waybar/config.jsonc
+[2024-08-10 17:21:16.390] [info] Discovered appearance 'dark'
+[2024-08-10 17:21:16.390] [info] Using CSS file /home/u1145h/.config/waybar/style.css
+[2024-08-10 17:21:16.459] [info] Hyprland IPC starting
+[2024-08-10 17:21:16.576] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-08-10 17:21:16.645] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-08-10 17:21:16.651] [info] Loading persistent workspaces from Hyprland workspace rules
+
+** (waybar:88780): WARNING **: 17:21:17.181: Status Notifier Item with bus name ':1.11' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+[2024-08-10 17:21:17.319] [info] Bar configured (width: 1910, height: 26) for output: DP-1
+[2024-08-10 17:21:17.319] [info] Bar configured (width: 1070, height: 26) for output: HDMI-A-1
+[2024-08-10 17:21:17.319] [info] Bar configured (width: 1910, height: 26) for output: eDP-1
+
+** (waybar:88780): WARNING **: 17:21:17.981: Status Notifier Item with bus name ':1.11' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+[2024-08-10 17:21:30.195] [info] Using configuration file /home/u1145h/.config/waybar/config.jsonc
+[2024-08-10 17:21:30.197] [info] Discovered appearance 'dark'
+[2024-08-10 17:21:30.197] [info] Using CSS file /home/u1145h/.config/waybar/style.css
+[2024-08-10 17:21:30.249] [info] Hyprland IPC starting
+[2024-08-10 17:21:30.300] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-08-10 17:21:30.368] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-08-10 17:21:30.408] [info] Loading persistent workspaces from Hyprland workspace rules
+
+** (waybar:89348): WARNING **: 17:21:31.012: Status Notifier Item with bus name ':1.11' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+[2024-08-10 17:21:31.158] [info] Bar configured (width: 1910, height: 26) for output: DP-1
+[2024-08-10 17:21:31.159] [info] Bar configured (width: 1070, height: 26) for output: HDMI-A-1
+[2024-08-10 17:21:31.159] [info] Bar configured (width: 1910, height: 26) for output: eDP-1
+
+** (waybar:89348): WARNING **: 17:21:31.968: Status Notifier Item with bus name ':1.11' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+[2024-08-10 17:27:07.106] [info] Using configuration file /home/u1145h/.config/waybar/config.jsonc
+[2024-08-10 17:27:07.108] [info] Discovered appearance 'dark'
+[2024-08-10 17:27:07.108] [info] Using CSS file /home/u1145h/.config/waybar/style.css
+[2024-08-10 17:27:07.198] [info] Hyprland IPC starting
+[2024-08-10 17:27:07.356] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-08-10 17:27:07.373] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-08-10 17:27:07.407] [info] Loading persistent workspaces from Hyprland workspace rules
+
+** (waybar:102240): WARNING **: 17:27:08.048: Status Notifier Item with bus name ':1.11' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+[2024-08-10 17:27:08.220] [info] Bar configured (width: 1910, height: 26) for output: DP-1
+[2024-08-10 17:27:08.220] [info] Bar configured (width: 1070, height: 26) for output: HDMI-A-1
+[2024-08-10 17:27:08.220] [info] Bar configured (width: 1910, height: 26) for output: eDP-1
+
+** (waybar:102240): WARNING **: 17:27:09.108: Status Notifier Item with bus name ':1.11' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+[2024-08-10 17:27:20.601] [info] Using configuration file /home/u1145h/.config/waybar/config.jsonc
+[2024-08-10 17:27:20.612] [info] Discovered appearance 'dark'
+[2024-08-10 17:27:20.612] [info] Using CSS file /home/u1145h/.config/waybar/style.css
+[2024-08-10 17:27:20.726] [info] Hyprland IPC starting
+[2024-08-10 17:27:20.844] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-08-10 17:27:20.912] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-08-10 17:27:20.964] [info] Loading persistent workspaces from Hyprland workspace rules
+
+** (waybar:102792): WARNING **: 17:27:21.542: Status Notifier Item with bus name ':1.11' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+[2024-08-10 17:27:21.717] [info] Bar configured (width: 1910, height: 26) for output: DP-1
+[2024-08-10 17:27:21.718] [info] Bar configured (width: 1070, height: 26) for output: HDMI-A-1
+[2024-08-10 17:27:21.718] [info] Bar configured (width: 1910, height: 26) for output: eDP-1
+
+** (waybar:102792): WARNING **: 17:27:23.001: Status Notifier Item with bus name ':1.11' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+[2024-08-10 17:27:52.898] [info] Using configuration file /home/u1145h/.config/waybar/config.jsonc
+[2024-08-10 17:27:52.900] [info] Discovered appearance 'dark'
+[2024-08-10 17:27:52.900] [info] Using CSS file /home/u1145h/.config/waybar/style.css
+[2024-08-10 17:27:53.013] [info] Hyprland IPC starting
+[2024-08-10 17:27:53.138] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-08-10 17:27:53.226] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-08-10 17:27:53.262] [info] Loading persistent workspaces from Hyprland workspace rules
+
+** (waybar:104039): WARNING **: 17:27:53.735: Status Notifier Item with bus name ':1.11' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+[2024-08-10 17:27:54.006] [info] Bar configured (width: 1910, height: 26) for output: DP-1
+[2024-08-10 17:27:54.006] [info] Bar configured (width: 1070, height: 26) for output: HDMI-A-1
+[2024-08-10 17:27:54.007] [info] Bar configured (width: 1910, height: 26) for output: eDP-1
+
+** (waybar:104039): WARNING **: 17:27:54.996: Status Notifier Item with bus name ':1.11' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+[2024-08-10 17:28:02.753] [info] Using configuration file /home/u1145h/.config/waybar/config.jsonc
+[2024-08-10 17:28:02.755] [info] Discovered appearance 'dark'
+[2024-08-10 17:28:02.755] [info] Using CSS file /home/u1145h/.config/waybar/style.css
+[2024-08-10 17:28:02.851] [info] Hyprland IPC starting
+[2024-08-10 17:28:02.966] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-08-10 17:28:03.023] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-08-10 17:28:03.065] [info] Loading persistent workspaces from Hyprland workspace rules
+
+** (waybar:104464): WARNING **: 17:28:03.539: Status Notifier Item with bus name ':1.11' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+[2024-08-10 17:28:03.795] [info] Bar configured (width: 1910, height: 26) for output: DP-1
+[2024-08-10 17:28:03.795] [info] Bar configured (width: 1070, height: 26) for output: HDMI-A-1
+[2024-08-10 17:28:03.795] [info] Bar configured (width: 1910, height: 26) for output: eDP-1
+
+** (waybar:104464): WARNING **: 17:28:04.958: Status Notifier Item with bus name ':1.11' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+[2024-08-10 17:28:12.736] [info] Using configuration file /home/u1145h/.config/waybar/config.jsonc
+[2024-08-10 17:28:12.738] [info] Discovered appearance 'dark'
+[2024-08-10 17:28:12.738] [info] Using CSS file /home/u1145h/.config/waybar/style.css
+[2024-08-10 17:28:12.855] [info] Hyprland IPC starting
+[2024-08-10 17:28:12.949] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-08-10 17:28:12.994] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-08-10 17:28:13.052] [info] Loading persistent workspaces from Hyprland workspace rules
+
+** (waybar:104882): WARNING **: 17:28:13.649: Status Notifier Item with bus name ':1.11' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+[2024-08-10 17:28:13.795] [info] Bar configured (width: 1910, height: 26) for output: DP-1
+[2024-08-10 17:28:13.795] [info] Bar configured (width: 1070, height: 26) for output: HDMI-A-1
+[2024-08-10 17:28:13.796] [info] Bar configured (width: 1910, height: 26) for output: eDP-1
+
+** (waybar:104882): WARNING **: 17:28:14.948: Status Notifier Item with bus name ':1.11' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+[2024-08-10 17:28:18.445] [info] Using configuration file /home/u1145h/.config/waybar/config.jsonc
+[2024-08-10 17:28:18.447] [info] Discovered appearance 'dark'
+[2024-08-10 17:28:18.447] [info] Using CSS file /home/u1145h/.config/waybar/style.css
+[2024-08-10 17:28:18.546] [info] Hyprland IPC starting
+[2024-08-10 17:28:18.628] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-08-10 17:28:18.652] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-08-10 17:28:18.673] [info] Loading persistent workspaces from Hyprland workspace rules
+
+** (waybar:105148): WARNING **: 17:28:19.259: Status Notifier Item with bus name ':1.11' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+[2024-08-10 17:28:19.401] [info] Bar configured (width: 1910, height: 26) for output: DP-1
+[2024-08-10 17:28:19.402] [info] Bar configured (width: 1070, height: 26) for output: HDMI-A-1
+[2024-08-10 17:28:19.402] [info] Bar configured (width: 1910, height: 26) for output: eDP-1
+
+** (waybar:105148): WARNING **: 17:28:19.990: Status Notifier Item with bus name ':1.11' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+[2024-08-10 17:28:40.047] [info] Using configuration file /home/u1145h/.config/waybar/config.jsonc
+[2024-08-10 17:28:40.049] [info] Discovered appearance 'dark'
+[2024-08-10 17:28:40.050] [info] Using CSS file /home/u1145h/.config/waybar/style.css
+[2024-08-10 17:28:40.106] [info] Hyprland IPC starting
+[2024-08-10 17:28:40.170] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-08-10 17:28:40.202] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-08-10 17:28:40.217] [info] Loading persistent workspaces from Hyprland workspace rules
+
+** (waybar:106188): WARNING **: 17:28:40.734: Status Notifier Item with bus name ':1.11' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+[2024-08-10 17:28:40.879] [info] Bar configured (width: 1910, height: 26) for output: DP-1
+[2024-08-10 17:28:40.879] [info] Bar configured (width: 1070, height: 26) for output: HDMI-A-1
+[2024-08-10 17:28:40.880] [info] Bar configured (width: 1910, height: 26) for output: eDP-1
+
+** (waybar:106188): WARNING **: 17:28:41.973: Status Notifier Item with bus name ':1.11' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+[2024-08-10 17:29:02.795] [info] Using configuration file /home/u1145h/.config/waybar/config.jsonc
+[2024-08-10 17:29:02.797] [info] Discovered appearance 'dark'
+[2024-08-10 17:29:02.798] [info] Using CSS file /home/u1145h/.config/waybar/style.css
+[2024-08-10 17:29:02.867] [info] Hyprland IPC starting
+[2024-08-10 17:29:02.918] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-08-10 17:29:02.983] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-08-10 17:29:03.075] [info] Loading persistent workspaces from Hyprland workspace rules
+
+** (waybar:107096): WARNING **: 17:29:03.641: Status Notifier Item with bus name ':1.11' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+[2024-08-10 17:29:03.787] [info] Bar configured (width: 1910, height: 26) for output: DP-1
+[2024-08-10 17:29:03.787] [info] Bar configured (width: 1070, height: 26) for output: HDMI-A-1
+[2024-08-10 17:29:03.787] [info] Bar configured (width: 1910, height: 26) for output: eDP-1
+
+** (waybar:107096): WARNING **: 17:29:04.957: Status Notifier Item with bus name ':1.11' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+[2024-08-10 17:29:11.407] [info] Using configuration file /home/u1145h/.config/waybar/config.jsonc
+[2024-08-10 17:29:11.409] [info] Discovered appearance 'dark'
+[2024-08-10 17:29:11.409] [info] Using CSS file /home/u1145h/.config/waybar/style.css
+[2024-08-10 17:29:11.467] [info] Hyprland IPC starting
+[2024-08-10 17:29:11.543] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-08-10 17:29:11.577] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-08-10 17:29:11.600] [info] Loading persistent workspaces from Hyprland workspace rules
+
+** (waybar:107468): WARNING **: 17:29:12.102: Status Notifier Item with bus name ':1.11' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+[2024-08-10 17:29:12.242] [info] Bar configured (width: 1910, height: 26) for output: DP-1
+[2024-08-10 17:29:12.242] [info] Bar configured (width: 1070, height: 26) for output: HDMI-A-1
+[2024-08-10 17:29:12.242] [info] Bar configured (width: 1910, height: 26) for output: eDP-1
+
+** (waybar:107468): WARNING **: 17:29:12.970: Status Notifier Item with bus name ':1.11' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+[2024-08-10 17:29:20.227] [info] Using configuration file /home/u1145h/.config/waybar/config.jsonc
+[2024-08-10 17:29:20.228] [info] Discovered appearance 'dark'
+[2024-08-10 17:29:20.228] [info] Using CSS file /home/u1145h/.config/waybar/style.css
+[2024-08-10 17:29:20.349] [info] Hyprland IPC starting
+[2024-08-10 17:29:20.457] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-08-10 17:29:20.508] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-08-10 17:29:20.557] [info] Loading persistent workspaces from Hyprland workspace rules
+
+** (waybar:107851): WARNING **: 17:29:21.168: Status Notifier Item with bus name ':1.11' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+[2024-08-10 17:29:21.357] [info] Bar configured (width: 1910, height: 26) for output: DP-1
+[2024-08-10 17:29:21.357] [info] Bar configured (width: 1070, height: 26) for output: HDMI-A-1
+[2024-08-10 17:29:21.357] [info] Bar configured (width: 1910, height: 26) for output: eDP-1
+
+** (waybar:107851): WARNING **: 17:29:21.994: Status Notifier Item with bus name ':1.11' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+[2024-08-10 17:29:37.159] [info] Using configuration file /home/u1145h/.config/waybar/config.jsonc
+[2024-08-10 17:29:37.161] [info] Discovered appearance 'dark'
+[2024-08-10 17:29:37.161] [info] Using CSS file /home/u1145h/.config/waybar/style.css
+[2024-08-10 17:29:37.203] [info] Hyprland IPC starting
+[2024-08-10 17:29:37.263] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-08-10 17:29:37.354] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-08-10 17:29:37.371] [info] Loading persistent workspaces from Hyprland workspace rules
+
+** (waybar:108615): WARNING **: 17:29:37.906: Status Notifier Item with bus name ':1.11' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+[2024-08-10 17:29:38.040] [info] Bar configured (width: 1910, height: 26) for output: DP-1
+[2024-08-10 17:29:38.040] [info] Bar configured (width: 1070, height: 26) for output: HDMI-A-1
+[2024-08-10 17:29:38.040] [info] Bar configured (width: 1910, height: 26) for output: eDP-1
+
+** (waybar:108615): WARNING **: 17:29:39.000: Status Notifier Item with bus name ':1.11' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+[2024-08-10 17:29:45.225] [info] Using configuration file /home/u1145h/.config/waybar/config.jsonc
+[2024-08-10 17:29:45.227] [info] Discovered appearance 'dark'
+[2024-08-10 17:29:45.227] [info] Using CSS file /home/u1145h/.config/waybar/style.css
+[2024-08-10 17:29:45.319] [info] Hyprland IPC starting
+[2024-08-10 17:29:45.413] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-08-10 17:29:45.460] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-08-10 17:29:45.491] [info] Loading persistent workspaces from Hyprland workspace rules
+
+** (waybar:109023): WARNING **: 17:29:45.952: Status Notifier Item with bus name ':1.11' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+[2024-08-10 17:29:46.196] [info] Bar configured (width: 1910, height: 26) for output: DP-1
+[2024-08-10 17:29:46.196] [info] Bar configured (width: 1070, height: 26) for output: HDMI-A-1
+[2024-08-10 17:29:46.196] [info] Bar configured (width: 1910, height: 26) for output: eDP-1
+
+** (waybar:109023): WARNING **: 17:29:46.991: Status Notifier Item with bus name ':1.11' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+[2024-08-10 17:29:50.447] [info] Using configuration file /home/u1145h/.config/waybar/config.jsonc
+[2024-08-10 17:29:50.449] [info] Discovered appearance 'dark'
+[2024-08-10 17:29:50.449] [info] Using CSS file /home/u1145h/.config/waybar/style.css
+[2024-08-10 17:29:50.595] [info] Hyprland IPC starting
+[2024-08-10 17:29:50.675] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-08-10 17:29:50.740] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-08-10 17:29:50.793] [info] Loading persistent workspaces from Hyprland workspace rules
+
+** (waybar:109296): WARNING **: 17:29:51.309: Status Notifier Item with bus name ':1.11' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+[2024-08-10 17:29:51.547] [info] Bar configured (width: 1910, height: 26) for output: DP-1
+[2024-08-10 17:29:51.548] [info] Bar configured (width: 1070, height: 26) for output: HDMI-A-1
+[2024-08-10 17:29:51.548] [info] Bar configured (width: 1910, height: 26) for output: eDP-1
+
+** (waybar:109296): WARNING **: 17:29:51.987: Status Notifier Item with bus name ':1.11' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+[2024-08-10 17:30:04.526] [info] Using configuration file /home/u1145h/.config/waybar/config.jsonc
+[2024-08-10 17:30:04.529] [info] Discovered appearance 'dark'
+[2024-08-10 17:30:04.529] [info] Using CSS file /home/u1145h/.config/waybar/style.css
+[2024-08-10 17:30:04.656] [info] Hyprland IPC starting
+[2024-08-10 17:30:04.753] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-08-10 17:30:04.789] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-08-10 17:30:04.827] [info] Loading persistent workspaces from Hyprland workspace rules
+
+** (waybar:109873): WARNING **: 17:30:05.338: Status Notifier Item with bus name ':1.11' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+[2024-08-10 17:30:05.485] [info] Bar configured (width: 1910, height: 26) for output: DP-1
+[2024-08-10 17:30:05.485] [info] Bar configured (width: 1070, height: 26) for output: HDMI-A-1
+[2024-08-10 17:30:05.485] [info] Bar configured (width: 1910, height: 26) for output: eDP-1
+
+** (waybar:109873): WARNING **: 17:30:05.990: Status Notifier Item with bus name ':1.11' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+[2024-08-10 17:30:12.134] [info] Using configuration file /home/u1145h/.config/waybar/config.jsonc
+[2024-08-10 17:30:12.136] [info] Discovered appearance 'dark'
+[2024-08-10 17:30:12.136] [info] Using CSS file /home/u1145h/.config/waybar/style.css
+[2024-08-10 17:30:12.224] [info] Hyprland IPC starting
+[2024-08-10 17:30:12.293] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-08-10 17:30:12.333] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-08-10 17:30:12.353] [info] Loading persistent workspaces from Hyprland workspace rules
+
+** (waybar:110190): WARNING **: 17:30:12.924: Status Notifier Item with bus name ':1.11' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+[2024-08-10 17:30:13.085] [info] Bar configured (width: 1910, height: 26) for output: DP-1
+[2024-08-10 17:30:13.085] [info] Bar configured (width: 1070, height: 26) for output: HDMI-A-1
+[2024-08-10 17:30:13.086] [info] Bar configured (width: 1910, height: 26) for output: eDP-1
+
+** (waybar:110190): WARNING **: 17:30:13.994: Status Notifier Item with bus name ':1.11' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+[2024-08-10 17:32:22.781] [info] Using configuration file /home/u1145h/.config/waybar/config.jsonc
+[2024-08-10 17:32:22.783] [info] Discovered appearance 'dark'
+[2024-08-10 17:32:22.783] [info] Using CSS file /home/u1145h/.config/waybar/style.css
+[2024-08-10 17:32:22.855] [info] Hyprland IPC starting
+[2024-08-10 17:32:22.931] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-08-10 17:32:22.963] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-08-10 17:32:23.018] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-08-10 17:32:23.051] [warning] module cava: Unknown module: cava
+[2024-08-10 17:32:23.128] [warning] module cava: Unknown module: cava
+[2024-08-10 17:32:23.170] [warning] module cava: Unknown module: cava
+
+** (waybar:115100): WARNING **: 17:32:23.558: Status Notifier Item with bus name ':1.11' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+[2024-08-10 17:32:23.707] [info] Bar configured (width: 1910, height: 26) for output: DP-1
+[2024-08-10 17:32:23.707] [info] Bar configured (width: 1070, height: 26) for output: HDMI-A-1
+[2024-08-10 17:32:23.707] [info] Bar configured (width: 1910, height: 26) for output: eDP-1
+
+** (waybar:115100): WARNING **: 17:32:24.953: Status Notifier Item with bus name ':1.11' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+[2024-08-10 17:33:34.086] [info] Using configuration file /home/u1145h/.config/waybar/config.jsonc
+[2024-08-10 17:33:34.088] [info] Discovered appearance 'dark'
+[2024-08-10 17:33:34.088] [info] Using CSS file /home/u1145h/.config/waybar/style.css
+[2024-08-10 17:33:34.202] [info] Hyprland IPC starting
+[2024-08-10 17:33:34.332] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-08-10 17:33:34.458] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-08-10 17:33:34.525] [info] Loading persistent workspaces from Hyprland workspace rules
+
+** (waybar:117878): WARNING **: 17:33:35.111: Status Notifier Item with bus name ':1.11' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+[2024-08-10 17:33:35.535] [info] Bar configured (width: 1910, height: 26) for output: DP-1
+[2024-08-10 17:33:35.535] [info] Bar configured (width: 1070, height: 26) for output: HDMI-A-1
+[2024-08-10 17:33:35.535] [info] Bar configured (width: 1910, height: 26) for output: eDP-1
+
+** (waybar:117878): WARNING **: 17:33:36.026: Status Notifier Item with bus name ':1.11' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+ok
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 13200 (11%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 19200 (16%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 25200 (21%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 31200 (26%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 37200 (31%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 43200 (36%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 49200 (41%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 49200 (41%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 55200 (46%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 61200 (51%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 55200 (46%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 49200 (41%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 43200 (36%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 49200 (41%)
+	Max brightness: 120000
+
+ok
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 55200 (46%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 61200 (51%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 55200 (46%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 49200 (41%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 49200 (41%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 43200 (36%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 43200 (36%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 37200 (31%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 31200 (26%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 25200 (21%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 25200 (21%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 19200 (16%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 19200 (16%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 13200 (11%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 7200 (6%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 1200 (1%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 0 (0%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 0 (0%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 0 (0%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 0 (0%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 0 (0%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 0 (0%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 0 (0%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 0 (0%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 0 (0%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 0 (0%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 0 (0%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 0 (0%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 6000 (5%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 6000 (5%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 12000 (10%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 12000 (10%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 18000 (15%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 18000 (15%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 24000 (20%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 30000 (25%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 36000 (30%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 36000 (30%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 42000 (35%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 48000 (40%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 54000 (45%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 54000 (45%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 60000 (50%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 66000 (55%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 72000 (60%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 78000 (65%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 84000 (70%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 84000 (70%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 90000 (75%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 96000 (80%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 102000 (85%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 102000 (85%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 108000 (90%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 114000 (95%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 120000 (100%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 120000 (100%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 120000 (100%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 120000 (100%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 120000 (100%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 120000 (100%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 114000 (95%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 108000 (90%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 102000 (85%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 96000 (80%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 90000 (75%)
+	Max brightness: 120000
+
+Updated device 'intel_backlight':
+Device 'intel_backlight' of class 'backlight':
+	Current brightness: 84000 (70%)
+	Max brightness: 120000
+
+[2024-08-10 21:16:57.940] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2024-08-10 21:16:58.036] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-08-10 21:16:58.037] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2024-08-10 21:16:58.038] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-08-10 21:16:58.039] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2024-08-10 21:16:58.039] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-08-10 21:17:07.071] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2024-08-10 21:17:07.167] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-08-10 21:17:07.168] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2024-08-10 21:17:07.169] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-08-10 21:17:07.169] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2024-08-10 21:17:07.170] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-08-10 21:17:16.164] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2024-08-10 21:17:16.250] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-08-10 21:17:16.250] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2024-08-10 21:17:16.251] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-08-10 21:17:16.252] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2024-08-10 21:17:16.253] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-08-10 21:17:21.279] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2024-08-10 21:17:21.393] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-08-10 21:17:21.393] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2024-08-10 21:17:21.395] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-08-10 21:17:21.395] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2024-08-10 21:17:21.396] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-08-10 21:17:31.445] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2024-08-10 21:17:31.620] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-08-10 21:17:31.646] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2024-08-10 21:17:31.711] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-08-10 21:17:31.729] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2024-08-10 21:17:31.788] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-08-10 21:17:42.599] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2024-08-10 21:17:42.704] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-08-10 21:17:42.704] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2024-08-10 21:17:42.705] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-08-10 21:17:42.705] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2024-08-10 21:17:42.706] [info] Loading persistent workspaces from Hyprland workspace rules

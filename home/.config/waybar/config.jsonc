@@ -1,15 +1,15 @@
 {
   "layer": "top",
-  "position": "bottom",
+  "position": "top",
   "mode": "dock",
   "exclusive": true,
   "passthrough": false,
   "gtk-layer-shell": true,
   "height": 0,
-  "margin-left": 5,
-  "margin-right": 5,
-  "margin-top": 0,
-  "margin-bottom": 5,
+  "margin-left": 2,
+  "margin-right": 2,
+  "margin-top": 2,
+  "margin-bottom": 0,
   "modules-left": [
     "custom/appmenu",
     "custom/arrowl1",
@@ -26,7 +26,9 @@
   "modules-center": ["custom/arrowr1", "clock", "custom/arrowl1"],
   "modules-right": [
     "custom/arrowr1",
-    "group/connection",
+    /* "group/connection", */
+    /* "custom/vpn", */
+    "custom/dunst",
     "custom/arrowr2",
     "idle_inhibitor",
     "custom/arrowr1",
@@ -38,7 +40,9 @@
     "custom/arrowr2",
     "battery",
     "custom/arrowr1",
-    "tray"
+    "tray"/* ,
+    "custom/arrowr1",
+    "custom/power" */
   ],
 
   //////////////
@@ -54,7 +58,7 @@
   },
   "group/connection": {
     "orientation": "horizontal",
-    "modules": ["network", "bluetooth"]
+    "modules": ["network", "bluetooth", "custom/vpn"]
   },
 
   ///////////////
@@ -76,18 +80,17 @@
 
   "wlr/taskbar": {
     "format": "{icon}",
-    "icon-size": 16,
+    "icon-size": 14,
     "icon-spacing": 10,
-    "icon-theme": "Colloid-Green-Nord-Dark",
+    "icon-theme": "Tela-nord-dark",
     "tooltip-format": "{title}",
     "on-click": "activate",
     "on-click-middle": "close",
-    "ignore-list": ["Alacritty"],
     "app_ids-mapping": {
       "firefoxdeveloperedition": "firefox-developer-edition"
     },
     "rewrite": {
-      "kitty": "Terminal",
+      "~": "Terminal",
       "Firefox Web Browser": "Firefox",
       "Foot Server": "Terminal"
     }
@@ -149,6 +152,12 @@
     "on-click": "hyprctl dispatch exec '[float]' 'kitty -e nmtui'",
     "tooltip": false
   },
+  "custom/vpn": {
+    "format": "",
+    "on-click": "hyprctl dispatch exec '[float]' 'kitty -e protonvpn-cli connect'",
+    "on-click-right": "hyprctl dispatch exec '[float]' 'kitty -e protonvpn-cli d'",
+    "tooltip": false
+  },
   "power-profiles-daemon": {
     "format": "{icon}",
     "tooltip-format": "Power profile: {profile}\nDriver: {driver}",
@@ -203,10 +212,16 @@
     "on-click-right": "wlogout",
     "tooltip": false
   },
+  "custom/power": {
+    "format": "⏻",
+    "on-click": "wlogout",
+    "tooltip": false
+  },
   "tray": {
     "icon-size": 12,
-    "spacing": 7,
-    "ignored-apps": ["nm-applet", "Network", "network"]
+    "spacing": 5,
+    /* "ignored-apps": ["nm-applet", "Network", "network"], */
+    "hide": ["nm-applet", "Network", "network"]
   },
   "clock": {
     "format": "󰅐 <b>{:%I:%M %p}</b>",
@@ -299,6 +314,12 @@
     "on-scroll-up": "pamixer --default-source -i 5",
     "on-scroll-down": "pamixer --default-source -d 5",
     "scroll-step": 5
+  },
+
+  "custom/dunst": {
+    "exec": "~/.config/waybar/scripts/dunst.sh",
+    "on-click": "dunstctl set-paused toggle",
+    "restart-interval": 1
   },
 
   /* Custom Arrow */

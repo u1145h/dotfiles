@@ -2,7 +2,7 @@ window {
     font-family: monospace;
     font-size: 14pt;
     color: #F7F3EA;
-    background-color: rgba(29, 32, 33, 0.8);
+    background-color: rgba(18, 20, 20, 0.9);
 }
 
 button {
@@ -10,26 +10,26 @@ button {
     background-position: center;
     background-size: 100px;
     border: 2px solid #433F39;
-    border-radius: 8px;
+    border-radius: 0px;
     background-color: #111314;
     margin: 5px;
 }
 
 button:hover {
-    border: 2px solid #a9b665;
-    background-color: rgba(29, 32, 33, 1);
+    border: 2px solid #374B47;
+    background-color: #111314;
     color: #F7F3EA;
 }
 
 button:active {
-    border: 2px solid #a9b665;
-    background-color: rgba(29, 32, 33, 1);
+    border: 2px solid #374B47;
+    background-color: #111314;
     color: #F7F3EA;
 }
 
 button:focus {
-    border: 2px solid #a9b665;
-    background-color: rgba(29, 32, 33, 1);
+    border: 2px solid #374B47;
+    background-color: #111314;
     color: #F7F3EA;
 }
 

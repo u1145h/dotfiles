@@ -1,5 +1,5 @@
 window {
-    font-family: monospace;
+    font-family: JetBrainsMono Nerd Font;
     font-size: 14pt;
     color: #F7F3EA;
     background-color: rgba(18, 20, 20, 0.9);
@@ -9,45 +9,55 @@ button {
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100px;
-    border: 2px solid #433F39;
-    border-radius: 0px;
+    border: 2px solid #A9B665;
+    border-radius: 10px;
     background-color: #111314;
-    margin: 5px;
+    margin: 20px;
 }
 
 button:hover {
-    border: 2px solid #374B47;
+    border: 2px solid #A9B665;
+    border-radius: 10px;
     background-color: #111314;
     color: #F7F3EA;
 }
 
 button:active {
-    border: 2px solid #374B47;
+    border-radius: 10px;
+    border: 2px solid #A9B665;
     background-color: #111314;
     color: #F7F3EA;
 }
 
 button:focus {
-    border: 2px solid #374B47;
+    border-radius: 10px;
+    border: 2px solid #A9B665;
     background-color: #111314;
     color: #F7F3EA;
 }
 
+
 #lock {
     background-image: image(url("./lock.png"));
+    border: 2px solid #232525;
 }
 #logout {
     background-image: image(url("./logout.png"));
+    border: 2px solid #232525;
 }
 #suspend {
     background-image: image(url("./sleep.png"));
+    border: 2px solid #232525;
 }
 #shutdown {
     background-image: image(url("./power.png"));
+    border: 2px solid #232525;
 }
 #reboot {
     background-image: image(url("./restart.png"));
+    border: 2px solid #232525;
 }
 #hibernate {
     background-image: image(url("./restart.png"));
+    border: 2px solid #232525;
 }

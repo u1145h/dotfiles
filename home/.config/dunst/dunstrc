@@ -8,8 +8,8 @@ transparency = 0
 corner_radius = 5
 word_wrap = true
 ignore_newline = false
-origin = "top-center"
-offset = "10x10"
+origin = "top-right"
+offset = "15x15"
 width = 350
 shrink = false
 monitor = 0
@@ -32,7 +32,7 @@ per_monitor_dpi = false
 
 [urgency_low]
 timeout = 2
-background = "#111314"
+ackground = "#111314"
 foreground = "#F7F3EA"
 frame_color = "#272627"
 

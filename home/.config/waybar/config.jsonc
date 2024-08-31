@@ -1,15 +1,16 @@
+/* Monitor 01 */
 {
   "layer": "top",
-  "position": "bottom",
+  "position": "top",
   "mode": "dock",
   "exclusive": true,
   "passthrough": false,
   "gtk-layer-shell": true,
   "height": 0,
-  "margin-left": 2,
-  "margin-right": 2,
-  "margin-top": 0,
-  "margin-bottom": 2,
+  "margin-left": 4,
+  "margin-right": 4,
+  "margin-top": 4,
+  "margin-bottom": 0,
   "modules-left": [
     "custom/appmenu",
     "custom/arrowl1",
@@ -26,7 +27,7 @@
   "modules-center": ["custom/arrowr1", "clock", "custom/arrowl1"],
   "modules-right": [
     "custom/arrowr1",
-    /* "group/connection", */
+    "group/connection",
     /* "custom/vpn", */
     "custom/dunst",
     "custom/arrowr2",
@@ -58,7 +59,7 @@
   },
   "group/connection": {
     "orientation": "horizontal",
-    "modules": ["network", "bluetooth", "custom/vpn"]
+    "modules": ["network", "bluetooth"/* , "custom/vpn" */]
   },
 
   ///////////////
@@ -99,7 +100,7 @@
     "format": "{icon}",
     "icon-size": 15,
     "format-connected": "󰂱 {device_alias}",
-    "format-connected-battery": "󰂱 {num_connections}", // .
+    "format-connected-battery": "󰂱", /* {num_connections} */
     "tooltip-format": "{controller_alias}\t{controller_address}\n\n{num_connections} connected",
     "tooltip-format-connected": "{controller_alias}\t{controller_address}\n\n{num_connections} connected\n\n{device_enumerate}",
     "tooltip-format-enumerate-connected": "{device_alias}\t{device_address}",

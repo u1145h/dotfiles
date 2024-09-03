@@ -22,6 +22,7 @@
     "custom/arrowl2",
     /* "custom/spotify", */
     "wlr/taskbar",
+    /* "custom/scrcpy", */
     "custom/arrowl1"
   ],
   "modules-center": ["custom/arrowr1", "clock", "custom/arrowl1"],
@@ -83,7 +84,7 @@
     "format": "{icon}",
     "icon-size": 14,
     "icon-spacing": 10,
-    "icon-theme": "Tela-nord-dark",
+    "icon-theme": "Colloid-Green-Nord-Dark",
     "tooltip-format": "{title}",
     "on-click": "activate",
     "on-click-middle": "close",
@@ -99,8 +100,8 @@
   "bluetooth": {
     "format": "{icon}",
     "icon-size": 15,
-    "format-connected": "󰂱 {device_alias}",
-    "format-connected-battery": "󰂱", /* {num_connections} */
+    "format-connected": "󰂱{device_alias}",
+    "format-connected-battery": "󰂱 {num_connections}", /* {num_connections} */
     "tooltip-format": "{controller_alias}\t{controller_address}\n\n{num_connections} connected",
     "tooltip-format-connected": "{controller_alias}\t{controller_address}\n\n{num_connections} connected\n\n{device_enumerate}",
     "tooltip-format-enumerate-connected": "{device_alias}\t{device_address}",
@@ -157,6 +158,13 @@
     "format": "",
     "on-click": "hyprctl dispatch exec '[float]' 'kitty -e protonvpn-cli connect'",
     "on-click-right": "hyprctl dispatch exec '[float]' 'kitty -e protonvpn-cli d'",
+    "tooltip": false
+  },
+  "custom/scrcpy": {
+    "format": "",
+    "on-click": "hyprctl dispatch exec '[float]' 'kitty -e nohup scrcpy --turn-screen-off --stay-awake &'",
+    "on-click-right": "hyprctl dispatch exec '[float]' 'kitty -e nohup scrcpy -d --turn-screen-off --stay-awake &'",
+    "on-click-middle": "hyprctl dispatch exec '[float]' 'kitty -e adb connect 192.168.1.3:5555'",
     "tooltip": false
   },
   "power-profiles-daemon": {

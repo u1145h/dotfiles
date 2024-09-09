@@ -1,0 +1,14 @@
+/usr/share/scrcpy/scrcpy-server: 1 file pushed, 0 skipped. 182.4 MB/s (71112 bytes in 0.000s)
+[server] INFO: Device: [Xiaomi] Xiaomi POCOPHONE F1 (Android 14)
+[server] INFO: Device screen turned off
+X Error of failed request:  BadWindow (invalid Window parameter)
+  Major opcode of failed request:  18 (X_ChangeProperty)
+  Resource id in failed request:  0x200046
+  Serial number of failed request:  2715
+  Current serial number in output stream:  2717
+WARN: Could not post new frame event: 
+ERROR: Could not post SC_EVENT_DEMUXER_ERROR event: 
+scrcpy: option '--push-target' requires an argument
+scrcpy 2.6.1 <https://github.com/Genymobile/scrcpy>
+scrcpy: option '--push-target' requires an argument
+scrcpy 2.6.1 <https://github.com/Genymobile/scrcpy>

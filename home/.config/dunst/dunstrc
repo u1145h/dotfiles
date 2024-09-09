@@ -5,10 +5,10 @@ separator_height = 2
 padding = 15
 horizontal_padding = 15
 transparency = 0
-corner_radius = 5
+corner_radius = 10
 word_wrap = true
 ignore_newline = false
-origin = "top-right"
+origin = "top-center"
 offset = "15x15"
 width = 350
 shrink = false
@@ -34,17 +34,17 @@ per_monitor_dpi = false
 timeout = 2
 ackground = "#111314"
 foreground = "#F7F3EA"
-frame_color = "#272627"
+frame_color = "#2B2D2D"
 
 [urgency_normal]
-timeout = 5
-background = "#232526"
+timeout = 10
+background = "#111314"
 foreground = "#F7F3EA"
 frame_color = "#A9B665"
 
 [urgency_critical]
-timeout = 10
-background = "#232526"
+timeout = 25
+background = "#111314"
 foreground = "#F7F3EA"
 frame_color = "#EA6962"
 

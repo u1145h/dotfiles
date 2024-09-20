@@ -15,17 +15,17 @@ window#waybar {
 
 tooltip {
     background: #111314;
-    border: 2px solid #111314;
-    border-radius: 8px;
+    border: 2px solid #1F2121;
+    border-radius: 10px;
     padding: 10px;
-    margin: 5px;
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
+    margin: 5px 0px 0px 5px;
+    /* box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8); */
 }
 
-#custom-clock {
+#clock {
     margin: 0px;
     color: #F7F3EA;
-    background: #1f2121;;
+    background: #1F2121;
     border-top: 2px solid #111314;
     border-bottom: 2px solid #111314;
     padding: 0px 6px;

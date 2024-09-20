@@ -26,7 +26,7 @@
     "custom/arrowl1",
     "hyprland/window"
   ],
-  "modules-center": ["custom/arrowr1", "custom/clock", "custom/arrowl1"],
+  "modules-center": ["custom/arrowr1", "clock", "custom/arrowl1"],
   "modules-right": [
     "privacy",
     "mpris",
@@ -69,17 +69,18 @@
   ///////////////
   "mpris": {
     "format": "{player_icon} {dynamic}",
-    "format-paused": "{status_icon} <i>{dynamic}</i>",
+    "format-paused": "{status_icon} {dynamic}",
     "max-length": 20,
     "player-icons": {
-      "default": "⏸",
+      "default": " ",
+      "spotify-launcher": "",
       "spotify": "",
       "mpv": "",
       "zen-browser": "",
       "vlc": "󰕼"
     },
     "status-icons": {
-      "paused": "▶"
+      "paused": " "
     }
     // "ignored-players": ["firefox"]
   },

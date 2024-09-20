@@ -15,7 +15,7 @@ There might be some configuration that may not work as intended, but I will keep
 - **App Launcher** - [Rofi](https://github.com/davatorium/rofi)
 - **LockScreen** - [Hyprlock](https://github.com/hyprwm/hyprlock)
 - **Wallpaper** - [hyprpaper](https://github.com/hyprwm/hyprpaper)
-- **LogOut Menu** - [wlogout](https://github.com/ArtsyMacaw/wlogout) 
+- **LogOut Menu** - [wlogout](https://github.com/ArtsyMacaw/wlogout)
 - **TopBar** - [waybar](https://github.com/Alexays/Waybar)
 - **Browser** - [Brave](https://brave.com/)
 - **File Manager** - [thunar](https://archlinux.org/packages/extra/x86_64/thunar/)
@@ -35,10 +35,76 @@ There might be some configuration that may not work as intended, but I will keep
 ## 🎨 Appearance
 - **THEME** - [Gruvbox](https://github.com/user_name/dotfiles/tree/main/home/.themes/)
 - **ICON** - [Colloid Green Nord Dark](https://github.com/vinceliuice/Colloid-icon-theme)
-- **FONT's** 
+- **FONT's**
     - MAIN : SF Pro Text Regular (11)
     - TERMINAL : JetBrainsMono Nerd Font (10)
 - **VSCode Theme** - Custom [GitHub Link](https://github.com/u1145h/vscode-theme) [Extention Link](https://marketplace.visualstudio.com/items?itemName=u1145h.u1145h-heme-ark)
 - **Firefox Theme** - [SimpleFox](https://github.com/migueravila/SimpleFox)
 - **Vescord Theme** - [system24](https://github.com/refact0r/system24)
 - **Spotify Theme** - [spicetify-text](https://github.com/spicetify/spicetify-themes/tree/master/text)
+
+
+
+## 📦 Basic Installation Guide
+##### Additional Packages
+Basic additional packages while installing Arch Linux with `archinstall` script. This will add all the home directory's, install important packages and install nvidia drivers.
+```bash
+git wget curl less go neovim xdg-user-dirs xdg-user-dirs-gtk linux-headers nvidia-dkms nvidia-settings nvidia-utils
+```
+`install yay` [Aur Repo](https://aur.archlinux.org/packages/yay)
+
+##### Post Installation
+Install basic nvidia driver with wayland support
+```bash
+yay -S linux-headers nvidia-dkms qt5-wayland qt5ct libva libva-nvidia-driver-git
+```
+edit and add module in - `/etc/mkinitcpio.conf`
+```bash
+MODULES=(nvidia nvidia_modeset nvidia_uvm nvidia_drm)
+```
+MODULES=(nvidia nvidia_modeset nvidia_uvm nvidia_drm)
+```bash
+sudo mkinitcpio --config /etc/mkinitcpio.conf --generate /boot/initramfs-custom.img
+```
+Create NVIDIA Configuration
+```bash
+echo "options nvidia-drm modeset=1" | sudo tee /etc/modprobe.d/nvidia.conf
+```
+verify
+```bash
+cat /etc/modprobe.d/nvidia.conf
+```
+reboot
+```bash
+reboot
+```
+# Optional
+##### Install [ZSH Human](https://github.com/romkatv/zsh4humans)
+```bash
+if command -v curl >/dev/null 2>&1; then
+  sh -c "$(curl -fsSL https://raw.githubusercontent.com/romkatv/zsh4humans/v5/install)"
+else
+  sh -c "$(wget -O- https://raw.githubusercontent.com/romkatv/zsh4humans/v5/install)"
+fi
+```
+
+
+##### Install basic dependencies
+```bash
+sudo pacman -S hyprpaper hypridle hyprlock waybar hyprpicker udiskie pavucontrol brightnessctl kdeconnect cliphist grim timeshift slurp
+```
+
+```bash
+yay -S wlogout hyprpicker rofi-wayland
+```
+
+##### Install important Packages
+```bash
+sudo pacman -S spotify-launcher imv zathura obsidian rclone syncthing krita inkscape blender kdenlive htop neofetch ranger tty-clock
+```
+```bash
+yay -S vencord zapzap flatseal bottom cava power-profiles-daemon rog-control-center
+```
+```bash
+reboot
+```

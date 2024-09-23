@@ -1,7 +1,7 @@
 /* Monitor 01 */
 {
   "layer": "top",
-  "position": "top",
+  "position": "bottom",
   "mode": "dock",
   "exclusive": true,
   "passthrough": false,
@@ -9,8 +9,8 @@
   "height": 0,
   "margin-left": 4,
   "margin-right": 4,
-  "margin-top": 4,
-  "margin-bottom": 0,
+  "margin-top": 0,
+  "margin-bottom": 4,
   "modules-left": [
     "custom/appmenu",
     "custom/arrowl1",
@@ -28,8 +28,8 @@
   ],
   "modules-center": ["custom/arrowr1", "clock", "custom/arrowl1"],
   "modules-right": [
-    "privacy",
     "mpris",
+    "privacy",
     /* "custom/spotify", */
     "custom/internet_speed",
     "custom/arrowr1",
@@ -72,12 +72,12 @@
     "format-paused": "{status_icon} {dynamic}",
     "max-length": 20,
     "player-icons": {
-      "default": " ",
+      "default": " "/* ,
       "spotify-launcher": "",
       "spotify": "",
       "mpv": "",
       "zen-browser": "",
-      "vlc": "󰕼"
+      "vlc": "󰕼" */
     },
     "status-icons": {
       "paused": " "
@@ -86,7 +86,7 @@
   },
   "privacy": {
     "icon-spacing": 6,
-    "icon-size": 10,
+    "icon-size": 8,
     "transition-duration": 250,
     "modules": [
       {

@@ -5,11 +5,11 @@ separator_height = 2
 padding = 15
 horizontal_padding = 15
 transparency = 0
-corner_radius = 10
+corner_radius = 0
 word_wrap = true
 ignore_newline = false
 origin = "top-center"
-offset = "15x15"
+offset = "5x10"
 width = 350
 shrink = false
 monitor = 0
@@ -32,9 +32,9 @@ per_monitor_dpi = false
 
 [urgency_low]
 timeout = 2
-ackground = "#111314"
+background = "#111314"
 foreground = "#F7F3EA"
-frame_color = "#2B2D2D"
+frame_color = "#1F2121"
 
 [urgency_normal]
 timeout = 10
@@ -47,5 +47,3 @@ timeout = 25
 background = "#111314"
 foreground = "#F7F3EA"
 frame_color = "#EA6962"
-
-

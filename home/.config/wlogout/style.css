@@ -10,27 +10,27 @@ button {
     background-position: center;
     background-size: 100px;
     border: 2px solid #A9B665;
-    border-radius: 10px;
+    border-radius: 0px;
     background-color: #111314;
-    margin: 20px;
+    margin: 2.5px;
 }
 
 button:hover {
     border: 2px solid #A9B665;
-    border-radius: 10px;
+    border-radius: 0px;
     background-color: #111314;
     color: #F7F3EA;
 }
 
 button:active {
-    border-radius: 10px;
+    border-radius: 0px;
     border: 2px solid #A9B665;
     background-color: #111314;
     color: #F7F3EA;
 }
 
 button:focus {
-    border-radius: 10px;
+    border-radius: 0px;
     border: 2px solid #A9B665;
     background-color: #111314;
     color: #F7F3EA;

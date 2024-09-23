@@ -100,7 +100,7 @@ yay -S wlogout hyprpicker rofi-wayland
 
 ##### Install important Packages
 ```bash
-sudo pacman -S spotify-launcher imv zathura obsidian rclone syncthing krita inkscape blender kdenlive htop neofetch ranger tty-clock
+sudo pacman -S spotify-launcher imv zathura zathura-pdf-poppler obsidian rclone syncthing krita inkscape blender kdenlive htop neofetch ranger tty-clock
 ```
 ```bash
 yay -S vencord zapzap flatseal bottom cava power-profiles-daemon rog-control-center

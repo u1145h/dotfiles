@@ -51,7 +51,6 @@ else
 fi
 ```
 
-
 ##### Install basic dependencies
 ```bash
 sudo pacman -S hyprpaper hypridle hyprlock waybar hyprpicker udiskie pavucontrol brightnessctl kdeconnect cliphist grim timeshift slurp
@@ -63,11 +62,18 @@ yay -S wlogout hyprpicker rofi-wayland
 
 ##### Install important Packages
 ```bash
-sudo pacman -S spotify-launcher imv zathura zathura-pdf-poppler obsidian rclone syncthing krita inkscape blender kdenlive htop neofetch ranger tty-clock
+sudo pacman -S spotify-launcher imv zathura zathura-pdf-poppler obsidian rclone syncthing gimp krita inkscape blender kdenlive htop neofetch ranger tty-clock gvfs-mtp mtpfs zathura-pdf-poppler spicetify-cli
 ```
 ```bash
-yay -S vencord zapzap flatseal bottom cava power-profiles-daemon rog-control-center
+yay -S vencord zapzap flatseal bottom cava power-profiles-daemon rog-control-center jmtpfs
 ```
 ```bash
 reboot
+```
+
+##### Apply Spotify Theme
+```bash
+spicetify backup apply
+spicetify config current_theme text
+spicetify apply
 ```

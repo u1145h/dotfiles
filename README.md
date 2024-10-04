@@ -57,7 +57,12 @@ sudo pacman -S hyprpaper hypridle hyprlock waybar hyprpicker udiskie pavucontrol
 ```
 
 ```bash
-yay -S wlogout hyprpicker rofi-wayland
+yay -S wlogout hyprpicker rofi-wayland swww
+```
+
+##### Apply Wallpaper
+```bash
+swww img ~/.config/wallpaper/desktop/monitor_03.png --outputs HDMI-A-1 && swww img ~/.config/wallpaper/desktop/monitor_02.png --outputs DP-1 && swww img ~/.config/wallpaper/desktop/monitor_01.png --outputs eDP-1
 ```
 
 ##### Install important Packages

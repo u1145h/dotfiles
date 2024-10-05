@@ -76,6 +76,14 @@ yay -S vencord zapzap flatseal bottom cava power-profiles-daemon rog-control-cen
 reboot
 ```
 
+##### Enable Bluetooth Support
+```bash
+sudo pacman -S bluez blueman bluez-utils
+sudo modprobe btusb
+sudo systemctl enable bluetooth
+```
+
+
 ##### Apply Spotify Theme
 ```bash
 spicetify backup apply

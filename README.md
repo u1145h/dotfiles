@@ -12,7 +12,7 @@
 ##### Additional Packages
 Basic additional packages while installing Arch Linux with `archinstall` script. This will add all the home directory's, install important packages and install nvidia drivers.
 ```bash
-git wget curl less go neovim xdg-user-dirs xdg-user-dirs-gtk linux-headers nvidia-dkms nvidia-settings nvidia-utils
+git wget curl less go neovim xdg-user-dirs xdg-user-dirs-gtk linux-headers nvidia nvidia-settings nvidia-utils egl-wayland
 ```
 `install yay` [Aur Repo](https://aur.archlinux.org/packages/yay)
 
@@ -25,6 +25,7 @@ edit and add module in - `/etc/mkinitcpio.conf`
 ```bash
 MODULES=(nvidia nvidia_modeset nvidia_uvm nvidia_drm)
 ```
+
 MODULES=(nvidia nvidia_modeset nvidia_uvm nvidia_drm)
 ```bash
 sudo mkinitcpio --config /etc/mkinitcpio.conf --generate /boot/initramfs-custom.img
@@ -41,6 +42,16 @@ reboot
 ```bash
 reboot
 ```
+
+Create and Edit `/etc/modprobe.d/nvidia.conf`. Add this line to the file,
+```bash
+options nvidia_drm modeset=1 fbdev=1
+```
+rebuild
+```bash
+sudo mkinitcpio -P
+```
+
 
 ##### Install [ZSH Human](https://github.com/romkatv/zsh4humans) (Optional)
 ```bash

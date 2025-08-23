@@ -2,7 +2,7 @@
 
 # Define the path to store the current brightness level
 BRIGHTNESS_FILE="$HOME/.config/scripts/monitor_brightness"
-BUS=1  # Bus number for HDMI-A-1
+BUS=8  # Bus number for HDMI-A-1
 STEP=10  # Percentage step for brightness adjustment
 
 # Read the current brightness level

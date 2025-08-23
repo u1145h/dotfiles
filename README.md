@@ -78,10 +78,10 @@ swww img ~/.config/wallpaper/desktop/monitor_03.png --outputs HDMI-A-1 && swww i
 
 ##### Install important Packages
 ```bash
-sudo pacman -S spotify-launcher imv zathura zathura-pdf-poppler obsidian rclone syncthing gimp krita inkscape blender kdenlive htop neofetch ranger tty-clock gvfs-mtp mtpfs zathura-pdf-poppler spicetify-cli
+sudo pacman -S spotify-launcher imv zathura zathura-pdf-poppler obsidian rclone syncthing gimp krita inkscape blender kdenlive htop ranger gvfs-mtp mtpfs zathura-pdf-poppler
 ```
 ```bash
-yay -S vencord zapzap flatseal bottom cava power-profiles-daemon rog-control-center jmtpfs
+yay -S vencord zapzap flatseal bottom cava power-profiles-daemon rog-control-center jmtpfs tty-clock spicetify-cli neofetch
 ```
 ```bash
 reboot

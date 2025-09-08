@@ -1,15 +1,15 @@
 /* Monitor 01 */
 {
   "layer": "top",
-  "position": "bottom",
+  "position": "top",
   "mode": "dock",
   "exclusive": true,
   "passthrough": false,
   "gtk-layer-shell": true,
   "height": 0,
-  "margin-left": 0,
-  "margin-right": 0,
-  "margin-top": 0,
+  "margin-left": 6,
+  "margin-right": 6,
+  "margin-top": 6,
   "margin-bottom": 0,
   "modules-left": [
     "custom/appmenu",
@@ -22,26 +22,24 @@
     "custom/arrowl2",
     "power-profiles-daemon",
     "custom/arrowl1",
+    "idle_inhibitor",
+    "custom/arrowstart",
     "wlr/taskbar",
     "hyprland/window"
   ],
-  "modules-center": ["custom/arrowr1", "clock", "custom/arrowl1"],
+  "modules-center": ["custom/arrowend", "clock", "custom/arrowstart"],
   "modules-right": [
+    "custom/arrowend",
+    "custom/update",
     "mpris",
     "privacy",
     /* "custom/spotify", */
-    "custom/internet_speed",
     "custom/arrowr1",
     "group/connection",
-    /* "custom/vpn", */
     "custom/arrowr2",
-    "idle_inhibitor",
-    "custom/arrowr1",
     "backlight",
-    "custom/arrowr2",
-    "group/audio",
     "custom/arrowr1",
-    "custom/dunst",
+    "group/audio",
     "custom/arrowr2",
     "battery",
     "custom/arrowr1",
@@ -67,12 +65,21 @@
   ///////////////
   /// MODULES ///
   ///////////////
+
+  "custom/update": {
+    "format": "",
+    "exec": "omarchy-update-available",
+    "on-click": "omarchy-launch-floating-terminal-with-presentation omarchy-update",
+    "tooltip-format": "Omarchy update available",
+    "interval": 3600
+  },
+
   "mpris": {
     "format": "{player_icon} {dynamic}",
     "format-paused": "{status_icon} {dynamic}",
     "max-length": 20,
     "player-icons": {
-      "default": " "/* ,
+      "default": " " /* ,
       "spotify-launcher": "",
       "spotify": "",
       "mpv": "",
@@ -168,7 +175,7 @@
     "class-discoverable": "bluetooth-discoverable",
     "class-discovering": "bluetooth-discovering",
     "class-pairable": "bluetooth-pairable",
-    "on-click": "overskride"
+    "on-click": "blueberry"
   },
   "idle_inhibitor": {
     "format": "{icon}",
@@ -195,11 +202,17 @@
     "output": "eDP-1"
   },
   "network": {
-    "format-wifi": "󰖩",
+    "format-icons": ["󰤯", "󰤟", "󰤢", "󰤥", "󰤨"],
+    "format": "⇣{bandwidthDownBytes} ⇡{bandwidthUpBytes} - {icon}",
+    "format-wifi": "⇣{bandwidthDownBytes} ⇡{bandwidthUpBytes} - {icon} ",
+    "format-ethernet": "⇣{bandwidthDownBytes} ⇡{bandwidthUpBytes} - 󰀂 ",
     "format-disconnected": "󰖪",
-    "on-click": "hyprctl dispatch exec '[float]' 'kitty -e nmtui'",
-    "tooltip-format": "Connected to {essid}",
-    "tooltip": true
+    "tooltip-format-wifi": "{essid} ({frequency} GHz)\n⇣{bandwidthDownBytes}  ⇡{bandwidthUpBytes}",
+    "tooltip-format-ethernet": "⇣{bandwidthDownBytes}  ⇡{bandwidthUpBytes}",
+    "tooltip-format-disconnected": "Disconnected",
+    "interval": 3,
+    "spacing": 1,
+    "on-click": "alacritty --class=Impala -e impala"
   },
   "custom/vpn": {
     "format": "󰞀",
@@ -237,6 +250,7 @@
     "format-icons": [" ", " ", ""],
     "on-click": "hyprctl dispatch exec 'kitty -e btop'"
   },
+
   "hyprland/workspaces": {
     "disable-scroll": false,
     "all-outputs": true,
@@ -249,7 +263,8 @@
   },
   "custom/appmenu": {
     "format": "",
-    "on-click": "rofi -show drun",
+    "on-click": "omarchy-menu",
+    "tooltip-format": "Omarchy Menu\n\nSuper + Alt + Space",
     "on-click-right": "wlogout",
     "tooltip": false
   },
@@ -378,6 +393,15 @@
     "tooltip": false
   },
   "custom/arrowr2": {
+    "format": "",
+    "tooltip": false
+  },
+
+  "custom/arrowstart": {
+    "format": "",
+    "tooltip": false
+  },
+  "custom/arrowend": {
     "format": "",
     "tooltip": false
   }

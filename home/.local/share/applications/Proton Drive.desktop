@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Name=Proton Drive
+Comment=Proton Drive
+Exec=omarchy-launch-webapp https://drive.proton.me/u/1/
+Terminal=false
+Type=Application
+Icon=/home/u1145h/.local/share/applications/icons/proton-drive.svg
+StartupNotify=true

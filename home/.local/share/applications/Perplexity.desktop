@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Name=Perplexity
+Comment=Perplexity
+Exec=omarchy-launch-webapp https://www.perplexity.ai/
+Terminal=false
+Type=Application
+Icon=/home/u1145h/.config/custom-icons/perplexity.svg
+StartupNotify=true

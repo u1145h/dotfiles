@@ -101,3 +101,13 @@ spicetify backup apply
 spicetify config current_theme text
 spicetify apply
 ```
+
+
+##### Setup Razer Driver
+This installs Polymatic GUI App to configure Razer hardware. Linux Headers must be installed in order to work properly
+```bash
+yay -S polychromatic
+sudo gpasswd -a $USER plugdev
+sudo pacman -S openrazer-daemon
+sudo modprobe razerkbd
+```

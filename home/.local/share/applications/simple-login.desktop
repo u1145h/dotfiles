@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Name=Simple Login
+Comment=Simple Login
+Exec=omarchy-launch-webapp https://app.simplelogin.io/dashboard/
+Terminal=false
+Type=Application
+Icon=/home/u1145h/.local/share/applications/icons/simple-login.svg
+StartupNotify=true

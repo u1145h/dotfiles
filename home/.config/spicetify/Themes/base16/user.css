@@ -1,0 +1,34 @@
+/* Custom interface font */
+* {
+    font-family: "JetBrainsMono Nerd Font" !important;
+}
+
+/* Recolor Spotify UI */
+:root,
+.encore-dark-theme,
+.encore-base-set,
+.encore-inverted-light-set {
+    --background-highlight: rgba(var(--spice-rgb-highlight), 0.25) !important;
+}
+.main-nowPlayingBar-container {
+    background-color: var(--background-base);
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    color: var(--spice-text);
+}
+
+/* Remove top gradient from playlists */
+.main-entityHeader-backgroundColor {
+    display: none !important;
+}
+.main-actionBarBackground-background {
+    display: none !important;
+}
+.main-home-homeHeader {
+    display: none !important;
+}
+
+.main-topBar-background,
+.main-home-filterChipsSection {
+    background-color: var(--spice-main) !important;
+}

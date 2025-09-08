@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Stardew Valley
+Comment=Play this game on Steam
+Exec=steam steam://rungameid/413150
+Icon=steam_icon_413150
+Terminal=false
+Type=Application
+Categories=Game;

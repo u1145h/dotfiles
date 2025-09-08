@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Name=Google Meet
+Comment=Google Meet
+Exec=omarchy-launch-webapp https://meet.google.com/
+Terminal=false
+Type=Application
+Icon=/home/u1145h/.local/share/applications/icons/Google Meet.png
+StartupNotify=true

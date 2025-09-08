@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Name=Hotstar
+Comment=Hotstar
+Exec=omarchy-launch-webapp https://www.hotstar.com/
+Terminal=false
+Type=Application
+Icon=/home/u1145h/.local/share/applications/icons/Hotstar.png
+StartupNotify=true

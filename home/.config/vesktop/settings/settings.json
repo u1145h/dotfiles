@@ -42,7 +42,7 @@
             "enabled": true
         },
         "AlwaysAnimate": {
-            "enabled": false
+            "enabled": true
         },
         "AlwaysTrust": {
             "enabled": false
@@ -97,7 +97,8 @@
             "blurAmount": 10
         },
         "CallTimer": {
-            "enabled": true
+            "enabled": true,
+            "format": "stopwatch"
         },
         "ClearURLs": {
             "enabled": false
@@ -142,9 +143,6 @@
             "enabled": false
         },
         "DontRoundMyTimestamps": {
-            "enabled": false
-        },
-        "EmoteCloner": {
             "enabled": false
         },
         "Experiments": {
@@ -192,9 +190,6 @@
         "GreetStickerPicker": {
             "enabled": false
         },
-        "HideAttachments": {
-            "enabled": false
-        },
         "iLoveSpam": {
             "enabled": false
         },
@@ -205,7 +200,12 @@
             "enabled": false
         },
         "ImageZoom": {
-            "enabled": true
+            "enabled": true,
+            "size": 100,
+            "zoom": 2,
+            "saveZoomValues": true,
+            "nearestNeighbour": false,
+            "square": false
         },
         "ImplicitRelationships": {
             "enabled": false
@@ -354,9 +354,6 @@
         "PreviewMessage": {
             "enabled": false
         },
-        "PronounDB": {
-            "enabled": false
-        },
         "QuickMention": {
             "enabled": false
         },
@@ -390,9 +387,6 @@
         "RoleColorEverywhere": {
             "enabled": false
         },
-        "SearchReply": {
-            "enabled": false
-        },
         "SecretRingToneEnabler": {
             "enabled": false
         },
@@ -412,9 +406,6 @@
             "enabled": false
         },
         "ShowAllMessageButtons": {
-            "enabled": false
-        },
-        "ShowAllRoles": {
             "enabled": false
         },
         "ShowConnections": {
@@ -548,6 +539,60 @@
         },
         "YoutubeAdblock": {
             "enabled": false
+        },
+        "AlwaysExpandRoles": {
+            "enabled": false
+        },
+        "ExpressionCloner": {
+            "enabled": false
+        },
+        "FullSearchContext": {
+            "enabled": false
+        },
+        "HideMedia": {
+            "enabled": false
+        },
+        "UserMessagesPronouns": {
+            "enabled": false
+        },
+        "DynamicImageModalAPI": {
+            "enabled": false
+        },
+        "AccountPanelServerProfile": {
+            "enabled": false
+        },
+        "CopyFileContents": {
+            "enabled": false
+        },
+        "CopyStickerLinks": {
+            "enabled": false
+        },
+        "FixImagesQuality": {
+            "enabled": false
+        },
+        "FullUserInChatbox": {
+            "enabled": false
+        },
+        "ImageFilename": {
+            "enabled": false
+        },
+        "IrcColors": {
+            "enabled": false
+        },
+        "NoMaskedUrlPaste": {
+            "enabled": false
+        },
+        "StickerPaste": {
+            "enabled": false
+        },
+        "VolumeBooster": {
+            "enabled": false
+        },
+        "BadgeAPI": {
+            "enabled": true
+        },
+        "DisableDeepLinks": {
+            "enabled": true
         }
     },
     "notifications": {
@@ -560,6 +605,7 @@
         "authenticated": false,
         "url": "https://api.vencord.dev/",
         "settingsSync": false,
-        "settingsSyncVersion": 1722794220957
-    }
+        "settingsSyncVersion": 1757260604603
+    },
+    "eagerPatches": false
 }

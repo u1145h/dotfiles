@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Name=monkeytype
+Comment=monkeytype
+Exec=omarchy-launch-webapp https://monkeytype.com/
+Terminal=false
+Type=Application
+Icon=/home/u1145h/.local/share/applications/icons/monkeytype.png
+StartupNotify=true

@@ -1,0 +1,27 @@
+2025/09/07-21:09:47.766 74c2 Reusing MANIFEST /home/u1145h/.config/vesktop/sessionData/Local Storage/leveldb/MANIFEST-000001
+2025/09/07-21:09:47.860 74c2 Recovering log #8
+2025/09/07-21:09:47.862 74c2 Reusing old log /home/u1145h/.config/vesktop/sessionData/Local Storage/leveldb/000008.log 
+2025/09/07-21:10:51.080 74c3 Level-0 table #12: started
+2025/09/07-21:10:56.673 74c3 Level-0 table #12: 30466 bytes OK
+2025/09/07-21:10:59.127 74c3 Delete type=0 #8
+2025/09/07-21:24:48.904 74c3 Level-0 table #14: started
+2025/09/07-21:24:48.908 74c3 Level-0 table #14: 18929 bytes OK
+2025/09/07-21:24:48.912 74c3 Delete type=0 #11
+2025/09/07-21:30:48.904 74c3 Level-0 table #16: started
+2025/09/07-21:30:48.909 74c3 Level-0 table #16: 43252 bytes OK
+2025/09/07-21:30:48.913 74c3 Delete type=0 #13
+2025/09/07-21:30:48.913 74c3 Compacting 4@0 + 1@1 files
+2025/09/07-21:30:48.916 74c3 Generated table #17@0: 34 keys, 23082 bytes
+2025/09/07-21:30:48.916 74c3 Compacted 4@0 + 1@1 files => 23082 bytes
+2025/09/07-21:30:48.919 74c3 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/09/07-21:30:48.919 74c3 Delete type=2 #7
+2025/09/07-21:30:48.919 74c3 Delete type=2 #9
+2025/09/07-21:30:48.919 74c3 Delete type=2 #12
+2025/09/07-21:30:48.919 74c3 Delete type=2 #14
+2025/09/07-21:30:48.919 74c3 Delete type=2 #16
+2025/09/07-21:44:35.602 74c3 Level-0 table #19: started
+2025/09/07-21:44:35.607 74c3 Level-0 table #19: 28951 bytes OK
+2025/09/07-21:44:35.610 74c3 Delete type=0 #15
+2025/09/07-21:56:31.409 74c3 Level-0 table #21: started
+2025/09/07-21:56:31.426 74c3 Level-0 table #21: 49153 bytes OK
+2025/09/07-21:56:31.430 74c3 Delete type=0 #18

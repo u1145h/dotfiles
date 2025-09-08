@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Name=play.hosting
+Comment=play.hosting
+Exec=omarchy-launch-webapp https://panel.play.hosting/
+Terminal=false
+Type=Application
+Icon=/home/u1145h/.local/share/applications/icons/play-hosting.svg
+StartupNotify=true

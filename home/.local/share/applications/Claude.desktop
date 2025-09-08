@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Name=Claude
+Comment=Claude
+Exec=omarchy-launch-webapp https://claude.ai/new
+Terminal=false
+Type=Application
+Icon=/home/u1145h/.config/custom-icons/claude.svg
+StartupNotify=true

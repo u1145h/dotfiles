@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Name=GitHub
+Comment=GitHub
+Exec=omarchy-launch-webapp https://github.com/
+Terminal=false
+Type=Application
+Icon=/home/u1145h/.local/share/icons/Colloid-Green-Nord-Dark/apps/scalable/github-desktop.svg
+StartupNotify=true

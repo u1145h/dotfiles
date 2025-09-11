@@ -29,13 +29,14 @@
   ],
   "modules-center": ["custom/arrowend", "clock", "custom/arrowstart"],
   "modules-right": [
-    "custom/arrowend",
     "custom/update",
     "mpris",
     "privacy",
+    "custom/arrowend",
+    "network",
     /* "custom/spotify", */
     "custom/arrowr1",
-    "group/connection",
+    "bluetooth",
     "custom/arrowr2",
     "backlight",
     "custom/arrowr1",
@@ -43,7 +44,8 @@
     "custom/arrowr2",
     "battery",
     "custom/arrowr1",
-    "tray"
+    "tray",
+    "custom/control-panel"
   ],
 
   //////////////
@@ -65,6 +67,13 @@
   ///////////////
   /// MODULES ///
   ///////////////
+
+  "custom/control-panel": {
+    "format": "",
+    "tooltip-format": "Control Panel",
+    "on-click": "~/.config/eww/scripts/toggle-control-panel.sh",
+    "tooltip": true
+  },
 
   "custom/update": {
     "format": "",
@@ -203,9 +212,9 @@
   },
   "network": {
     "format-icons": ["󰤯", "󰤟", "󰤢", "󰤥", "󰤨"],
-    "format": "⇣{bandwidthDownBytes} ⇡{bandwidthUpBytes} - {icon}",
-    "format-wifi": "⇣{bandwidthDownBytes} ⇡{bandwidthUpBytes} - {icon} ",
-    "format-ethernet": "⇣{bandwidthDownBytes} ⇡{bandwidthUpBytes} - 󰀂 ",
+    "format": "{icon}",
+    "format-wifi": "{icon} ",
+    "format-ethernet": "󰀂 ",
     "format-disconnected": "󰖪",
     "tooltip-format-wifi": "{essid} ({frequency} GHz)\n⇣{bandwidthDownBytes}  ⇡{bandwidthUpBytes}",
     "tooltip-format-ethernet": "⇣{bandwidthDownBytes}  ⇡{bandwidthUpBytes}",

@@ -15,7 +15,7 @@ configuration {
 @import                          "shared/colors.rasi"
 
 * {
-    border-color:               var(selected);
+    border-color:               var(background-alt);
     handle-color:               var(selected);
     background-color:           var(background);
     foreground-color:           var(foreground);
@@ -46,14 +46,14 @@ window {
     location:                    center;
     anchor:                      center;
     fullscreen:                  false;
-    width:                       350px;
+    width:                       550px;
     x-offset:                    0px;
     y-offset:                    0px;
     enabled:                     true;
     margin:                      0px;
     padding:                     0px;
     border:                      2px solid;
-    border-radius:               5px;
+    border-radius:               10px;
     border-color:                @border-color;
     cursor:                      "default";
     background-color:            @background-color;
@@ -84,9 +84,9 @@ inputbar {
     margin:                      5px;
     padding:                     5px 10px;
     border:                      0px solid;
-    border-radius:               5px;
+    border-radius:               7px;
     border-color:                @border-color;
-    background-color:            @alternate-background;
+    background-color:            @background;
     text-color:                  @foreground-color;
     children:                    [ "textbox-prompt-colon", "entry" ];
 }
@@ -143,7 +143,7 @@ case-indicator {
 listview {
     enabled:                     true;
     columns:                     1;
-    lines:                       6;
+    lines:                       7;
     cycle:                       true;
     dynamic:                     true;
     scrollbar:                   false;
@@ -175,7 +175,7 @@ element {
     margin:                      0px 5px 5px 5px;
     padding:                     7px 10px;
     border:                      0px solid;
-    border-radius:               2.5px;
+    border-radius:               5px;
     border-color:                @border-color;
     background-color:            transparent;
     text-color:                  @foreground-color;

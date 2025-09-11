@@ -1,0 +1,323 @@
+/* EWW Control Panel CSS - ~/.config/eww/eww.scss */
+
+* {
+  all: unset;
+  font-family: "JetBrainsMono Nerd Font", monospace;
+  padding: 20px;
+}
+
+/* Main panel styling */
+.control-panel {
+  background: rgba(30, 30, 46, 0.95);
+  border: 2px solid rgba(166, 227, 161, 0.3);
+  border-radius: 15px;
+  padding: 20px;
+  margin: 10px;
+  backdrop-filter: blur(20px);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+}
+
+/* Header styling */
+.panel-header {
+  margin-bottom: 15px;
+}
+
+.panel-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #A6E3A1;
+}
+
+.close-btn {
+  background: rgba(243, 139, 168, 0.2);
+  color: #F38BA8;
+  border-radius: 8px;
+  padding: 8px 12px;
+  font-size: 16px;
+  transition: all 0.2s ease;
+}
+
+.close-btn:hover {
+  background: rgba(243, 139, 168, 0.4);
+  transform: scale(1.05);
+}
+
+/* Quick toggles */
+.quick-toggles {
+  margin: 15px 0;
+}
+
+.toggle-btn {
+  background: rgba(88, 91, 112, 0.4);
+  color: #CDD6F4;
+  border-radius: 12px;
+  padding: 15px;
+  font-size: 20px;
+  min-width: 60px;
+  min-height: 60px;
+  transition: all 0.3s ease;
+}
+
+.toggle-btn:hover {
+  background: rgba(88, 91, 112, 0.6);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.toggle-btn.active {
+  background: rgba(166, 227, 161, 0.3);
+  color: #A6E3A1;
+  border: 1px solid rgba(166, 227, 161, 0.5);
+}
+
+/* Section styling */
+.section-title {
+  font-size: 14px;
+  font-weight: bold;
+  color: #A6E3A1;
+  margin-bottom: 8px;
+}
+
+.section-header {
+  margin-bottom: 8px;
+}
+
+.value-label {
+  color: #CDD6F4;
+  font-size: 13px;
+}
+
+/* Media section */
+.media-section {
+  background: rgba(49, 50, 68, 0.5);
+  border-radius: 12px;
+  padding: 15px;
+  margin: 10px 0;
+}
+
+.media-title {
+  color: #CDD6F4;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.media-artist {
+  color: #BAC2DE;
+  font-size: 12px;
+  margin-top: 4px;
+}
+
+.media-controls {
+  margin-top: 10px;
+}
+
+.media-btn {
+  background: rgba(88, 91, 112, 0.4);
+  color: #CDD6F4;
+  border-radius: 10px;
+  padding: 12px;
+  font-size: 18px;
+  min-width: 50px;
+  min-height: 50px;
+  transition: all 0.2s ease;
+}
+
+.media-btn:hover {
+  background: rgba(88, 91, 112, 0.6);
+  transform: scale(1.05);
+}
+
+.media-btn.play-pause {
+  background: rgba(166, 227, 161, 0.2);
+  color: #A6E3A1;
+  font-size: 20px;
+}
+
+.media-btn.play-pause:hover {
+  background: rgba(166, 227, 161, 0.3);
+}
+
+/* Volume and brightness sections */
+.volume-section,
+.brightness-section {
+  background: rgba(49, 50, 68, 0.5);
+  border-radius: 12px;
+  padding: 15px;
+  margin: 10px 0;
+}
+
+.slider-container {
+  align-items: center;
+}
+
+.vol-btn {
+  background: rgba(88, 91, 112, 0.4);
+  color: #CDD6F4;
+  border-radius: 10px;
+  padding: 12px;
+  font-size: 16px;
+  min-width: 45px;
+  min-height: 45px;
+  transition: all 0.2s ease;
+}
+
+.vol-btn:hover {
+  background: rgba(88, 91, 112, 0.6);
+}
+
+.vol-btn.muted {
+  color: #F38BA8;
+  background: rgba(243, 139, 168, 0.2);
+}
+
+.brightness-icon {
+  color: #F9E2AF;
+  font-size: 16px;
+  min-width: 45px;
+  text-align: center;
+}
+
+/* Sliders */
+.volume-slider,
+.brightness-slider {
+  min-width: 200px;
+}
+
+.volume-slider slider,
+.brightness-slider slider {
+  all: unset;
+  background: rgba(88, 91, 112, 0.4);
+  border-radius: 10px;
+  min-height: 8px;
+}
+
+.volume-slider trough,
+.brightness-slider trough {
+  all: unset;
+  background: rgba(88, 91, 112, 0.4);
+  border-radius: 10px;
+  min-height: 8px;
+}
+
+.volume-slider highlight,
+.brightness-slider highlight {
+  all: unset;
+  background: linear-gradient(90deg, #A6E3A1, #94E2D5);
+  border-radius: 10px;
+  min-height: 8px;
+}
+
+.volume-slider slider,
+.brightness-slider slider {
+  all: unset;
+  background: #CDD6F4;
+  border: 2px solid #A6E3A1;
+  border-radius: 50%;
+  min-height: 18px;
+  min-width: 18px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.volume-slider slider:hover,
+.brightness-slider slider:hover {
+  background: #A6E3A1;
+  transform: scale(1.1);
+}
+
+/* System section */
+.system-section {
+  background: rgba(49, 50, 68, 0.5);
+  border-radius: 12px;
+  padding: 15px;
+  margin: 10px 0;
+}
+
+.system-stats {
+  margin-top: 8px;
+}
+
+.stat-row {
+  padding: 4px 0;
+}
+
+.stat-label {
+  color: #BAC2DE;
+  font-size: 12px;
+  min-width: 80px;
+}
+
+.stat-value {
+  color: #CDD6F4;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+/* Power section */
+.power-section {
+  margin-top: 15px;
+  padding-top: 15px;
+  border-top: 1px solid rgba(88, 91, 112, 0.3);
+}
+
+.power-btn {
+  border-radius: 12px;
+  padding: 15px;
+  font-size: 20px;
+  min-width: 60px;
+  min-height: 60px;
+  transition: all 0.3s ease;
+}
+
+.power-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.power-btn.suspend {
+  background: rgba(249, 226, 175, 0.2);
+  color: #F9E2AF;
+}
+
+.power-btn.suspend:hover {
+  background: rgba(249, 226, 175, 0.3);
+}
+
+.power-btn.reboot {
+  background: rgba(250, 179, 135, 0.2);
+  color: #FAB387;
+}
+
+.power-btn.reboot:hover {
+  background: rgba(250, 179, 135, 0.3);
+}
+
+.power-btn.shutdown {
+  background: rgba(243, 139, 168, 0.2);
+  color: #F38BA8;
+}
+
+.power-btn.shutdown:hover {
+  background: rgba(243, 139, 168, 0.3);
+}
+
+/* Scrollbar styling */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(166, 227, 161, 0.3) transparent;
+}
+
+/* Animations */
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.control-panel {
+  animation: slideIn 0.3s ease-out;
+}

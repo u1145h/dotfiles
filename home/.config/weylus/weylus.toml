@@ -1,0 +1,8 @@
+bind_address = '0.0.0.0'
+web_port = 1701
+websocket_port = 9001
+try_vaapi = false
+try_nvenc = true
+auto_start = false
+no_gui = false
+wayland_support = true

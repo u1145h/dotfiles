@@ -1,0 +1,139 @@
+;; EWW Control Panel Configuration - ~/.config/eww/eww.yuck
+
+(defwindow control-panel
+  :monitor 0
+  :geometry (geometry :x "10px"
+                      :y "40px"
+                      :width "350px"
+                      :height "300px"
+                      :anchor "top right")
+  :stacking "overlay"
+  :reserve (struts :distance "0px" :side "top")
+  :windowtype "dock"
+  :wm-ignore false
+  (control-panel-widget))
+
+;; Variables for dynamic content
+(defpoll brightness :interval "1s"
+  "brightnessctl get")
+
+(defpoll brightness_max :interval "10s"
+  "brightnessctl max")
+
+(defpoll volume :interval "1s"
+  "pamixer --get-volume")
+
+(defpoll volume_muted :interval "1s"
+  "pamixer --get-mute")
+
+(defpoll wifi_status :interval "3s"
+  "nmcli -t -f WIFI g")
+
+(defpoll wifi_connected :interval "3s"
+  "nmcli -t -f NAME c show --active | grep -v lo | head -1")
+
+(defpoll bluetooth_status :interval "3s"
+  "bluetoothctl show | grep 'Powered' | awk '{print $2}'")
+
+(defpoll battery :interval "5s"
+  "cat /sys/class/power_supply/BAT*/capacity 2>/dev/null || echo '100'")
+
+(defpoll battery_status :interval "5s"
+  "cat /sys/class/power_supply/BAT*/status 2>/dev/null || echo 'Unknown'")
+
+(defpoll cpu_usage :interval "2s"
+  "top -bn1 | grep 'Cpu(s)' | awk '{print $2}' | sed 's/%us,//'")
+
+(defpoll memory_usage :interval "2s"
+  "free | grep Mem | awk '{printf \"%.0f\", $3/$2 * 100.0}'")
+
+(defpoll temperature :interval "2s"
+  "sensors | grep 'Core 0' | awk '{print $3}' | sed 's/+//;s/°C//' || echo '0'")
+
+(deflisten mpris :initial '{"status": "stopped", "title": "", "artist": "", "position": "0"}'
+  "~/.config/eww/scripts/mpris.py")
+
+;; Main control panel widget
+(defwidget control-panel-widget []
+  (box :class "control-panel" :orientation "vertical" :space-evenly false :spacing 10
+    ;; Header
+    (box :class "panel-header" :orientation "horizontal" :space-evenly false
+      (label :text "Control Panel" :class "panel-title")
+      (button :class "close-btn" :onclick "eww close control-panel" "󰅖"))
+
+    ;; Quick toggles
+    (box :class "quick-toggles" :orientation "horizontal" :space-evenly true :spacing 10
+      (button :class "toggle-btn ${wifi_status == 'enabled' ? 'active' : ''}"
+              :onclick "~/.config/eww/scripts/toggle-wifi.sh"
+              :tooltip "Toggle WiFi"
+              "󰤨")
+      (button :class "toggle-btn ${bluetooth_status == 'yes' ? 'active' : ''}"
+              :onclick "~/.config/eww/scripts/toggle-bluetooth.sh"
+              :tooltip "Toggle Bluetooth"
+              "󰂯")
+      (button :class "toggle-btn"
+              :onclick "hyprctl dispatch exec 'alacritty --class=Impala -e impala'"
+              :tooltip "Network Settings"
+              "󰒍")
+      (button :class "toggle-btn"
+              :onclick "pavucontrol"
+              :tooltip "Audio Settings"
+              "󰍰"))
+
+    ;; Media controls
+    (box :class "media-section" :orientation "vertical" :space-evenly false :spacing 8
+      (label :text "󰝚 Media Controls" :class "section-title" :halign "start")
+      (box :class "media-info" :orientation "vertical" :space-evenly false
+        (label :text "${mpris.title}" :class "media-title" :limit-width 30 :halign "start")
+        (label :text "${mpris.artist}" :class "media-artist" :limit-width 30 :halign "start"))
+      (box :class "media-controls" :orientation "horizontal" :space-evenly true :spacing 5
+        (button :class "media-btn" :onclick "playerctl previous" "󰒮")
+        (button :class "media-btn play-pause"
+                :onclick "playerctl play-pause"
+                "${mpris.status == 'Playing' ? '󰏤' : '󰐊'}")
+        (button :class "media-btn" :onclick "playerctl next" "󰒭")))
+
+    ;; Volume control
+    (box :class "volume-section" :orientation "vertical" :space-evenly false :spacing 8
+      (box :class "section-header" :orientation "horizontal" :space-evenly false
+        (label :text "󰕾 Volume" :class "section-title" :halign "start")
+        (label :text "${volume}%" :class "value-label" :halign "end"))
+      (box :class "slider-container" :orientation "horizontal" :space-evenly false :spacing 10
+        (button :class "vol-btn ${volume_muted == 'true' ? 'muted' : ''}"
+                :onclick "pamixer -t"
+                "${volume_muted == 'true' ? '󰝟' : '󰕾'}")
+        (scale :class "volume-slider"
+               :value volume
+               :min 0
+               :max 100
+               :onchange "pamixer --set-volume {}")))
+
+    ;; Brightness control
+    (box :class "brightness-section" :orientation "vertical" :space-evenly false :spacing 8
+      (box :class "section-header" :orientation "horizontal" :space-evenly false
+        (label :text "󰃟 Brightness" :class "section-title" :halign "start")
+        (label :text "${round(brightness * 100 / brightness_max, 0)}%" :class "value-label" :halign "end"))
+      (box :class "slider-container" :orientation "horizontal" :space-evenly false :spacing 10
+        (label :text "󰃞" :class "brightness-icon")
+        (scale :class "brightness-slider"
+               :value {brightness * 100 / brightness_max}
+               :min 5
+               :max 100
+               :onchange "brightnessctl set {}%")))
+
+    ;; System info
+    (box :class "system-section" :orientation "vertical" :space-evenly false :spacing 8
+      (label :text "󰍛 System Info" :class "section-title" :halign "start")
+      (box :class "system-stats" :orientation "vertical" :space-evenly false :spacing 5
+        (box :class "stat-row" :orientation "horizontal" :space-evenly false
+          (label :text "󰻠 CPU:" :class "stat-label")
+          (label :text "${cpu_usage}%" :class "stat-value" :halign "end"))
+        (box :class "stat-row" :orientation "horizontal" :space-evenly false
+          (label :text "󰍛 Memory:" :class "stat-label")
+          (label :text "${memory_usage}%" :class "stat-value" :halign "end"))
+        (box :class "stat-row" :orientation "horizontal" :space-evenly false
+          (label :text "🌡️ Temp:" :class "stat-label")
+          (label :text "${temperature}°C" :class "stat-value" :halign "end"))
+        (box :class "stat-row" :orientation "horizontal" :space-evenly false
+          (label :text "🔋 Battery:" :class "stat-label")
+          (label :text "${battery}% ${battery_status}" :class "stat-value" :halign "end"))))

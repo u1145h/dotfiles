@@ -49,11 +49,27 @@ tooltip {
     background: @background;
     border-top: 2px solid @border;
     border-bottom: 2px solid @border;
-    border-right: 2px solid @border;
     color: @foreground;
     margin: 0px;
     padding: 0px 6px 0px 2px;
-    border-radius: 0px 10px 10px 0px;
+    border-radius: 0px;
+}
+
+
+#custom-control-panel {
+    background: @border;
+    border-top: 2px solid @border;
+    border-bottom: 2px solid @border;
+    border-left: 2px solid @border;
+    color: @foreground;
+    margin: 0px;
+    padding: 0px 11px 1px 6px;
+    border-radius: 10px;
+}
+
+#custom-control-panel:hover,
+#custom-control-panel:active {
+    color: @safe;
 }
 
 #battery {
@@ -189,8 +205,8 @@ tooltip {
 
 #network {
     color: @foreground;
-    background: @background;
-    padding: 0px 6px 0px 4px;
+    background: @border;
+    padding: 0px 3px 0px 3px;
     border-radius: 0px;
     border-top: 2px solid @border;
     border-bottom: 2px solid @border;
@@ -203,7 +219,7 @@ tooltip {
 #bluetooth {
     color: @foreground;
     background: @background;
-    padding: 0px 6px 0px 6px;
+    padding: 0px 6px 0px 4px;
     border-radius: 0px;
     border-top: 2px solid @border;
     border-bottom: 2px solid @border;
@@ -288,7 +304,6 @@ tooltip {
     margin: 0px;
     padding: 0px 2px 0px 7px;
     border-radius: 0px;
-    background: @border;
 }
 
 #custom-internet_speed {

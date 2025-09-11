@@ -1,7 +1,6 @@
 @import "../omarchy/current/theme/waybar.css";
 
 * {
-    color: @foreground;
     border-color: @border;
 
     border: none;
@@ -49,10 +48,11 @@ tooltip {
     background: @background;
     border-top: 2px solid @border;
     border-bottom: 2px solid @border;
+    border-right: 2px solid @border;
     color: @foreground;
     margin: 0px;
-    padding: 0px 6px 0px 2px;
-    border-radius: 0px;
+    padding: 0px 8px 0px 2px;
+    border-radius: 0px 10px 10px 0px;
 }
 
 
@@ -180,6 +180,23 @@ tooltip {
     padding: 0px 4px 0px 0px;
     border-radius: 0px 0px 0px 0px;
 }
+
+#custom-hyprsunset {
+    background: @border;
+    padding: 0px 8px 2px 5px;
+    border-radius: 0px;
+    border-top: 2px solid @border;
+    border-bottom: 2px solid @border;
+}
+
+#custom-hyprsunset.on {
+    color: @safe;
+}
+
+#custom-hyprsunset.off {
+    color: @foreground;
+}
+
 
 #custom-vpn {
     color: #d1bcf8;
@@ -332,16 +349,15 @@ tooltip {
 }
 
 #workspaces button {
+    color: @d-foreground;
     padding: 0px;
     margin: 0px;
-    color: @foreground;
     border-radius: 0px;
     background: @background;
 }
 
 #workspaces button.active {
     color: @safe;
-    background: @border;
 }
 
 #workspaces button.focused {

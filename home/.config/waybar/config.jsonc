@@ -39,13 +39,14 @@
     "bluetooth",
     "custom/arrowr2",
     "backlight",
+    "custom/hyprsunset",
     "custom/arrowr1",
     "group/audio",
     "custom/arrowr2",
     "battery",
     "custom/arrowr1",
-    "tray",
-    "custom/control-panel"
+    "tray"
+    /* "custom/control-panel" */
   ],
 
   //////////////
@@ -67,6 +68,12 @@
   ///////////////
   /// MODULES ///
   ///////////////
+
+  "custom/hyprsunset": {
+    "format": "",
+    "return-type": "json",
+    "on-click": "omarchy-toggle-nightlight"
+  },
 
   "custom/control-panel": {
     "format": "",

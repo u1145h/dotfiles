@@ -32,7 +32,7 @@ fi
 
 1. Clone this repository
 
-```bash
+```bas
 git clone https://github.com/u1145h/dotfiles
 ```
 
@@ -46,11 +46,12 @@ cd dotfiles/home/
 Install Important Packages
 
 ```bash
-sudo pacman -S hyprpaper hypridle hyprlock waybar hyprpicker udiskie pavucontrol brightnessctl kdeconnect cliphist grim timeshift slurp spotify-launcher imv zathura zathura-pdf-poppler obsidian rclone syncthing gimp krita inkscape blender kdenlive htop ranger gvfs-mtp mtpfs zathura-pdf-poppler
+sudo pacman -S udiskie pavucontrol kdeconnect cliphist grim slurp spotify-launcher imv zathura zathura-pdf-poppler obsidian rclone syncthing gimp krita inkscape blender kdenlive htop ranger gvfs-mtp mtpfs zathura-pdf-poppler ddcutil i2c-tools
+
 ```
 
 ```bash
-yay -S hyprpicker rofi-wayland swww bottom cava power-profiles-daemon rog-control-center jmtpfs tty-clock spicetify-cli vencord zapzap flatseal
+yay -S rofi-wayland swww cava power-profiles-daemon rog-control-center jmtpfs tty-clock spicetify-cli vencord zapzap flatseal waypaper nwg-look wttrbar
 ```
 
 and, reboot
@@ -79,7 +80,31 @@ sudo modprobe razerkbd
 ```
 
 ---
-## Add Laptop Lid function for Hyprland
+## 🖥️ Control External Monitor Brightness
+
+Install Packages
+
+```bash
+sudo modprobe ddcutil i2c-dev
+```
+
+Load Kernal Modules
+```bash
+sudo modprobe i2c-dev
+```
+Make them load at boot,
+```bash
+echo i2c-dev | sudo tee /etc/modules-load.d/i2c-dev.conf
+```
+
+Give Permission
+```bash
+sudo gpasswd -a $USER i2c
+newgrp i2c
+```
+
+---
+## 💻 Add Laptop Lid function for Hyprland
 
 I have created a proper guide to setup Laptop Lid function properly.
 - [Setup Guide and Script](https://github.com/u1145h/hyprland-laptop-lid-configuration-script)
@@ -91,6 +116,8 @@ bind = $mainMod SHIFT, D, exec, hyprctl keyword monitor "eDP-1,disable"
 bind = $mainMod SHIFT, E, exec, hyprctl keyword monitor "eDP-1,1920x1080@144,0x0,1.25"
 ```
 
+#### How it functions?
+
 ###### 🔌 Plug in your charger
 - Close the lid → Display should turn off
 - Open the lid → Display should turn back on at 144Hz
@@ -98,3 +125,14 @@ bind = $mainMod SHIFT, E, exec, hyprctl keyword monitor "eDP-1,1920x1080@144,0x0
 ###### 🔋 Unplug your charger
 - Close the lid → System should suspend
 - Open the lid → System should wake u
+
+## Setup XAMPP
+Insall XAMPP
+```bash
+yay -S xampp
+```
+
+Give read and write permission to htdocs directory - `/opt/lampp/htdocs`
+```bash
+sudo chmod -R 777 /opt/lampp/htdocs
+```

@@ -1,7 +1,7 @@
 /* Monitor 01 */
 {
   "layer": "top",
-  "position": "top",
+  "position": "bottom",
   "mode": "dock",
   "exclusive": true,
   "passthrough": false,
@@ -9,8 +9,8 @@
   "height": 0,
   "margin-left": 6,
   "margin-right": 6,
-  "margin-top": 6,
-  "margin-bottom": 0,
+  "margin-top": 0,
+  "margin-bottom": 6,
   "modules-left": [
     "custom/appmenu",
     "custom/arrowl1",

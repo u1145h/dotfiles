@@ -379,6 +379,8 @@ tooltip {
     padding: 0px 0px 0px 2px;
     border-radius: 0px;
     background: @background;
+    border-top: 2px solid @border;
+    border-bottom: 2px solid @border;
 }
 
 #taskbar button {

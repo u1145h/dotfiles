@@ -51,7 +51,7 @@ sudo pacman -S udiskie pavucontrol kdeconnect cliphist grim slurp spotify-launch
 ```
 
 ```bash
-yay -S rofi-wayland swww cava power-profiles-daemon rog-control-center jmtpfs tty-clock spicetify-cli vencord zapzap flatseal waypaper nwg-look wttrbar
+yay -S rofi-wayland rofi-emoji rofi-calc swww cava power-profiles-daemon rog-control-center jmtpfs tty-clock spicetify-cli vencord zapzap flatseal waypaper nwg-look wttrbar
 ```
 
 and, reboot

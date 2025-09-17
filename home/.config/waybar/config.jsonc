@@ -1,7 +1,7 @@
 /* Monitor 01 */
 {
   "layer": "top",
-  "position": "bottom",
+  "position": "top",
   "mode": "dock",
   "exclusive": true,
   "passthrough": false,
@@ -9,8 +9,8 @@
   "height": 0,
   "margin-left": 6,
   "margin-right": 6,
-  "margin-top": 0,
-  "margin-bottom": 6,
+  "margin-top": 6,
+  "margin-bottom": 0,
   "modules-left": [
     "custom/appmenu",
     "custom/arrowl1",
@@ -219,9 +219,9 @@
   },
   "network": {
     "format-icons": ["󰤯", "󰤟", "󰤢", "󰤥", "󰤨"],
-    "format": "{icon}",
-    "format-wifi": "{icon} ",
-    "format-ethernet": "󰀂 ",
+    "format": "⇣{bandwidthDownBytes}  ⇡{bandwidthUpBytes} {icon}",
+    "format-wifi": "⇣{bandwidthDownBytes}  ⇡{bandwidthUpBytes} {icon} ",
+    "format-ethernet": "⇣{bandwidthDownBytes}  ⇡{bandwidthUpBytes} 󰀂 ",
     "format-disconnected": "󰖪",
     "tooltip-format-wifi": "{essid} ({frequency} GHz)\n⇣{bandwidthDownBytes}  ⇡{bandwidthUpBytes}",
     "tooltip-format-ethernet": "⇣{bandwidthDownBytes}  ⇡{bandwidthUpBytes}",
@@ -232,8 +232,8 @@
   },
   "custom/vpn": {
     "format": "󰞀",
-    "on-click": "hyprctl dispatch exec '[float]' 'kitty -e protonvpn-cli connect'",
-    "on-click-right": "hyprctl dispatch exec '[float]' 'kitty -e protonvpn-cli d'",
+    "on-click": "hyprctl dispatch exec '[float]' 'alacritty -e protonvpn-cli connect'",
+    "on-click-right": "hyprctl dispatch exec '[float]' 'alacritty -e protonvpn-cli d'",
     "tooltip": false
   },
   "power-profiles-daemon": {
@@ -250,12 +250,12 @@
   "cpu": {
     "interval": 1,
     "format": " {usage}%",
-    "on-click": "hyprctl dispatch exec 'kitty -e btm'"
+    "on-click": "hyprctl dispatch exec 'alacritty -e btm'"
   },
   "memory": {
     "interval": 1,
     "format": " {}%",
-    "on-click": "hyprctl dispatch exec 'kitty -e htop'"
+    "on-click": "hyprctl dispatch exec 'alacritty -e htop'"
   },
   "temperature": {
     "interval": 1,
@@ -264,7 +264,7 @@
     "return-type": "json",
     "critical-threshold": 80,
     "format-icons": [" ", " ", ""],
-    "on-click": "hyprctl dispatch exec 'kitty -e btop'"
+    "on-click": "hyprctl dispatch exec 'alacritty -e btop'"
   },
 
   "hyprland/workspaces": {
